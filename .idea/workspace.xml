@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="457c34be-a711-4466-a067-6133950348db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/etl/check_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/etl/schema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/etl/validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etl/validator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +35,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.check_db.executor": "Run",
     "Python.loader.executor": "Run",
     "Python.normalizer.executor": "Run",
+    "Python.schema.executor": "Run",
     "Python.temporary.executor": "Run",
     "Python.test_excel.executor": "Run",
     "Python.validator.executor": "Run",
