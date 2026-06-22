@@ -1,4 +1,3 @@
-id,company_id,broad_sector,sub_sector,index_weight_pct,market_cap_category
 1,ABB,Industrials,Capital Goods,0.81,Large Cap
 2,ADANIENSOL,Energy,Power & Utilities,0.65,Large Cap
 3,ADANIENT,Industrials,Conglomerates,1.5,Large Cap

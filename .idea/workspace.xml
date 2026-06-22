@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="457c34be-a711-4466-a067-6133950348db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nifty100.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nifty100.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/etl/loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/analysis_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/balancesheet_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/cashflow_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/companies_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/documents_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/financial_ratios_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/market_cap_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/peer_groups_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/profitandloss_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/prosandcons_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/sectors_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/stock_prices_cleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/etl/normalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etl/normalizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/etl/validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etl/validator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary.py" beforeDir="false" afterPath="$PROJECT_DIR$/temporary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +49,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.loader.executor": "Run",
+    "Python.normalizer.executor": "Run",
     "Python.temporary.executor": "Run",
     "Python.test_excel.executor": "Run",
+    "Python.validator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "git-widget-placeholder": "master",

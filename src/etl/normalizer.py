@@ -1,28 +1,17 @@
 import pandas as pd
 from pathlib import Path
 
-raw_path = Path(r"C:\Users\kasir\PycharmProjects\PythonProject4\data\raw")
-processed_path = Path(r"C:\Users\kasir\PycharmProjects\PythonProject4\data\processed")
+# Project root
+project_root = Path(__file__).resolve().parents[2]
 
-processed_path.mkdir(exist_ok=True)
+raw_path = project_root / "data" / "raw"
+processed_path = project_root / "data" / "processed"
+
+# Create processed folder if not exists
+processed_path.mkdir(parents=True, exist_ok=True)
 
 for file in raw_path.glob("*.xlsx"):
-
-    df = pd.read_excel(file, engine="openpyxl")
-
-    # Remove duplicate rows
-    df = df.drop_duplicates()
-
-    # Remove completely empty rows
-    df = df.dropna(how="all")
-
-    # Standardize column names
-    df.columns = (
-        df.columns
-        .str.strip()
-        .str.lower()
-        .str.replace(" ", "_")
-    )
+    df = pd.read_excel(file, header=1)
 
     output_file = processed_path / f"{file.stem}_cleaned.csv"
 

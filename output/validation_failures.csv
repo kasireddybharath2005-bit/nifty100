@@ -1,0 +1,5 @@
+Rule,Failures
+DQ-01 Duplicate IDs,0
+DQ-02 Missing Company Names,0
+DQ-03 Invalid Face Value,0
+DQ-04 Invalid Book Value,0
