@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="457c34be-a711-4466-a067-6133950348db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebooks/exploratory_queries.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/etl/dashboard_export.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/etl/query_runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/etl/manual_review.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

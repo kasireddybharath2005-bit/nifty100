@@ -1,0 +1,14 @@
+SPRINT 1 COMPLETED
+
+Datasets Loaded : 12
+Tables Created : 12
+
+Database :
+nifty100.db
+
+Files Generated :
+1. load_audit.csv
+2. validation_failures.csv
+3. manual_review.csv
+
+Status : SUCCESS
