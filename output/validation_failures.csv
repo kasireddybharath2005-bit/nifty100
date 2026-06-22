@@ -3,3 +3,15 @@ DQ-01 Duplicate IDs,0
 DQ-02 Missing Company Names,0
 DQ-03 Invalid Face Value,0
 DQ-04 Invalid Book Value,0
+DQ-05 Missing Company References,4
+DQ-06 Missing BalanceSheet References,85
+DQ-07 Missing Cashflow References,96
+DQ-08 Missing Years,0
+DQ-09 Negative Equity Capital,0
+DQ-10 Negative Borrowings,0
+DQ-11 Missing Operating Activity,2
+DQ-12 Missing Net Cash Flow,2
+DQ-13 Missing ROE,0
+DQ-14 Missing Sales Growth,0
+DQ-15 Duplicate Company Names,0
+DQ-16 Duplicate Company-Year,87
