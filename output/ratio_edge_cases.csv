@@ -1,0 +1,1227 @@
+company_id,company_name,roe_calculated,source_roce,difference,category
+ABB,Abbott India Ltd,22.411128284389488,46.0,23.588871715610512,Data Source Issue
+ABB,Abbott India Ltd,25.12690355329949,46.0,20.87309644670051,Data Source Issue
+ABB,Abbott India Ltd,25.12690355329949,46.0,20.87309644670051,Data Source Issue
+ABB,Abbott India Ltd,24.439701173959445,46.0,21.560298826040555,Data Source Issue
+ABB,Abbott India Ltd,24.439701173959445,46.0,21.560298826040555,Data Source Issue
+ABB,Abbott India Ltd,21.338912133891213,46.0,24.661087866108787,Data Source Issue
+ABB,Abbott India Ltd,21.338912133891213,46.0,24.661087866108787,Data Source Issue
+ABB,Abbott India Ltd,19.971160778658977,46.0,26.028839221341023,Data Source Issue
+ABB,Abbott India Ltd,19.971160778658977,46.0,26.028839221341023,Data Source Issue
+ABB,Abbott India Ltd,23.685764914353214,46.0,22.314235085646786,Data Source Issue
+ABB,Abbott India Ltd,23.685764914353214,46.0,22.314235085646786,Data Source Issue
+ABB,Abbott India Ltd,22.41035856573705,46.0,23.58964143426295,Data Source Issue
+ABB,Abbott India Ltd,22.41035856573705,46.0,23.58964143426295,Data Source Issue
+ABB,Abbott India Ltd,24.39325380501851,46.0,21.60674619498149,Data Source Issue
+ABB,Abbott India Ltd,24.39325380501851,46.0,21.60674619498149,Data Source Issue
+ABB,Abbott India Ltd,26.5564950038432,46.0,19.4435049961568,Formula Difference
+ABB,Abbott India Ltd,26.5564950038432,46.0,19.4435049961568,Formula Difference
+ABB,Abbott India Ltd,28.33333333333333,46.0,17.66666666666667,Formula Difference
+ABB,Abbott India Ltd,28.33333333333333,46.0,17.66666666666667,Formula Difference
+ABB,Abbott India Ltd,29.767879548306148,46.0,16.232120451693852,Formula Difference
+ABB,Abbott India Ltd,29.767879548306148,46.0,16.232120451693852,Formula Difference
+ABB,Abbott India Ltd,32.46823465801568,46.0,13.531765341984318,Formula Difference
+ABB,Abbott India Ltd,32.46823465801568,46.0,13.531765341984318,Formula Difference
+ADANIENSOL,Adani Energy Solutions Ltd,0.0,9.0,9.0,Version Difference
+ADANIENSOL,Adani Energy Solutions Ltd,-0.6463527239150507,9.0,9.64635272391505,Version Difference
+ADANIENSOL,Adani Energy Solutions Ltd,14.116050220563285,9.0,5.1160502205632845,Version Difference
+ADANIENSOL,Adani Energy Solutions Ltd,18.87072808320951,9.0,9.87072808320951,Version Difference
+ADANIENSOL,Adani Energy Solutions Ltd,14.46350487722839,9.0,5.46350487722839,Version Difference
+ADANIENT,Adani Enterprises Ltd,5.692652832305104,11.6,5.907347167694896,Version Difference
+ADANIENT,Adani Enterprises Ltd,6.543576683644596,11.6,5.056423316355404,Version Difference
+ADANIENT,Adani Enterprises Ltd,3.936642587315263,11.6,7.663357412684737,Version Difference
+ADANIENT,Adani Enterprises Ltd,3.429113580916238,11.6,8.170886419083761,Version Difference
+ADANIENT,Adani Enterprises Ltd,6.136779370980115,11.6,5.463220629019885,Version Difference
+ADANIENT,Adani Enterprises Ltd,6.0959263360335685,11.6,5.504073663966431,Version Difference
+ADANIENT,Adani Enterprises Ltd,3.5404591813811384,11.6,8.059540818618862,Version Difference
+ADANIGREEN,Adani Green Energy Ltd,-3.906899418121363,96.5,100.40689941812137,Data Source Issue
+ADANIGREEN,Adani Green Energy Ltd,-10.290827740492167,96.5,106.79082774049216,Data Source Issue
+ADANIGREEN,Adani Green Energy Ltd,-24.573202276254527,96.5,121.07320227625453,Data Source Issue
+ADANIGREEN,Adani Green Energy Ltd,-2.88502333474756,96.5,99.38502333474756,Data Source Issue
+ADANIGREEN,Adani Green Energy Ltd,8.272727272727273,96.5,88.22727272727272,Data Source Issue
+ADANIGREEN,Adani Green Energy Ltd,18.706962509563887,96.5,77.79303749043612,Data Source Issue
+ADANIGREEN,Adani Green Energy Ltd,13.321467688937568,96.5,83.17853231106243,Data Source Issue
+ADANIGREEN,Adani Green Energy Ltd,12.81269066503966,96.5,83.68730933496033,Data Source Issue
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",25.633406318423525,12.9,12.733406318423524,Formula Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",25.633406318423525,12.9,12.733406318423524,Formula Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",25.633406318423525,12.9,12.733406318423524,Formula Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",25.633406318423525,12.9,12.733406318423524,Formula Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",25.633406318423525,12.9,12.733406318423524,Formula Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",25.633406318423525,12.9,12.733406318423524,Formula Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",25.633406318423525,12.9,12.733406318423524,Formula Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",25.633406318423525,12.9,12.733406318423524,Formula Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",19.86309184255562,12.9,6.9630918425556185,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",19.86309184255562,12.9,6.9630918425556185,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",19.86309184255562,12.9,6.9630918425556185,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",19.86309184255562,12.9,6.9630918425556185,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",19.86309184255562,12.9,6.9630918425556185,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",19.86309184255562,12.9,6.9630918425556185,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",19.86309184255562,12.9,6.9630918425556185,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",19.86309184255562,12.9,6.9630918425556185,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.58848118903855,12.9,8.68848118903855,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.58848118903855,12.9,8.68848118903855,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.58848118903855,12.9,8.68848118903855,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.58848118903855,12.9,8.68848118903855,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.58848118903855,12.9,8.68848118903855,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.58848118903855,12.9,8.68848118903855,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.58848118903855,12.9,8.68848118903855,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.58848118903855,12.9,8.68848118903855,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.147723065531284,12.9,8.247723065531284,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.147723065531284,12.9,8.247723065531284,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.147723065531284,12.9,8.247723065531284,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.147723065531284,12.9,8.247723065531284,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.147723065531284,12.9,8.247723065531284,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.147723065531284,12.9,8.247723065531284,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.147723065531284,12.9,8.247723065531284,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",21.147723065531284,12.9,8.247723065531284,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",22.264064817984707,12.9,9.364064817984707,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",22.264064817984707,12.9,9.364064817984707,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",22.264064817984707,12.9,9.364064817984707,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",22.264064817984707,12.9,9.364064817984707,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",22.264064817984707,12.9,9.364064817984707,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",22.264064817984707,12.9,9.364064817984707,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",22.264064817984707,12.9,9.364064817984707,Version Difference
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",22.264064817984707,12.9,9.364064817984707,Version Difference
+ADANIPOWER,Adani Power Ltd,-53.459119496855344,32.2,85.65911949685534,Data Source Issue
+ADANIPOWER,Adani Power Ltd,-4.447501146263182,32.2,36.64750114626318,Data Source Issue
+ADANIPOWER,Adani Power Ltd,-14.253275109170303,32.2,46.453275109170306,Data Source Issue
+ADANIPOWER,Adani Power Ltd,7.378146759507231,32.2,24.82185324049277,Data Source Issue
+ADANIPOWER,Adani Power Ltd,-205.8,32.2,238.0,Data Source Issue
+ADANIPOWER,Adani Power Ltd,-236.55793025871765,32.2,268.75793025871764,Data Source Issue
+ADANIPOWER,Adani Power Ltd,-12.75933609958506,32.2,44.95933609958506,Data Source Issue
+ADANIPOWER,Adani Power Ltd,-35.10260762228052,32.2,67.30260762228053,Data Source Issue
+ADANIPOWER,Adani Power Ltd,9.685045374818882,32.2,22.51495462518112,Data Source Issue
+ADANIPOWER,Adani Power Ltd,26.613209080565635,32.2,5.5867909194343675,Version Difference
+ADANIPOWER,Adani Power Ltd,48.27674122146251,32.2,16.076741221462505,Formula Difference
+AMBUJACEM,Ambuja Cements Ltd,7.234751021643711,12.8,5.56524897835629,Version Difference
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",11.03021477975974,17.2,6.169785220240259,Version Difference
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",10.581121934833725,17.2,6.618878065166275,Version Difference
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",10.561160151324083,17.2,6.638839848675916,Version Difference
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",7.052821128451381,17.2,10.147178871548618,Formula Difference
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",3.952926976463488,17.2,13.247073023536512,Formula Difference
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",1.8450184501845015,17.2,15.354981549815498,Formula Difference
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",5.9988002399520095,17.2,11.20119976004799,Formula Difference
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",2.976319791440365,17.2,14.223680208559635,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",34.2789598108747,41.75,7.471040189125297,Version Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",34.2789598108747,41.75,7.471040189125297,Version Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",34.2789598108747,41.75,7.471040189125297,Version Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",34.2789598108747,41.75,7.471040189125297,Version Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",31.27011636543699,41.75,10.47988363456301,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",31.27011636543699,41.75,10.47988363456301,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",31.27011636543699,41.75,10.47988363456301,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",31.27011636543699,41.75,10.47988363456301,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",30.09278785322649,41.75,11.65721214677351,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",30.09278785322649,41.75,11.65721214677351,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",30.09278785322649,41.75,11.65721214677351,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",30.09278785322649,41.75,11.65721214677351,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",27.632183908045977,41.75,14.117816091954023,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",27.632183908045977,41.75,14.117816091954023,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",27.632183908045977,41.75,14.117816091954023,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",27.632183908045977,41.75,14.117816091954023,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",26.512361914781696,41.75,15.237638085218304,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",26.512361914781696,41.75,15.237638085218304,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",26.512361914781696,41.75,15.237638085218304,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",26.512361914781696,41.75,15.237638085218304,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",24.94649227110583,41.75,16.80350772889417,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",24.94649227110583,41.75,16.80350772889417,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",24.94649227110583,41.75,16.80350772889417,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",24.94649227110583,41.75,16.80350772889417,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",23.3132720937599,41.75,18.4367279062401,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",23.3132720937599,41.75,18.4367279062401,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",23.3132720937599,41.75,18.4367279062401,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",23.3132720937599,41.75,18.4367279062401,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",27.38400789733465,41.75,14.365992102665349,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",27.38400789733465,41.75,14.365992102665349,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",27.38400789733465,41.75,14.365992102665349,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",27.38400789733465,41.75,14.365992102665349,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",25.042948617835396,41.75,16.707051382164604,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",25.042948617835396,41.75,16.707051382164604,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",25.042948617835396,41.75,16.707051382164604,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",25.042948617835396,41.75,16.707051382164604,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",22.335650159281784,41.75,19.414349840718216,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",22.335650159281784,41.75,19.414349840718216,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",22.335650159281784,41.75,19.414349840718216,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",22.335650159281784,41.75,19.414349840718216,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",26.23186593296648,41.75,15.518134067033522,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",26.23186593296648,41.75,15.518134067033522,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",26.23186593296648,41.75,15.518134067033522,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",26.23186593296648,41.75,15.518134067033522,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",29.677488252883386,41.75,12.072511747116614,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",29.677488252883386,41.75,12.072511747116614,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",29.677488252883386,41.75,12.072511747116614,Formula Difference
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",29.677488252883386,41.75,12.072511747116614,Formula Difference
+ATGL,Adani Total Gas Ltd,15.94488188976378,21.2,5.25511811023622,Version Difference
+ATGL,Adani Total Gas Ltd,29.63970088375255,21.2,8.43970088375255,Version Difference
+AXISBANK,Axis Bank Ltd,15.6191567645817,7.06,8.5591567645817,Version Difference
+AXISBANK,Axis Bank Ltd,16.194395249505156,7.06,9.134395249505157,Version Difference
+AXISBANK,Axis Bank Ltd,16.369663396293575,7.06,9.309663396293576,Version Difference
+AXISBANK,Axis Bank Ltd,15.355029033402417,7.06,8.295029033402418,Version Difference
+AXISBANK,Axis Bank Ltd,0.4298596726213652,7.06,6.630140327378634,Version Difference
+AXISBANK,Axis Bank Ltd,1.8844104702339584,7.06,5.175589529766041,Version Difference
+AXISBANK,Axis Bank Ltd,15.832712405189048,7.06,8.772712405189047,Version Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,38.84686918784873,33.5,5.346869187848732,Version Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,38.84686918784873,33.5,5.346869187848732,Version Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,27.273546642631818,33.5,6.226453357368182,Version Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,27.273546642631818,33.5,6.226453357368182,Version Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,22.843862007168457,33.5,10.656137992831543,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,22.843862007168457,33.5,10.656137992831543,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,20.656058751529983,33.5,12.843941248470017,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,20.656058751529983,33.5,12.843941248470017,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,21.21120819523953,33.5,12.288791804760471,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,21.21120819523953,33.5,12.288791804760471,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,24.06056689133044,33.5,9.439433108669562,Version Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,24.06056689133044,33.5,9.439433108669562,Version Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,17.808821911780882,33.5,15.691178088219118,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,17.808821911780882,33.5,15.691178088219118,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,20.650390167118797,33.5,12.849609832881203,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,20.650390167118797,33.5,12.849609832881203,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,20.638921054424088,33.5,12.861078945575912,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,20.638921054424088,33.5,12.861078945575912,Formula Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,26.61418410330778,33.5,6.885815896692218,Version Difference
+BAJAJ-AUTO,Bajaj Auto Ltd,26.61418410330778,33.5,6.885815896692218,Version Difference
+BAJAJFINSV,Bajaj Finserv Ltd,28.37733914380928,21.14,7.23733914380928,Version Difference
+BAJAJFINSV,Bajaj Finserv Ltd,26.31068588790485,21.14,5.170685887904849,Version Difference
+BAJFINANCE,Bajaj Finance Ltd,18.70833333333333,11.9,6.808333333333328,Version Difference
+BAJFINANCE,Bajaj Finance Ltd,17.220950585700823,11.9,5.320950585700823,Version Difference
+BAJFINANCE,Bajaj Finance Ltd,19.125,11.9,7.225,Version Difference
+BAJFINANCE,Bajaj Finance Ltd,20.2822764888054,11.9,8.3822764888054,Version Difference
+BAJFINANCE,Bajaj Finance Ltd,21.16530567203708,11.9,9.265305672037078,Version Difference
+BAJFINANCE,Bajaj Finance Ltd,18.841921351830603,11.9,6.941921351830603,Version Difference
+BANKBARODA,Bank of Baroda,14.509344390361155,6.33,8.179344390361155,Version Difference
+BANKBARODA,Bank of Baroda,13.306206568552328,6.33,6.976206568552328,Version Difference
+BANKBARODA,Bank of Baroda,-11.841517069383338,6.33,18.171517069383338,Formula Difference
+BANKBARODA,Bank of Baroda,-3.942790877464245,6.33,10.272790877464246,Formula Difference
+BANKBARODA,Bank of Baroda,1.2890255439924314,6.33,5.040974456007569,Version Difference
+BANKBARODA,Bank of Baroda,14.282994621864736,6.33,7.952994621864736,Version Difference
+BANKBARODA,Bank of Baroda,15.761863790899902,6.33,9.431863790899902,Version Difference
+BEL,Bharat Electronics Ltd,15183.333333333334,34.6,15148.733333333334,Data Source Issue
+BEL,Bharat Electronics Ltd,13600.0,34.6,13565.4,Data Source Issue
+BEL,Bharat Electronics Ltd,17100.0,34.6,17065.4,Data Source Issue
+BEL,Bharat Electronics Ltd,11141.666666666668,34.6,11107.066666666668,Data Source Issue
+BEL,Bharat Electronics Ltd,10153.333333333334,34.6,10118.733333333334,Data Source Issue
+BEL,Bharat Electronics Ltd,4616.129032258064,34.6,4581.529032258064,Data Source Issue
+BEL,Bharat Electronics Ltd,3851.020408163265,34.6,3816.420408163265,Data Source Issue
+BEL,Bharat Electronics Ltd,3318.181818181818,34.6,3283.581818181818,Data Source Issue
+BEL,Bharat Electronics Ltd,3559.322033898305,34.6,3524.722033898305,Data Source Issue
+BEL,Bharat Electronics Ltd,3478.260869565217,34.6,3443.660869565217,Data Source Issue
+BEL,Bharat Electronics Ltd,3981.333333333333,34.6,3946.733333333333,Data Source Issue
+BEL,Bharat Electronics Ltd,4744.047619047619,34.6,4709.447619047619,Data Source Issue
+BHARTIARTL,Bharti Airtel Ltd,4.50498787806526,13.1,8.59501212193474,Version Difference
+BHARTIARTL,Bharti Airtel Ltd,5.05221233014258,13.1,8.04778766985742,Version Difference
+BHARTIARTL,Bharti Airtel Ltd,6.286967994426079,13.1,6.813032005573921,Version Difference
+BHARTIARTL,Bharti Airtel Ltd,3.1408643129359315,13.1,9.959135687064068,Version Difference
+BHARTIARTL,Bharti Airtel Ltd,2.3633843439788302,13.1,10.736615656021169,Formula Difference
+BHARTIARTL,Bharti Airtel Ltd,-39.74852550392119,13.1,52.848525503921195,Data Source Issue
+BHARTIARTL,Bharti Airtel Ltd,-20.972639221074417,13.1,34.07263922107442,Data Source Issue
+BHEL,"Bharat Heavy Electricals Limited
+",21.90906412648532,3.28,18.629064126485318,Formula Difference
+BHEL,"Bharat Heavy Electricals Limited
+",10.557414609146544,3.28,7.277414609146545,Version Difference
+BHEL,"Bharat Heavy Electricals Limited
+",-2.1847439269689,3.28,5.4647439269689,Version Difference
+BHEL,"Bharat Heavy Electricals Limited
+",-5.12212142358688,3.28,8.40212142358688,Version Difference
+BHEL,"Bharat Heavy Electricals Limited
+",-10.391409767925182,3.28,13.671409767925182,Formula Difference
+BOSCHLTD,Bosch Ltd,14.061010486177311,20.6,6.53898951382269,Version Difference
+BOSCHLTD,Bosch Ltd,13.7360985873159,20.6,6.863901412684102,Version Difference
+BOSCHLTD,Bosch Ltd,7.011866235167206,20.6,13.588133764832795,Formula Difference
+BOSCHLTD,Bosch Ltd,4.906851267433575,20.6,15.693148732566426,Formula Difference
+BOSCHLTD,Bosch Ltd,11.386601796407184,20.6,9.213398203592817,Version Difference
+BOSCHLTD,Bosch Ltd,12.930173431399256,20.6,7.669826568600746,Version Difference
+BPCL,Bharat Petroleum Corporation Ltd,11.540983606557376,32.1,20.559016393442626,Data Source Issue
+BPCL,Bharat Petroleum Corporation Ltd,20.84876543209877,32.1,11.251234567901232,Formula Difference
+BPCL,Bharat Petroleum Corporation Ltd,22.524598883077743,32.1,9.575401116922258,Version Difference
+BPCL,Bharat Petroleum Corporation Ltd,26.74021682733008,32.1,5.359783172669921,Version Difference
+BPCL,Bharat Petroleum Corporation Ltd,21.999226106023475,32.1,10.100773893976527,Formula Difference
+BPCL,Bharat Petroleum Corporation Ltd,10.035037775101282,32.1,22.06496222489872,Data Source Issue
+BPCL,Bharat Petroleum Corporation Ltd,22.50650226375108,32.1,9.59349773624892,Version Difference
+BPCL,Bharat Petroleum Corporation Ltd,3.98154030118456,32.1,28.118459698815442,Data Source Issue
+BRITANNIA,Britannia Industries Ltd,55.34136546184739,48.9,6.44136546184739,Version Difference
+BRITANNIA,Britannia Industries Ltd,39.4359464627151,48.9,9.464053537284897,Version Difference
+BRITANNIA,Britannia Industries Ltd,32.826409495548965,48.9,16.073590504451033,Formula Difference
+BRITANNIA,Britannia Industries Ltd,29.47739283617146,48.9,19.422607163828538,Formula Difference
+BRITANNIA,Britannia Industries Ltd,27.157300728897248,48.9,21.74269927110275,Data Source Issue
+BRITANNIA,Britannia Industries Ltd,31.66023166023166,48.9,17.23976833976834,Formula Difference
+BRITANNIA,Britannia Industries Ltd,59.26505082095387,48.9,10.365050820953869,Formula Difference
+BRITANNIA,Britannia Industries Ltd,65.53480475382003,48.9,16.634804753820028,Formula Difference
+BRITANNIA,Britannia Industries Ltd,54.14869322506978,48.9,5.248693225069779,Version Difference
+CANBK,Canara Bank,11.896250397203689,6.63,5.266250397203689,Version Difference
+CANBK,Canara Bank,-7.821659981487196,6.63,14.451659981487197,Formula Difference
+CANBK,Canara Bank,-10.496788356776973,6.63,17.126788356776974,Formula Difference
+CANBK,Canara Bank,-4.661942435567636,6.63,11.291942435567636,Formula Difference
+CANBK,Canara Bank,14.534809234632434,6.63,7.904809234632434,Version Difference
+CANBK,Canara Bank,16.716051794688113,6.63,10.086051794688114,Formula Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,15.778688524590164,10.4,5.378688524590164,Version Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,16.09094884127678,10.4,5.69094884127678,Version Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,16.598130841121495,10.4,6.198130841121495,Version Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,15.66757493188011,10.4,5.267574931880109,Version Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,16.70544439274081,10.4,6.305444392740808,Version Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,17.912195121951218,10.4,7.512195121951217,Version Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,19.281572164948454,10.4,8.881572164948453,Version Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,15.84375,10.4,5.44375,Version Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,18.30231965332653,10.4,7.902319653326531,Version Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,18.576606719643102,10.4,8.176606719643102,Version Difference
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,17.455213596692694,10.4,7.055213596692694,Version Difference
+CIPLA,"Cipla Ltd
+",17.130502272979268,22.8,5.669497727020733,Version Difference
+CIPLA,"Cipla Ltd
+",13.968759327430105,22.8,8.831240672569896,Version Difference
+CIPLA,"Cipla Ltd
+",11.377522680985004,22.8,11.422477319014996,Formula Difference
+CIPLA,"Cipla Ltd
+",12.00833550403751,22.8,10.791664495962491,Formula Difference
+CIPLA,"Cipla Ltd
+",8.250956632653061,22.8,14.54904336734694,Formula Difference
+CIPLA,"Cipla Ltd
+",9.958535385480358,22.8,12.841464614519642,Formula Difference
+CIPLA,"Cipla Ltd
+",9.938715694111377,22.8,12.861284305888624,Formula Difference
+CIPLA,"Cipla Ltd
+",9.515955084692,22.8,13.284044915308002,Formula Difference
+CIPLA,"Cipla Ltd
+",13.03612354032522,22.8,9.763876459674782,Version Difference
+CIPLA,"Cipla Ltd
+",12.221102634230602,22.8,10.578897365769398,Formula Difference
+CIPLA,"Cipla Ltd
+",12.103216986371596,22.8,10.696783013628405,Formula Difference
+CIPLA,"Cipla Ltd
+",15.554557028383137,22.8,7.245442971616864,Version Difference
+COALINDIA,Coal India Ltd,35.80623865324311,63.6,27.793761346756888,Data Source Issue
+COALINDIA,Coal India Ltd,35.63814734459013,63.6,27.96185265540987,Data Source Issue
+COALINDIA,Coal India Ltd,34.01729735087849,63.6,29.582702649121508,Data Source Issue
+COALINDIA,Coal India Ltd,40.95828668216921,63.6,22.641713317830792,Data Source Issue
+COALINDIA,Coal India Ltd,37.84974304592544,63.6,25.75025695407456,Data Source Issue
+COALINDIA,Coal India Ltd,34.87957181088314,63.6,28.72042818911686,Data Source Issue
+COALINDIA,Coal India Ltd,51.93270516528283,63.6,11.667294834717168,Formula Difference
+COALINDIA,Coal India Ltd,34.78284681526918,63.6,28.81715318473082,Data Source Issue
+COALINDIA,Coal India Ltd,40.27999907285075,63.6,23.320000927149252,Data Source Issue
+COALINDIA,Coal India Ltd,52.13911214108443,63.6,11.46088785891557,Formula Difference
+COALINDIA,Coal India Ltd,45.16982956605826,63.6,18.43017043394174,Formula Difference
+DABUR,Dabur India Ltd,36.56324582338903,22.3,14.263245823389031,Formula Difference
+DABUR,Dabur India Ltd,34.48795180722892,22.3,12.187951807228917,Formula Difference
+DABUR,Dabur India Ltd,31.84257602862254,22.3,9.542576028622538,Version Difference
+DABUR,Dabur India Ltd,30.064732678014867,22.3,7.764732678014866,Version Difference
+DIVISLAB,Divis Laboratories Ltd,24.07037185125949,16.5,7.570371851259491,Version Difference
+DIVISLAB,Divis Laboratories Ltd,26.07962213225371,16.5,9.57962213225371,Version Difference
+DIVISLAB,Divis Laboratories Ltd,24.37070938215103,16.5,7.8707093821510306,Version Difference
+DIVISLAB,Divis Laboratories Ltd,26.22874446773818,16.5,9.728744467738181,Version Difference
+DIVISLAB,Divis Laboratories Ltd,25.2387448840382,16.5,8.738744884038201,Version Difference
+DLF,DLF Ltd,12.678768655659708,5.74,6.9387686556597075,Version Difference
+DLF,DLF Ltd,-1.7127761488663744,5.74,7.452776148866374,Version Difference
+DMART,Avenue Supermarts Ltd,11.913814955640053,19.4,7.486185044359946,Version Difference
+DMART,Avenue Supermarts Ltd,12.467464862051015,19.4,6.9325351379489835,Version Difference
+DMART,Avenue Supermarts Ltd,11.74187725631769,19.4,7.658122743682309,Version Difference
+DMART,Avenue Supermarts Ltd,9.020026263952726,19.4,10.379973736047273,Formula Difference
+DMART,Avenue Supermarts Ltd,10.908027489399034,19.4,8.491972510600965,Version Difference
+DMART,Avenue Supermarts Ltd,13.56294790886726,19.4,5.837052091132739,Version Difference
+DRREDDY,Dr Reddys Laboratories Ltd,16.95441164770467,26.5,9.54558835229533,Version Difference
+DRREDDY,Dr Reddys Laboratories Ltd,10.536617191322788,26.5,15.963382808677212,Formula Difference
+DRREDDY,Dr Reddys Laboratories Ltd,7.532612153993,26.5,18.967387846007,Formula Difference
+DRREDDY,Dr Reddys Laboratories Ltd,13.904734740444953,26.5,12.595265259555047,Formula Difference
+DRREDDY,Dr Reddys Laboratories Ltd,12.988012052054618,26.5,13.511987947945382,Formula Difference
+DRREDDY,Dr Reddys Laboratories Ltd,11.06513236211099,26.5,15.43486763788901,Formula Difference
+DRREDDY,Dr Reddys Laboratories Ltd,11.35748490526754,26.5,15.14251509473246,Formula Difference
+DRREDDY,Dr Reddys Laboratories Ltd,19.35497723954307,26.5,7.1450227604569285,Version Difference
+DRREDDY,Dr Reddys Laboratories Ltd,19.74233736816026,26.5,6.7576626318397395,Version Difference
+EICHERMOT,Eicher Motors Ltd,25.547445255474454,31.1,5.552554744525548,Version Difference
+EICHERMOT,Eicher Motors Ltd,36.627429509991785,31.1,5.527429509991784,Version Difference
+EICHERMOT,Eicher Motors Ltd,24.702848172235928,31.1,6.397151827764073,Version Difference
+EICHERMOT,Eicher Motors Ltd,18.30477908025248,31.1,12.795220919747521,Formula Difference
+EICHERMOT,Eicher Motors Ltd,11.7765343591537,31.1,19.3234656408463,Formula Difference
+EICHERMOT,Eicher Motors Ltd,13.301078680203046,31.1,17.798921319796953,Formula Difference
+EICHERMOT,Eicher Motors Ltd,19.43962641761174,31.1,11.66037358238826,Formula Difference
+EICHERMOT,Eicher Motors Ltd,22.172346910501524,31.1,8.927653089498477,Version Difference
+GAIL,GAIL (India) Ltd,9.288107695020868,14.7,5.411892304979132,Version Difference
+GAIL,GAIL (India) Ltd,5.147927368623465,14.7,9.552072631376534,Version Difference
+GAIL,GAIL (India) Ltd,8.584149599287622,14.7,6.115850400712377,Version Difference
+GAIL,GAIL (India) Ltd,8.61891046868021,14.7,6.081089531319789,Version Difference
+GODREJCP,Godrej Consumer Products Ltd,19.475041012420903,26.49,7.014958987579096,Version Difference
+GODREJCP,Godrej Consumer Products Ltd,32.22787945507087,26.49,5.737879455070871,Version Difference
+GODREJCP,Godrej Consumer Products Ltd,18.95416561154723,26.49,7.53583438845277,Version Difference
+GODREJCP,Godrej Consumer Products Ltd,18.23286365081047,26.49,8.25713634918953,Version Difference
+GODREJCP,Godrej Consumer Products Ltd,15.429214260989962,26.49,11.060785739010036,Formula Difference
+GODREJCP,Godrej Consumer Products Ltd,12.338697984631,26.49,14.151302015368998,Formula Difference
+GODREJCP,Godrej Consumer Products Ltd,-4.45308779171297,26.49,30.94308779171297,Data Source Issue
+GRASIM,Grasim Industries Ltd,19.21961642163097,9.3,9.91961642163097,Version Difference
+GRASIM,Grasim Industries Ltd,14.803365962562252,9.3,5.503365962562251,Version Difference
+HAL,Hindustan Aeronautics Ltd,1664.9999999999998,38.9,1626.0999999999997,Data Source Issue
+HAL,Hindustan Aeronautics Ltd,1966.9172932330828,38.9,1928.0172932330827,Data Source Issue
+HAL,Hindustan Aeronautics Ltd,1528.4615384615386,38.9,1489.5615384615385,Data Source Issue
+HAL,Hindustan Aeronautics Ltd,1763.9097744360904,38.9,1725.0097744360903,Data Source Issue
+HAL,Hindustan Aeronautics Ltd,2059.4202898550725,38.9,2020.5202898550724,Data Source Issue
+HAL,Hindustan Aeronautics Ltd,2249.305555555556,38.9,2210.405555555556,Data Source Issue
+HAL,Hindustan Aeronautics Ltd,3324.183006535948,38.9,3285.283006535948,Data Source Issue
+HAL,Hindustan Aeronautics Ltd,3283.050847457627,38.9,3244.1508474576267,Data Source Issue
+HAL,Hindustan Aeronautics Ltd,3816.582914572864,38.9,3777.682914572864,Data Source Issue
+HAVELLS,Havells India Ltd,40.29126213592233,24.4,15.891262135922332,Formula Difference
+HAVELLS,Havells India Ltd,42.94681202510737,24.4,18.54681202510737,Formula Difference
+HAVELLS,Havells India Ltd,15.07936507936508,24.4,9.320634920634918,Version Difference
+HAVELLS,Havells India Ltd,17.721179624664877,24.4,6.678820375335121,Version Difference
+HAVELLS,Havells India Ltd,18.77084325869461,24.4,5.629156741305387,Version Difference
+HAVELLS,Havells India Ltd,17.045454545454543,24.4,7.354545454545455,Version Difference
+HAVELLS,Havells India Ltd,16.178690009055238,24.4,8.22130999094476,Version Difference
+HAVELLS,Havells India Ltd,17.067275412917954,24.4,7.332724587082044,Version Difference
+HCLTECH,HCL Technologies Ltd,23.97075798383994,29.6,5.629242016160063,Version Difference
+HCLTECH,HCL Technologies Ltd,24.46453609244307,29.6,5.135463907556932,Version Difference
+HCLTECH,HCL Technologies Ltd,21.56748005539626,29.6,8.032519944603742,Version Difference
+HCLTECH,HCL Technologies Ltd,18.64203094487006,29.6,10.95796905512994,Formula Difference
+HCLTECH,HCL Technologies Ltd,21.841586717059148,29.6,7.758413282940854,Version Difference
+HCLTECH,HCL Technologies Ltd,22.69704151058788,29.6,6.902958489412121,Version Difference
+HCLTECH,HCL Technologies Ltd,23.01393141233172,29.6,6.586068587668283,Version Difference
+HDFCBANK,HDFC Bank Ltd,18.838523046693776,7.67,11.168523046693776,Formula Difference
+HDFCBANK,HDFC Bank Ltd,19.851925645844183,7.67,12.181925645844183,Formula Difference
+HDFCBANK,HDFC Bank Ltd,16.947461760141874,7.67,9.277461760141874,Version Difference
+HDFCBANK,HDFC Bank Ltd,17.25479112833764,7.67,9.58479112833764,Version Difference
+HDFCBANK,HDFC Bank Ltd,16.686275791446064,7.67,9.016275791446065,Version Difference
+HDFCBANK,HDFC Bank Ltd,16.935373497933377,7.67,9.265373497933377,Version Difference
+HDFCBANK,HDFC Bank Ltd,14.60633943503413,7.67,6.93633943503413,Version Difference
+HDFCBANK,HDFC Bank Ltd,15.477608047267491,7.67,7.807608047267491,Version Difference
+HDFCBANK,HDFC Bank Ltd,15.183737667413377,7.67,7.513737667413377,Version Difference
+HDFCBANK,HDFC Bank Ltd,15.425327602728371,7.67,7.7553276027283715,Version Difference
+HDFCBANK,HDFC Bank Ltd,15.944347321360706,7.67,8.274347321360706,Version Difference
+HDFCBANK,HDFC Bank Ltd,14.33974005030719,7.67,6.66974005030719,Version Difference
+HDFCLIFE,HDFC Life Insurance Company Ltd,33.43305908750935,6.61,26.82305908750935,Data Source Issue
+HDFCLIFE,HDFC Life Insurance Company Ltd,37.60373443983403,6.61,30.99373443983403,Data Source Issue
+HDFCLIFE,HDFC Life Insurance Company Ltd,30.932703659976383,6.61,24.322703659976384,Data Source Issue
+HDFCLIFE,HDFC Life Insurance Company Ltd,26.32935868514341,6.61,19.719358685143412,Formula Difference
+HDFCLIFE,HDFC Life Insurance Company Ltd,23.183481442760066,6.61,16.573481442760066,Formula Difference
+HDFCLIFE,HDFC Life Insurance Company Ltd,23.52816153028693,6.61,16.91816153028693,Formula Difference
+HDFCLIFE,HDFC Life Insurance Company Ltd,22.65154200638072,6.61,16.04154200638072,Formula Difference
+HDFCLIFE,HDFC Life Insurance Company Ltd,19.05391508741002,6.61,12.44391508741002,Formula Difference
+HDFCLIFE,HDFC Life Insurance Company Ltd,15.752314814814811,6.61,9.14231481481481,Version Difference
+HEROMOTOCO,"Hero MotoCorp Ltd
+",37.38218033078428,29.1,8.282180330784279,Version Difference
+HEROMOTOCO,"Hero MotoCorp Ltd
+",36.14678899082569,29.1,7.046788990825689,Version Difference
+HEROMOTOCO,"Hero MotoCorp Ltd
+",35.22752999773602,29.1,6.127529997736019,Version Difference
+HEROMOTOCO,"Hero MotoCorp Ltd
+",34.373788290034895,29.1,5.273788290034894,Version Difference
+HEROMOTOCO,"Hero MotoCorp Ltd
+",19.04514789828749,29.1,10.054852101712513,Formula Difference
+HEROMOTOCO,"Hero MotoCorp Ltd
+",14.696788035590332,29.1,14.40321196440967,Formula Difference
+HEROMOTOCO,"Hero MotoCorp Ltd
+",16.810758885686838,29.1,12.289241114313164,Formula Difference
+HEROMOTOCO,"Hero MotoCorp Ltd
+",21.14243742584327,29.1,7.957562574156732,Version Difference
+HINDALCO,Hindalco Industries Ltd,5.405871342724855,11.3,5.894128657275146,Version Difference
+HINDALCO,Hindalco Industries Ltd,0.6757285606198962,11.3,10.624271439380104,Formula Difference
+HINDALCO,Hindalco Industries Ltd,-1.7286808342978155,11.3,13.028680834297816,Formula Difference
+HINDALCO,Hindalco Industries Ltd,4.086063527215094,11.3,7.213936472784907,Version Difference
+HINDALCO,Hindalco Industries Ltd,5.234996167315468,11.3,6.065003832684533,Version Difference
+HINDALCO,Hindalco Industries Ltd,17.559565678914453,11.3,6.259565678914452,Version Difference
+HINDUNILVR,"Hindustan Unilever Ltd
+",133.99650959860384,27.2,106.79650959860383,Data Source Issue
+HINDUNILVR,"Hindustan Unilever Ltd
+",111.84619734238056,27.2,84.64619734238056,Data Source Issue
+HINDUNILVR,"Hindustan Unilever Ltd
+",108.66650111745716,27.2,81.46650111745716,Data Source Issue
+HINDUNILVR,"Hindustan Unilever Ltd
+",63.15228966986155,27.2,35.95228966986156,Data Source Issue
+HINDUNILVR,"Hindustan Unilever Ltd
+",66.57769869513642,27.2,39.37769869513642,Data Source Issue
+HINDUNILVR,"Hindustan Unilever Ltd
+",71.78958934212334,27.2,44.58958934212333,Data Source Issue
+HINDUNILVR,"Hindustan Unilever Ltd
+",77.03063429515699,27.2,49.83063429515698,Data Source Issue
+HINDUNILVR,"Hindustan Unilever Ltd
+",82.09989063069631,27.2,54.899890630696305,Data Source Issue
+HINDUNILVR,"Hindustan Unilever Ltd
+",16.778537567646936,27.2,10.421462432353064,Formula Difference
+HINDUNILVR,"Hindustan Unilever Ltd
+",18.12437577709382,27.2,9.075624222906178,Version Difference
+HINDUNILVR,"Hindustan Unilever Ltd
+",20.16340648854962,27.2,7.036593511450381,Version Difference
+HINDUNILVR,"Hindustan Unilever Ltd
+",20.074973642078955,27.2,7.125026357921044,Version Difference
+ICICIBANK,ICICI Bank Ltd,14.731759812689964,7.6,7.131759812689964,Version Difference
+ICICIBANK,ICICI Bank Ltd,15.278032186314276,7.6,7.678032186314276,Version Difference
+ICICIBANK,ICICI Bank Ltd,15.278909155303705,7.6,7.678909155303705,Version Difference
+ICICIBANK,ICICI Bank Ltd,12.922385729787356,7.6,5.3223857297873565,Version Difference
+ICICIBANK,ICICI Bank Ltd,14.577073709304432,7.6,6.977073709304433,Version Difference
+ICICIBANK,ICICI Bank Ltd,16.53208887728557,7.6,8.93208887728557,Version Difference
+ICICIBANK,ICICI Bank Ltd,17.99027109750765,7.6,10.390271097507652,Formula Difference
+ICICIGI,ICICI Lombard General Insurance Company Ltd,15.66265060240964,22.5,6.83734939759036,Version Difference
+ICICIGI,ICICI Lombard General Insurance Company Ltd,13.8257369737844,22.5,8.6742630262156,Version Difference
+ICICIGI,ICICI Lombard General Insurance Company Ltd,16.554959785522787,22.5,5.945040214477213,Version Difference
+ICICIGI,ICICI Lombard General Insurance Company Ltd,15.7230643179025,22.5,6.7769356820975,Version Difference
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,38.24791719262812,8.75,29.497917192628123,Data Source Issue
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,35.614875655943415,8.75,26.864875655943415,Data Source Issue
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,31.14909781576448,8.75,22.39909781576448,Data Source Issue
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,30.99755776817584,8.75,22.24755776817584,Data Source Issue
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,26.256634405245084,8.75,17.506634405245084,Formula Difference
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,24.627319744447824,8.75,15.877319744447824,Formula Difference
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,16.57691747926066,8.75,7.826917479260661,Version Difference
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,14.792735338971305,8.75,6.042735338971305,Version Difference
+INDIGO,Interglobe Aviation Ltd,17886.363636363636,24.5,17861.863636363636,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,10772.727272727272,24.5,10748.227272727272,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,4939.39393939394,24.5,4914.89393939394,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,1534.775888717156,24.5,1510.275888717156,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,1692.857142857143,24.5,1668.357142857143,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,2242.0,24.5,2217.5,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,120.93023255813952,24.5,96.43023255813952,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,-138.54748603351956,24.5,163.04748603351956,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,-1094.148936170213,24.5,1118.648936170213,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,-48.76923076923077,24.5,73.26923076923077,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,-40.7979407979408,24.5,65.2979407979408,Data Source Issue
+INDIGO,Interglobe Aviation Ltd,892.568306010929,24.5,868.068306010929,Data Source Issue
+INDUSINDBK,IndusInd Bank Ltd,13.905635648754917,7.93,5.975635648754917,Version Difference
+INDUSINDBK,IndusInd Bank Ltd,15.570054185557892,7.93,7.640054185557892,Version Difference
+INDUSINDBK,IndusInd Bank Ltd,16.85456595264938,7.93,8.924565952649381,Version Difference
+INDUSINDBK,IndusInd Bank Ltd,13.891310665504214,7.93,5.9613106655042145,Version Difference
+INDUSINDBK,IndusInd Bank Ltd,15.125204479677864,7.93,7.195204479677864,Version Difference
+INDUSINDBK,IndusInd Bank Ltd,13.5293471495002,7.93,5.5993471495002005,Version Difference
+INDUSINDBK,IndusInd Bank Ltd,14.252273197764223,7.93,6.322273197764224,Version Difference
+INFY,Infosys Ltd,24.81707638048113,40.0,15.18292361951887,Formula Difference
+INFY,Infosys Ltd,23.92993487536492,40.0,16.07006512463508,Formula Difference
+INFY,Infosys Ltd,24.385052034058656,40.0,15.614947965941344,Formula Difference
+INFY,Infosys Ltd,21.84665716506867,40.0,18.15334283493133,Formula Difference
+INFY,Infosys Ltd,20.80687715635963,40.0,19.19312284364037,Formula Difference
+INFY,Infosys Ltd,24.689247262141308,40.0,15.310752737858692,Formula Difference
+INFY,Infosys Ltd,23.726673646609598,40.0,16.273326353390402,Formula Difference
+INFY,Infosys Ltd,25.422459893048128,40.0,14.577540106951872,Formula Difference
+INFY,Infosys Ltd,25.43909051616875,40.0,14.56090948383125,Formula Difference
+INFY,Infosys Ltd,29.39084273390843,40.0,10.609157266091572,Formula Difference
+INFY,Infosys Ltd,31.970506716883047,40.0,8.029493283116953,Version Difference
+INFY,Infosys Ltd,29.788006718416632,40.0,10.211993281583368,Formula Difference
+IOC,"Indian Oil Corporation
+",5.753763662610847,21.31,15.556236337389151,Formula Difference
+IOC,"Indian Oil Corporation
+",10.258713353849778,21.31,11.05128664615022,Formula Difference
+IOC,"Indian Oil Corporation
+",7.078103207810321,21.31,14.231896792189676,Formula Difference
+IOC,"Indian Oil Corporation
+",13.79528784174261,21.31,7.514712158257389,Version Difference
+IOC,"Indian Oil Corporation
+",15.358898896584837,21.31,5.951101103415162,Version Difference
+IOC,"Indian Oil Corporation
+",-1.966498249439192,21.31,23.27649824943919,Data Source Issue
+IOC,"Indian Oil Corporation
+",8.37669355358178,21.31,12.933306446418218,Formula Difference
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,29.504504504504503,53.8,24.295495495495494,Data Source Issue
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,34.87084870848708,53.8,18.929151291512916,Formula Difference
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,29.09783989834816,53.8,24.702160101651838,Data Source Issue
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,23.141361256544503,53.8,30.658638743455494,Data Source Issue
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,28.851540616246496,53.8,24.9484593837535,Data Source Issue
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,39.04109589041096,53.8,14.75890410958904,Formula Difference
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,12.843406593406591,53.8,40.956593406593406,Data Source Issue
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,35.294117647058826,53.8,18.50588235294117,Formula Difference
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,40.597255851493145,53.8,13.202744148506852,Formula Difference
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,34.39628482972136,53.8,19.403715170278637,Formula Difference
+IRFC,Indian Railway Finance Corporation Ltd,14.754451464675476,5.73,9.024451464675476,Version Difference
+IRFC,Indian Railway Finance Corporation Ltd,12.29604054129309,5.73,6.56604054129309,Version Difference
+IRFC,Indian Railway Finance Corporation Ltd,14.854745469180672,5.73,9.124745469180672,Version Difference
+IRFC,Indian Railway Finance Corporation Ltd,13.802287325708914,5.73,8.072287325708913,Version Difference
+IRFC,Indian Railway Finance Corporation Ltd,13.038085361638096,5.73,7.308085361638096,Version Difference
+ITC,"ITC Ltd
+",22.2610121836926,34.76,12.498987816307398,Formula Difference
+ITC,"ITC Ltd
+",22.57341693060134,34.76,12.186583069398658,Formula Difference
+ITC,"ITC Ltd
+",21.88725956960579,34.76,12.87274043039421,Formula Difference
+ITC,"ITC Ltd
+",21.70406317106576,34.76,13.05593682893424,Formula Difference
+ITC,"ITC Ltd
+",23.88889740015014,34.76,10.87110259984986,Formula Difference
+ITC,"ITC Ltd
+",22.17674449434106,34.76,12.583255505658936,Formula Difference
+ITC,"ITC Ltd
+",24.82267232407333,34.76,9.937327675926667,Version Difference
+ITC,"ITC Ltd
+",28.16426867182416,34.76,6.595731328175837,Version Difference
+ITC,"ITC Ltd
+",27.851074395694365,34.76,6.908925604305633,Version Difference
+JINDALSTEL,Jindal Steel & Power Ltd,-6.900484744796122,13.2,20.10048474479612,Data Source Issue
+JINDALSTEL,Jindal Steel & Power Ltd,-9.517203107658158,13.2,22.717203107658158,Data Source Issue
+JINDALSTEL,Jindal Steel & Power Ltd,-8.44564240790656,13.2,21.645642407906557,Data Source Issue
+JINDALSTEL,Jindal Steel & Power Ltd,-5.3184136909659365,13.2,18.518413690965936,Formula Difference
+JINDALSTEL,Jindal Steel & Power Ltd,-7.517531556802244,13.2,20.717531556802243,Data Source Issue
+JINDALSTEL,Jindal Steel & Power Ltd,-1.2446712512057752,13.2,14.444671251205774,Formula Difference
+JINDALSTEL,Jindal Steel & Power Ltd,18.992280701754385,13.2,5.792280701754386,Version Difference
+JSWENERGY,JSW Energy Ltd,14.522888459058672,8.59,5.932888459058672,Version Difference
+JSWENERGY,JSW Energy Ltd,18.063314711359403,8.59,9.473314711359404,Version Difference
+JSWENERGY,JSW Energy Ltd,15.045342126957957,8.59,6.455342126957957,Version Difference
+JSWENERGY,JSW Energy Ltd,0.7650765076507651,8.59,7.824923492349235,Version Difference
+JSWSTEEL,JSW Steel Ltd,5.443891004980955,13.36,7.916108995019044,Version Difference
+JSWSTEEL,JSW Steel Ltd,1.898554831396996,13.36,11.461445168603003,Formula Difference
+JSWSTEEL,JSW Steel Ltd,7.7254374158815615,13.36,5.634562584118438,Version Difference
+JSWSTEEL,JSW Steel Ltd,-2.536117262469683,13.36,15.896117262469682,Formula Difference
+JSWSTEEL,JSW Steel Ltd,21.83370240731481,13.36,8.47370240731481,Version Difference
+JSWSTEEL,JSW Steel Ltd,21.623796522488863,13.36,8.263796522488864,Version Difference
+JSWSTEEL,JSW Steel Ltd,31.112828209281247,13.36,17.752828209281247,Formula Difference
+JSWSTEEL,JSW Steel Ltd,6.300327269959662,13.36,7.0596727300403375,Version Difference
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",14.65906857928866,7.86,6.799068579288659,Version Difference
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",13.2414588136659,7.86,5.3814588136659,Version Difference
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",14.014262502256724,7.86,6.154262502256723,Version Difference
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",13.03907305414112,7.86,5.17907305414112,Version Difference
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",12.89523838107958,7.86,5.035238381079579,Version Difference
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",13.348060171356002,7.86,5.488060171356001,Version Difference
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",14.013018188532914,7.86,6.153018188532914,Version Difference
+LICI,Life Insurance Corporation of India,324.32098765432096,63.79,260.53098765432094,Data Source Issue
+LICI,Life Insurance Corporation of India,270.45908183632736,63.79,206.66908183632736,Data Source Issue
+LICI,Life Insurance Corporation of India,43.201626961069145,63.79,20.588373038930854,Data Source Issue
+LICI,Life Insurance Corporation of India,36.38207796789557,63.79,27.40792203210443,Data Source Issue
+LICI,Life Insurance Corporation of India,77.85997015119071,63.79,14.06997015119071,Formula Difference
+LICI,Life Insurance Corporation of India,49.44710986501021,63.79,14.342890134989787,Formula Difference
+LODHA,Macrotech Developers Ltd,35.483870967741936,11.1,24.383870967741935,Data Source Issue
+LODHA,Macrotech Developers Ltd,33.83658969804618,11.1,22.73658969804618,Data Source Issue
+LODHA,Macrotech Developers Ltd,24.225865209471767,11.1,13.125865209471767,Formula Difference
+LODHA,Macrotech Developers Ltd,17.694437452806444,11.1,6.594437452806444,Version Difference
+LODHA,Macrotech Developers Ltd,42.80135381411091,11.1,31.70135381411091,Data Source Issue
+LODHA,Macrotech Developers Ltd,16.300527240773285,11.1,5.200527240773285,Version Difference
+LODHA,Macrotech Developers Ltd,1.0437051532941943,11.1,10.056294846705805,Formula Difference
+LODHA,Macrotech Developers Ltd,3.8695411829740185,11.1,7.230458817025982,Version Difference
+LT,Larsen & Toubro Ltd,395.1456310679612,17.18,377.96563106796117,Data Source Issue
+LT,Larsen & Toubro Ltd,303.41614906832297,17.18,286.23614906832296,Data Source Issue
+LT,Larsen & Toubro Ltd,245.11352418558735,17.18,227.93352418558734,Data Source Issue
+LT,Larsen & Toubro Ltd,216.0941176470588,17.18,198.9141176470588,Data Source Issue
+LT,Larsen & Toubro Ltd,206.2977099236641,17.18,189.11770992366408,Data Source Issue
+LT,Larsen & Toubro Ltd,207.3575129533679,17.18,190.17751295336788,Data Source Issue
+LT,Larsen & Toubro Ltd,208.80850194154917,17.18,191.62850194154916,Data Source Issue
+LT,Larsen & Toubro Ltd,201.59141376757955,17.18,184.41141376757955,Data Source Issue
+LT,Larsen & Toubro Ltd,176.90306681270536,17.18,159.72306681270535,Data Source Issue
+LT,Larsen & Toubro Ltd,72.92133258678611,17.18,55.74133258678611,Data Source Issue
+LT,Larsen & Toubro Ltd,75.52434908389586,17.18,58.34434908389586,Data Source Issue
+LT,Larsen & Toubro Ltd,77.66510140873214,17.18,60.48510140873214,Data Source Issue
+LTIM,LTIMindtree Ltd,41.97162061239731,34.1,7.871620612397308,Version Difference
+LTIM,LTIMindtree Ltd,61.86335403726708,34.1,27.763354037267078,Data Source Issue
+LTIM,LTIMindtree Ltd,39.34117647058824,34.1,5.241176470588236,Version Difference
+LTIM,LTIMindtree Ltd,28.80829015544041,34.1,5.291709844559591,Version Difference
+LTIM,LTIMindtree Ltd,28.127313101406365,34.1,5.972686898593636,Version Difference
+LTIM,LTIMindtree Ltd,26.533406352683457,34.1,7.5665936473165445,Version Difference
+LTIM,LTIMindtree Ltd,27.645576707726764,34.1,6.454423292273237,Version Difference
+LTIM,LTIMindtree Ltd,26.57907425265188,34.1,7.520925747348123,Version Difference
+LTIM,LTIMindtree Ltd,22.904386052552702,34.1,11.195613947447299,Formula Difference
+M&M,"Mahindra & Mahindra Ltd
+",20.685336405991684,26.98,6.294663594008316,Version Difference
+M&M,"Mahindra & Mahindra Ltd
+",13.075762849518505,26.98,13.904237150481496,Formula Difference
+M&M,"Mahindra & Mahindra Ltd
+",13.41537067794051,26.98,13.56462932205949,Formula Difference
+M&M,"Mahindra & Mahindra Ltd
+",13.604002955201826,26.98,13.375997044798174,Formula Difference
+M&M,"Mahindra & Mahindra Ltd
+",21.63970088375255,26.98,5.340299116247451,Version Difference
+M&M,"Mahindra & Mahindra Ltd
+",15.0488957807068,26.98,11.9311042192932,Formula Difference
+M&M,"Mahindra & Mahindra Ltd
+",-0.8031224198754034,26.98,27.783122419875404,Data Source Issue
+M&M,"Mahindra & Mahindra Ltd
+",3.636188735510557,26.98,23.343811264489442,Data Source Issue
+M&M,"Mahindra & Mahindra Ltd
+",15.391634658234832,26.98,11.588365341765169,Formula Difference
+M&M,"Mahindra & Mahindra Ltd
+",20.17883121030409,26.98,6.801168789695911,Version Difference
+M&M,"Mahindra & Mahindra Ltd
+",18.537543435564285,26.98,8.442456564435716,Version Difference
+MARUTI,Maruti Suzuki India Ltd,12.980870296405298,23.67,10.689129703594704,Formula Difference
+MARUTI,Maruti Suzuki India Ltd,13.276888723483438,23.67,10.393111276516564,Formula Difference
+MARUTI,Maruti Suzuki India Ltd,15.66329467883872,23.67,8.00670532116128,Version Difference
+MARUTI,Maruti Suzuki India Ltd,17.954664227854717,23.67,5.715335772145284,Version Difference
+MARUTI,Maruti Suzuki India Ltd,18.517822317253696,23.67,5.152177682746306,Version Difference
+MARUTI,Maruti Suzuki India Ltd,16.24692092075087,23.67,7.423079079249131,Version Difference
+MARUTI,Maruti Suzuki India Ltd,11.490903203610388,23.67,12.179096796389613,Formula Difference
+MARUTI,Maruti Suzuki India Ltd,8.359840764937811,23.67,15.31015923506219,Formula Difference
+MARUTI,Maruti Suzuki India Ltd,7.012090434279725,23.67,16.657909565720278,Formula Difference
+MARUTI,Maruti Suzuki India Ltd,11.07774798927614,23.67,12.592252010723861,Formula Difference
+MARUTI,Maruti Suzuki India Ltd,15.750385351954783,23.67,7.9196146480452185,Version Difference
+MOTHERSON,Samvardhana Motherson International Ltd,19.74661424202709,13.7,6.04661424202709,Version Difference
+MOTHERSON,Samvardhana Motherson International Ltd,37.07333558634674,13.7,23.373335586346737,Data Source Issue
+MOTHERSON,Samvardhana Motherson International Ltd,38.86883273164862,13.7,25.168832731648617,Data Source Issue
+MOTHERSON,Samvardhana Motherson International Ltd,40.34569024334774,13.7,26.64569024334774,Data Source Issue
+MOTHERSON,Samvardhana Motherson International Ltd,26.25725338491296,13.7,12.557253384912961,Formula Difference
+MOTHERSON,Samvardhana Motherson International Ltd,22.86523674625657,13.7,9.165236746256571,Version Difference
+MOTHERSON,Samvardhana Motherson International Ltd,19.13709750980571,13.7,5.43709750980571,Version Difference
+MOTHERSON,Samvardhana Motherson International Ltd,5.741208470953954,13.7,7.958791529046045,Version Difference
+MOTHERSON,Samvardhana Motherson International Ltd,7.438090147871014,13.7,6.261909852128985,Version Difference
+NAUKRI,Info Edge (India) Ltd,12.5,3.65,8.85,Version Difference
+NAUKRI,Info Edge (India) Ltd,8.928571428571429,3.65,5.2785714285714285,Version Difference
+NAUKRI,Info Edge (India) Ltd,-2.701005025125628,3.65,6.3510050251256285,Version Difference
+NAUKRI,Info Edge (India) Ltd,24.49877750611247,3.65,20.848777506112473,Data Source Issue
+NAUKRI,Info Edge (India) Ltd,23.27959103421156,3.65,19.62959103421156,Formula Difference
+NAUKRI,Info Edge (India) Ltd,-11.20728929384966,3.65,14.85728929384966,Formula Difference
+NAUKRI,Info Edge (India) Ltd,26.278724981467757,3.65,22.62872498146776,Data Source Issue
+NAUKRI,Info Edge (India) Ltd,74.71291033522793,3.65,71.06291033522793,Data Source Issue
+NESTLEIND,Nestle India Ltd,47.170608108108105,185.43,138.2593918918919,Data Source Issue
+NESTLEIND,Nestle India Ltd,41.76947479732112,185.43,143.66052520267888,Data Source Issue
+NESTLEIND,Nestle India Ltd,19.98580049698261,185.43,165.4441995030174,Data Source Issue
+NESTLEIND,Nestle India Ltd,30.499695307739184,185.43,154.93030469226082,Data Source Issue
+NESTLEIND,Nestle India Ltd,35.8187134502924,185.43,149.61128654970761,Data Source Issue
+NESTLEIND,Nestle India Ltd,43.75170160631636,185.43,141.67829839368363,Data Source Issue
+NESTLEIND,Nestle India Ltd,102.60688216892598,185.43,82.82311783107403,Data Source Issue
+NESTLEIND,Nestle India Ltd,103.12035661218424,185.43,82.30964338781577,Data Source Issue
+NESTLEIND,Nestle India Ltd,108.83864337101748,185.43,76.59135662898252,Data Source Issue
+NESTLEIND,Nestle India Ltd,97.2346482309882,185.43,88.19535176901181,Data Source Issue
+NESTLEIND,Nestle India Ltd,121.96014640097602,185.43,63.46985359902399,Data Source Issue
+NESTLEIND,Nestle India Ltd,117.75449101796409,185.43,67.67550898203592,Data Source Issue
+ONGC,Oil & Natural Gas Corpn Ltd,9.810201989415644,19.71,9.899798010584357,Version Difference
+ONGC,Oil & Natural Gas Corpn Ltd,6.623393693065202,19.71,13.086606306934799,Formula Difference
+ONGC,Oil & Natural Gas Corpn Ltd,12.777241335365824,19.71,6.932758664634177,Version Difference
+ONGC,Oil & Natural Gas Corpn Ltd,5.585459084171932,19.71,14.124540915828069,Formula Difference
+ONGC,Oil & Natural Gas Corpn Ltd,9.665989383702671,19.71,10.04401061629733,Formula Difference
+ONGC,Oil & Natural Gas Corpn Ltd,11.679440720905625,19.71,8.030559279094376,Version Difference
+PFC,Power Finance Corporation Ltd,18.741554054054056,9.96,8.781554054054055,Version Difference
+PFC,Power Finance Corporation Ltd,19.845941428675243,9.96,9.885941428675242,Version Difference
+PFC,Power Finance Corporation Ltd,18.52457498997254,9.96,8.564574989972538,Version Difference
+PFC,Power Finance Corporation Ltd,17.164427667369825,9.96,7.204427667369824,Version Difference
+PFC,Power Finance Corporation Ltd,22.08414921925993,9.96,12.12414921925993,Formula Difference
+PFC,Power Finance Corporation Ltd,26.824558052672906,9.96,16.864558052672905,Formula Difference
+PFC,Power Finance Corporation Ltd,19.18421052631579,9.96,9.22421052631579,Version Difference
+PFC,Power Finance Corporation Ltd,25.86272154294272,9.96,15.902721542942718,Formula Difference
+PFC,Power Finance Corporation Ltd,26.18449690272895,9.96,16.224496902728948,Formula Difference
+PFC,Power Finance Corporation Ltd,25.165759642577058,9.96,15.205759642577057,Formula Difference
+PFC,Power Finance Corporation Ltd,26.1609340860332,9.96,16.2009340860332,Formula Difference
+PIDILITIND,Pidilite Industries Ltd,23.05327868852459,29.7,6.64672131147541,Version Difference
+PIDILITIND,Pidilite Industries Ltd,22.6431718061674,29.7,7.056828193832601,Version Difference
+PIDILITIND,Pidilite Industries Ltd,22.372227579556416,29.7,7.3277724204435835,Version Difference
+PIDILITIND,Pidilite Industries Ltd,20.13230824244592,29.7,9.56769175755408,Version Difference
+PIDILITIND,Pidilite Industries Ltd,18.847595252966894,29.7,10.852404747033106,Formula Difference
+PIDILITIND,Pidilite Industries Ltd,17.872989462007766,29.7,11.827010537992233,Formula Difference
+PIDILITIND,Pidilite Industries Ltd,20.780302129178065,29.7,8.919697870821935,Version Difference
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,812.2977346278317,1.63,810.6677346278317,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,393.3618843683083,1.63,391.73188436830833,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,223.2425585813806,1.63,221.6125585813806,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,-163.56011183597388,1.63,165.19011183597388,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,22.212262459662963,1.63,20.582262459662964,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-184.36596133353632,1.63,185.99596133353631,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,-128.4465366509751,1.63,130.0765366509751,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,30.393594225780983,1.63,28.763594225780984,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,39.87348229772472,1.63,38.24348229772472,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,30.667397060166163,1.63,29.037397060166164,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+PNB,Punjab National Bank,61.320565191187306,1.63,59.690565191187304,Data Source Issue
+POWERGRID,Power Grid Corporation of India Ltd,22.06513043136124,13.2,8.86513043136124,Version Difference
+POWERGRID,Power Grid Corporation of India Ltd,22.06513043136124,13.2,8.86513043136124,Version Difference
+POWERGRID,Power Grid Corporation of India Ltd,22.06513043136124,13.2,8.86513043136124,Version Difference
+POWERGRID,Power Grid Corporation of India Ltd,22.06513043136124,13.2,8.86513043136124,Version Difference
+POWERGRID,Power Grid Corporation of India Ltd,18.57249536289837,13.2,5.37249536289837,Version Difference
+POWERGRID,Power Grid Corporation of India Ltd,18.57249536289837,13.2,5.37249536289837,Version Difference
+POWERGRID,Power Grid Corporation of India Ltd,18.57249536289837,13.2,5.37249536289837,Version Difference
+POWERGRID,Power Grid Corporation of India Ltd,18.57249536289837,13.2,5.37249536289837,Version Difference
+RECLTD,REC Ltd,21.86537364517969,10.0,11.865373645179691,Formula Difference
+RECLTD,REC Ltd,22.78998221410373,10.0,12.78998221410373,Formula Difference
+RECLTD,REC Ltd,21.31461391193363,10.0,11.31461391193363,Formula Difference
+RECLTD,REC Ltd,19.69681237670024,10.0,9.69681237670024,Version Difference
+RECLTD,REC Ltd,18.749071901636423,10.0,8.749071901636423,Version Difference
+RECLTD,REC Ltd,16.618421814392402,10.0,6.618421814392402,Version Difference
+RECLTD,REC Ltd,19.143588337446303,10.0,9.143588337446303,Version Difference
+RECLTD,REC Ltd,19.558015356432943,10.0,9.558015356432943,Version Difference
+RECLTD,REC Ltd,19.2136958017894,10.0,9.213695801789399,Version Difference
+RECLTD,REC Ltd,20.39653929343908,10.0,10.39653929343908,Formula Difference
+SBILIFE,SBI Life Insurance Company Ltd,23.026315789473685,13.2,9.826315789473686,Version Difference
+SBILIFE,SBI Life Insurance Company Ltd,21.69249106078665,13.2,8.492491060786652,Version Difference
+SBILIFE,SBI Life Insurance Company Ltd,20.09368836291913,13.2,6.893688362919132,Version Difference
+SHREECEM,Shree Cement Ltd,26.11862643080125,14.8,11.318626430801249,Formula Difference
+SHREECEM,Shree Cement Ltd,8.074298711144806,14.8,6.725701288855195,Version Difference
+SHREECEM,Shree Cement Ltd,7.268041237113403,14.8,7.531958762886598,Version Difference
+SHREECEM,Shree Cement Ltd,8.370767521615225,14.8,6.429232478384776,Version Difference
+SHRIRAMFIN,"Shriram Finance Ltd
+",19.937312619242302,11.3,8.637312619242302,Version Difference
+SHRIRAMFIN,"Shriram Finance Ltd
+",18.619430241051862,11.3,7.319430241051862,Version Difference
+SIEMENS,Siemens Ltd,13.782857142857145,25.6,11.817142857142857,Formula Difference
+SIEMENS,Siemens Ltd,42.83404380420402,25.6,17.23404380420402,Formula Difference
+SIEMENS,Siemens Ltd,14.785435630689204,25.6,10.814564369310798,Formula Difference
+SIEMENS,Siemens Ltd,10.85672972647307,25.6,14.743270273526932,Formula Difference
+SIEMENS,Siemens Ltd,12.144988396507902,25.6,13.4550116034921,Formula Difference
+SIEMENS,Siemens Ltd,8.1015592077539,25.6,17.4984407922461,Formula Difference
+SIEMENS,Siemens Ltd,10.52478979414323,25.6,15.075210205856772,Formula Difference
+SIEMENS,Siemens Ltd,13.290267011197244,25.6,12.309732988802757,Formula Difference
+SIEMENS,Siemens Ltd,14.991976770841292,25.6,10.608023229158709,Formula Difference
+SIEMENS,Siemens Ltd,17.698769290877124,25.6,7.901230709122878,Version Difference
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,23.14209472981988,17.3,5.84209472981988,Version Difference
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,6.634650519392389,17.3,10.665349480607611,Formula Difference
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,7.747108116593012,17.3,9.55289188340699,Version Difference
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,9.216834198608195,17.3,8.083165801391806,Version Difference
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,4.889912403417773,17.3,12.410087596582228,Formula Difference
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,7.0587990252233865,17.3,10.241200974776614,Formula Difference
+TATACONSUM,Tata Consumer Products Ltd,4.96996176952485,10.6,5.63003823047515,Version Difference
+TATACONSUM,Tata Consumer Products Ltd,-0.5922842964623019,10.6,11.1922842964623,Formula Difference
+TATACONSUM,Tata Consumer Products Ltd,3.329714078899747,10.6,7.270285921100253,Version Difference
+TATAMOTORS,Tata Motors Ltd,26.505832026994717,20.1,6.405832026994716,Version Difference
+TATAMOTORS,Tata Motors Ltd,14.791265579086026,20.1,5.308734420913975,Version Difference
+TATAMOTORS,Tata Motors Ltd,13.015397333884469,20.1,7.084602666115533,Version Difference
+TATAMOTORS,Tata Motors Ltd,9.526554051221863,20.1,10.573445948778138,Formula Difference
+TATAMOTORS,Tata Motors Ltd,-47.73093604081158,20.1,67.83093604081158,Data Source Issue
+TATAMOTORS,Tata Motors Ltd,-18.984131010320397,20.1,39.0841310103204,Data Source Issue
+TATAMOTORS,Tata Motors Ltd,-24.245660397849655,20.1,44.345660397849656,Data Source Issue
+TATAMOTORS,Tata Motors Ltd,-25.378694374004173,20.1,45.47869437400418,Data Source Issue
+TATAMOTORS,Tata Motors Ltd,5.935307356250828,20.1,14.164692643749174,Formula Difference
+TATAMOTORS,Tata Motors Ltd,37.45613415294755,20.1,17.356134152947547,Formula Difference
+TATAPOWER,"Tata Power Company Ltd
+",0.9971625456019456,11.1,10.102837454398054,Formula Difference
+TATAPOWER,"Tata Power Company Ltd
+",0.0967663898072736,11.1,11.003233610192726,Formula Difference
+TATAPOWER,"Tata Power Company Ltd
+",3.1917865623690456,11.1,7.908213437630954,Version Difference
+TATASTEEL,"Tata Steel Ltd
+",-21.280580592297788,7.02,28.300580592297788,Data Source Issue
+TATASTEEL,"Tata Steel Ltd
+",-12.564994098695331,7.02,19.584994098695333,Formula Difference
+TATASTEEL,"Tata Steel Ltd
+",-1.136467575230952,7.02,8.156467575230952,Version Difference
+TATASTEEL,"Tata Steel Ltd
+",-11.023559586451254,7.02,18.043559586451252,Formula Difference
+TATASTEEL,"Tata Steel Ltd
+",29.14852721328712,7.02,22.12852721328712,Data Source Issue
+TATASTEEL,"Tata Steel Ltd
+",13.234675371780922,7.02,6.214675371780922,Version Difference
+TATASTEEL,"Tata Steel Ltd
+",1.5956290094596066,7.02,5.4243709905403925,Version Difference
+TATASTEEL,"Tata Steel Ltd
+",36.48016916718366,7.02,29.46016916718366,Data Source Issue
+TATASTEEL,"Tata Steel Ltd
+",-5.334926929972293,7.02,12.354926929972294,Formula Difference
+TCS,Tata Consultancy Services Ltd,36.51740777253152,64.3,27.782592227468477,Data Source Issue
+TCS,Tata Consultancy Services Ltd,39.29667649151337,64.3,25.00332350848663,Data Source Issue
+TCS,Tata Consultancy Services Ltd,39.61686580428557,64.3,24.68313419571443,Data Source Issue
+TCS,Tata Consultancy Services Ltd,34.2441467807294,64.3,30.055853219270595,Data Source Issue
+TCS,Tata Consultancy Services Ltd,30.571600900085837,64.3,33.72839909991416,Data Source Issue
+TCS,Tata Consultancy Services Ltd,30.40127807536885,64.3,33.89872192463115,Data Source Issue
+TCS,Tata Consultancy Services Ltd,35.28609440332715,64.3,29.01390559667285,Data Source Issue
+TCS,Tata Consultancy Services Ltd,38.56952666238737,64.3,25.73047333761263,Data Source Issue
+TCS,Tata Consultancy Services Ltd,37.67311096456215,64.3,26.62688903543785,Data Source Issue
+TCS,Tata Consultancy Services Ltd,43.13375739014349,64.3,21.16624260985651,Data Source Issue
+TCS,Tata Consultancy Services Ltd,46.7829337344068,64.3,17.5170662655932,Formula Difference
+TCS,Tata Consultancy Services Ltd,50.944313673485176,64.3,13.355686326514821,Formula Difference
+TECHM,Tech Mahindra Ltd,24.087725764835973,11.9,12.187725764835973,Formula Difference
+TECHM,Tech Mahindra Ltd,24.087725764835973,11.9,12.187725764835973,Formula Difference
+TECHM,Tech Mahindra Ltd,24.087725764835973,11.9,12.187725764835973,Formula Difference
+TECHM,Tech Mahindra Ltd,24.087725764835973,11.9,12.187725764835973,Formula Difference
+TECHM,Tech Mahindra Ltd,33.34785449793073,11.9,21.447854497930734,Data Source Issue
+TECHM,Tech Mahindra Ltd,33.34785449793073,11.9,21.447854497930734,Data Source Issue
+TECHM,Tech Mahindra Ltd,33.34785449793073,11.9,21.447854497930734,Data Source Issue
+TECHM,Tech Mahindra Ltd,33.34785449793073,11.9,21.447854497930734,Data Source Issue
+TECHM,Tech Mahindra Ltd,21.70966688438929,11.9,9.809666884389289,Version Difference
+TECHM,Tech Mahindra Ltd,21.70966688438929,11.9,9.809666884389289,Version Difference
+TECHM,Tech Mahindra Ltd,21.70966688438929,11.9,9.809666884389289,Version Difference
+TECHM,Tech Mahindra Ltd,21.70966688438929,11.9,9.809666884389289,Version Difference
+TECHM,Tech Mahindra Ltd,20.745665136042764,11.9,8.845665136042763,Version Difference
+TECHM,Tech Mahindra Ltd,20.745665136042764,11.9,8.845665136042763,Version Difference
+TECHM,Tech Mahindra Ltd,20.745665136042764,11.9,8.845665136042763,Version Difference
+TECHM,Tech Mahindra Ltd,20.745665136042764,11.9,8.845665136042763,Version Difference
+TECHM,Tech Mahindra Ltd,17.34501429701284,11.9,5.445014297012838,Version Difference
+TECHM,Tech Mahindra Ltd,17.34501429701284,11.9,5.445014297012838,Version Difference
+TECHM,Tech Mahindra Ltd,17.34501429701284,11.9,5.445014297012838,Version Difference
+TECHM,Tech Mahindra Ltd,17.34501429701284,11.9,5.445014297012838,Version Difference
+TECHM,Tech Mahindra Ltd,20.092341983760548,11.9,8.192341983760548,Version Difference
+TECHM,Tech Mahindra Ltd,20.092341983760548,11.9,8.192341983760548,Version Difference
+TECHM,Tech Mahindra Ltd,20.092341983760548,11.9,8.192341983760548,Version Difference
+TECHM,Tech Mahindra Ltd,20.092341983760548,11.9,8.192341983760548,Version Difference
+TECHM,Tech Mahindra Ltd,21.143702243036728,11.9,9.243702243036727,Version Difference
+TECHM,Tech Mahindra Ltd,21.143702243036728,11.9,9.243702243036727,Version Difference
+TECHM,Tech Mahindra Ltd,21.143702243036728,11.9,9.243702243036727,Version Difference
+TECHM,Tech Mahindra Ltd,21.143702243036728,11.9,9.243702243036727,Version Difference
+TECHM,Tech Mahindra Ltd,17.865493054600467,11.9,5.965493054600467,Version Difference
+TECHM,Tech Mahindra Ltd,17.865493054600467,11.9,5.965493054600467,Version Difference
+TECHM,Tech Mahindra Ltd,17.865493054600467,11.9,5.965493054600467,Version Difference
+TECHM,Tech Mahindra Ltd,17.865493054600467,11.9,5.965493054600467,Version Difference
+TECHM,Tech Mahindra Ltd,17.506535290569072,11.9,5.606535290569072,Version Difference
+TECHM,Tech Mahindra Ltd,17.506535290569072,11.9,5.606535290569072,Version Difference
+TECHM,Tech Mahindra Ltd,17.506535290569072,11.9,5.606535290569072,Version Difference
+TECHM,Tech Mahindra Ltd,17.506535290569072,11.9,5.606535290569072,Version Difference
+TECHM,Tech Mahindra Ltd,20.940266309603512,11.9,9.040266309603512,Version Difference
+TECHM,Tech Mahindra Ltd,20.940266309603512,11.9,9.040266309603512,Version Difference
+TECHM,Tech Mahindra Ltd,20.940266309603512,11.9,9.040266309603512,Version Difference
+TECHM,Tech Mahindra Ltd,20.940266309603512,11.9,9.040266309603512,Version Difference
+TECHM,Tech Mahindra Ltd,17.3936398796734,11.9,5.493639879673401,Version Difference
+TECHM,Tech Mahindra Ltd,17.3936398796734,11.9,5.493639879673401,Version Difference
+TECHM,Tech Mahindra Ltd,17.3936398796734,11.9,5.493639879673401,Version Difference
+TECHM,Tech Mahindra Ltd,17.3936398796734,11.9,5.493639879673401,Version Difference
+TITAN,"Titan Company Ltd
+",36.80203045685279,22.7,14.102030456852791,Formula Difference
+TITAN,"Titan Company Ltd
+",29.131985731272295,22.7,6.431985731272295,Version Difference
+TITAN,"Titan Company Ltd
+",16.46586345381526,22.7,6.23413654618474,Version Difference
+TITAN,"Titan Company Ltd
+",12.99186341203148,22.7,9.70813658796852,Version Difference
+TITAN,"Titan Company Ltd
+",37.2192057915469,22.7,14.519205791546899,Formula Difference
+TORNTPHARM,Torrent Pharmaceuticals Ltd,30.590717299578056,23.2,7.390717299578057,Version Difference
+TORNTPHARM,Torrent Pharmaceuticals Ltd,34.8922753547031,23.2,11.692275354703103,Formula Difference
+TORNTPHARM,Torrent Pharmaceuticals Ltd,30.148534725010038,23.2,6.948534725010038,Version Difference
+TORNTPHARM,Torrent Pharmaceuticals Ltd,49.59931310818546,23.2,26.399313108185464,Data Source Issue
+TORNTPHARM,Torrent Pharmaceuticals Ltd,14.665801427644388,23.2,8.534198572355612,Version Difference
+TORNTPHARM,Torrent Pharmaceuticals Ltd,9.227513227513228,23.2,13.972486772486771,Formula Difference
+TORNTPHARM,Torrent Pharmaceuticals Ltd,13.052242566773057,23.2,10.147757433226943,Formula Difference
+TRENT,Trent Ltd,-2.1933387489845653,23.8,25.993338748984566,Data Source Issue
+TRENT,Trent Ltd,-1.917255297679112,23.8,25.717255297679113,Data Source Issue
+TRENT,Trent Ltd,9.071729957805909,23.8,14.728270042194092,Formula Difference
+TRENT,Trent Ltd,3.756830601092896,23.8,20.043169398907104,Data Source Issue
+TRENT,Trent Ltd,5.494505494505495,23.8,18.305494505494504,Formula Difference
+TRENT,Trent Ltd,5.454545454545454,23.8,18.345454545454547,Formula Difference
+TRENT,Trent Ltd,5.771567436208992,23.8,18.028432563791007,Formula Difference
+TRENT,Trent Ltd,4.438860971524288,23.8,19.361139028475712,Formula Difference
+TRENT,Trent Ltd,-7.825335062689148,23.8,31.62533506268915,Data Source Issue
+TRENT,Trent Ltd,1.4805414551607443,23.8,22.319458544839257,Data Source Issue
+TRENT,Trent Ltd,15.17719568567026,23.8,8.622804314329741,Version Difference
+TRENT,Trent Ltd,36.30776794493609,23.8,12.507767944936088,Formula Difference

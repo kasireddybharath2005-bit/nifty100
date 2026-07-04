@@ -1,0 +1,1232 @@
+DAY 13 EDGE CASE REPORT
+==================================================
+
+Total Companies : 1659
+Issues Found : 1040
+
+Abbott India Ltd | ROE=22.41 | Source=46.00 | Diff=23.59 | Data Source Issue
+Abbott India Ltd | ROE=25.13 | Source=46.00 | Diff=20.87 | Data Source Issue
+Abbott India Ltd | ROE=25.13 | Source=46.00 | Diff=20.87 | Data Source Issue
+Abbott India Ltd | ROE=24.44 | Source=46.00 | Diff=21.56 | Data Source Issue
+Abbott India Ltd | ROE=24.44 | Source=46.00 | Diff=21.56 | Data Source Issue
+Abbott India Ltd | ROE=21.34 | Source=46.00 | Diff=24.66 | Data Source Issue
+Abbott India Ltd | ROE=21.34 | Source=46.00 | Diff=24.66 | Data Source Issue
+Abbott India Ltd | ROE=19.97 | Source=46.00 | Diff=26.03 | Data Source Issue
+Abbott India Ltd | ROE=19.97 | Source=46.00 | Diff=26.03 | Data Source Issue
+Abbott India Ltd | ROE=23.69 | Source=46.00 | Diff=22.31 | Data Source Issue
+Abbott India Ltd | ROE=23.69 | Source=46.00 | Diff=22.31 | Data Source Issue
+Abbott India Ltd | ROE=22.41 | Source=46.00 | Diff=23.59 | Data Source Issue
+Abbott India Ltd | ROE=22.41 | Source=46.00 | Diff=23.59 | Data Source Issue
+Abbott India Ltd | ROE=24.39 | Source=46.00 | Diff=21.61 | Data Source Issue
+Abbott India Ltd | ROE=24.39 | Source=46.00 | Diff=21.61 | Data Source Issue
+Abbott India Ltd | ROE=26.56 | Source=46.00 | Diff=19.44 | Formula Difference
+Abbott India Ltd | ROE=26.56 | Source=46.00 | Diff=19.44 | Formula Difference
+Abbott India Ltd | ROE=28.33 | Source=46.00 | Diff=17.67 | Formula Difference
+Abbott India Ltd | ROE=28.33 | Source=46.00 | Diff=17.67 | Formula Difference
+Abbott India Ltd | ROE=29.77 | Source=46.00 | Diff=16.23 | Formula Difference
+Abbott India Ltd | ROE=29.77 | Source=46.00 | Diff=16.23 | Formula Difference
+Abbott India Ltd | ROE=32.47 | Source=46.00 | Diff=13.53 | Formula Difference
+Abbott India Ltd | ROE=32.47 | Source=46.00 | Diff=13.53 | Formula Difference
+Adani Energy Solutions Ltd | ROE=0.00 | Source=9.00 | Diff=9.00 | Version Difference
+Adani Energy Solutions Ltd | ROE=-0.65 | Source=9.00 | Diff=9.65 | Version Difference
+Adani Energy Solutions Ltd | ROE=14.12 | Source=9.00 | Diff=5.12 | Version Difference
+Adani Energy Solutions Ltd | ROE=18.87 | Source=9.00 | Diff=9.87 | Version Difference
+Adani Energy Solutions Ltd | ROE=14.46 | Source=9.00 | Diff=5.46 | Version Difference
+Adani Enterprises Ltd | ROE=5.69 | Source=11.60 | Diff=5.91 | Version Difference
+Adani Enterprises Ltd | ROE=6.54 | Source=11.60 | Diff=5.06 | Version Difference
+Adani Enterprises Ltd | ROE=3.94 | Source=11.60 | Diff=7.66 | Version Difference
+Adani Enterprises Ltd | ROE=3.43 | Source=11.60 | Diff=8.17 | Version Difference
+Adani Enterprises Ltd | ROE=6.14 | Source=11.60 | Diff=5.46 | Version Difference
+Adani Enterprises Ltd | ROE=6.10 | Source=11.60 | Diff=5.50 | Version Difference
+Adani Enterprises Ltd | ROE=3.54 | Source=11.60 | Diff=8.06 | Version Difference
+Adani Green Energy Ltd | ROE=-3.91 | Source=96.50 | Diff=100.41 | Data Source Issue
+Adani Green Energy Ltd | ROE=-10.29 | Source=96.50 | Diff=106.79 | Data Source Issue
+Adani Green Energy Ltd | ROE=-24.57 | Source=96.50 | Diff=121.07 | Data Source Issue
+Adani Green Energy Ltd | ROE=-2.89 | Source=96.50 | Diff=99.39 | Data Source Issue
+Adani Green Energy Ltd | ROE=8.27 | Source=96.50 | Diff=88.23 | Data Source Issue
+Adani Green Energy Ltd | ROE=18.71 | Source=96.50 | Diff=77.79 | Data Source Issue
+Adani Green Energy Ltd | ROE=13.32 | Source=96.50 | Diff=83.18 | Data Source Issue
+Adani Green Energy Ltd | ROE=12.81 | Source=96.50 | Diff=83.69 | Data Source Issue
+Adani Ports & Special Economic Zone Ltd
+ | ROE=25.63 | Source=12.90 | Diff=12.73 | Formula Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=25.63 | Source=12.90 | Diff=12.73 | Formula Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=25.63 | Source=12.90 | Diff=12.73 | Formula Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=25.63 | Source=12.90 | Diff=12.73 | Formula Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=25.63 | Source=12.90 | Diff=12.73 | Formula Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=25.63 | Source=12.90 | Diff=12.73 | Formula Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=25.63 | Source=12.90 | Diff=12.73 | Formula Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=25.63 | Source=12.90 | Diff=12.73 | Formula Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=19.86 | Source=12.90 | Diff=6.96 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=19.86 | Source=12.90 | Diff=6.96 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=19.86 | Source=12.90 | Diff=6.96 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=19.86 | Source=12.90 | Diff=6.96 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=19.86 | Source=12.90 | Diff=6.96 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=19.86 | Source=12.90 | Diff=6.96 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=19.86 | Source=12.90 | Diff=6.96 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=19.86 | Source=12.90 | Diff=6.96 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.59 | Source=12.90 | Diff=8.69 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.59 | Source=12.90 | Diff=8.69 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.59 | Source=12.90 | Diff=8.69 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.59 | Source=12.90 | Diff=8.69 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.59 | Source=12.90 | Diff=8.69 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.59 | Source=12.90 | Diff=8.69 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.59 | Source=12.90 | Diff=8.69 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.59 | Source=12.90 | Diff=8.69 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.15 | Source=12.90 | Diff=8.25 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.15 | Source=12.90 | Diff=8.25 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.15 | Source=12.90 | Diff=8.25 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.15 | Source=12.90 | Diff=8.25 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.15 | Source=12.90 | Diff=8.25 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.15 | Source=12.90 | Diff=8.25 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.15 | Source=12.90 | Diff=8.25 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=21.15 | Source=12.90 | Diff=8.25 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=22.26 | Source=12.90 | Diff=9.36 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=22.26 | Source=12.90 | Diff=9.36 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=22.26 | Source=12.90 | Diff=9.36 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=22.26 | Source=12.90 | Diff=9.36 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=22.26 | Source=12.90 | Diff=9.36 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=22.26 | Source=12.90 | Diff=9.36 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=22.26 | Source=12.90 | Diff=9.36 | Version Difference
+Adani Ports & Special Economic Zone Ltd
+ | ROE=22.26 | Source=12.90 | Diff=9.36 | Version Difference
+Adani Power Ltd | ROE=-53.46 | Source=32.20 | Diff=85.66 | Data Source Issue
+Adani Power Ltd | ROE=-4.45 | Source=32.20 | Diff=36.65 | Data Source Issue
+Adani Power Ltd | ROE=-14.25 | Source=32.20 | Diff=46.45 | Data Source Issue
+Adani Power Ltd | ROE=7.38 | Source=32.20 | Diff=24.82 | Data Source Issue
+Adani Power Ltd | ROE=-205.80 | Source=32.20 | Diff=238.00 | Data Source Issue
+Adani Power Ltd | ROE=-236.56 | Source=32.20 | Diff=268.76 | Data Source Issue
+Adani Power Ltd | ROE=-12.76 | Source=32.20 | Diff=44.96 | Data Source Issue
+Adani Power Ltd | ROE=-35.10 | Source=32.20 | Diff=67.30 | Data Source Issue
+Adani Power Ltd | ROE=9.69 | Source=32.20 | Diff=22.51 | Data Source Issue
+Adani Power Ltd | ROE=26.61 | Source=32.20 | Diff=5.59 | Version Difference
+Adani Power Ltd | ROE=48.28 | Source=32.20 | Diff=16.08 | Formula Difference
+Ambuja Cements Ltd | ROE=7.23 | Source=12.80 | Diff=5.57 | Version Difference
+Apollo Hospitals
+Chain of Indian private hospitals | ROE=11.03 | Source=17.20 | Diff=6.17 | Version Difference
+Apollo Hospitals
+Chain of Indian private hospitals | ROE=10.58 | Source=17.20 | Diff=6.62 | Version Difference
+Apollo Hospitals
+Chain of Indian private hospitals | ROE=10.56 | Source=17.20 | Diff=6.64 | Version Difference
+Apollo Hospitals
+Chain of Indian private hospitals | ROE=7.05 | Source=17.20 | Diff=10.15 | Formula Difference
+Apollo Hospitals
+Chain of Indian private hospitals | ROE=3.95 | Source=17.20 | Diff=13.25 | Formula Difference
+Apollo Hospitals
+Chain of Indian private hospitals | ROE=1.85 | Source=17.20 | Diff=15.35 | Formula Difference
+Apollo Hospitals
+Chain of Indian private hospitals | ROE=6.00 | Source=17.20 | Diff=11.20 | Formula Difference
+Apollo Hospitals
+Chain of Indian private hospitals | ROE=2.98 | Source=17.20 | Diff=14.22 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=34.28 | Source=41.75 | Diff=7.47 | Version Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=34.28 | Source=41.75 | Diff=7.47 | Version Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=34.28 | Source=41.75 | Diff=7.47 | Version Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=34.28 | Source=41.75 | Diff=7.47 | Version Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=31.27 | Source=41.75 | Diff=10.48 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=31.27 | Source=41.75 | Diff=10.48 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=31.27 | Source=41.75 | Diff=10.48 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=31.27 | Source=41.75 | Diff=10.48 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=30.09 | Source=41.75 | Diff=11.66 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=30.09 | Source=41.75 | Diff=11.66 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=30.09 | Source=41.75 | Diff=11.66 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=30.09 | Source=41.75 | Diff=11.66 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=27.63 | Source=41.75 | Diff=14.12 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=27.63 | Source=41.75 | Diff=14.12 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=27.63 | Source=41.75 | Diff=14.12 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=27.63 | Source=41.75 | Diff=14.12 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=26.51 | Source=41.75 | Diff=15.24 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=26.51 | Source=41.75 | Diff=15.24 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=26.51 | Source=41.75 | Diff=15.24 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=26.51 | Source=41.75 | Diff=15.24 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=24.95 | Source=41.75 | Diff=16.80 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=24.95 | Source=41.75 | Diff=16.80 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=24.95 | Source=41.75 | Diff=16.80 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=24.95 | Source=41.75 | Diff=16.80 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=23.31 | Source=41.75 | Diff=18.44 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=23.31 | Source=41.75 | Diff=18.44 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=23.31 | Source=41.75 | Diff=18.44 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=23.31 | Source=41.75 | Diff=18.44 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=27.38 | Source=41.75 | Diff=14.37 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=27.38 | Source=41.75 | Diff=14.37 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=27.38 | Source=41.75 | Diff=14.37 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=27.38 | Source=41.75 | Diff=14.37 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=25.04 | Source=41.75 | Diff=16.71 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=25.04 | Source=41.75 | Diff=16.71 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=25.04 | Source=41.75 | Diff=16.71 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=25.04 | Source=41.75 | Diff=16.71 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=22.34 | Source=41.75 | Diff=19.41 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=22.34 | Source=41.75 | Diff=19.41 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=22.34 | Source=41.75 | Diff=19.41 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=22.34 | Source=41.75 | Diff=19.41 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=26.23 | Source=41.75 | Diff=15.52 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=26.23 | Source=41.75 | Diff=15.52 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=26.23 | Source=41.75 | Diff=15.52 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=26.23 | Source=41.75 | Diff=15.52 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=29.68 | Source=41.75 | Diff=12.07 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=29.68 | Source=41.75 | Diff=12.07 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=29.68 | Source=41.75 | Diff=12.07 | Formula Difference
+Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | ROE=29.68 | Source=41.75 | Diff=12.07 | Formula Difference
+Adani Total Gas Ltd | ROE=15.94 | Source=21.20 | Diff=5.26 | Version Difference
+Adani Total Gas Ltd | ROE=29.64 | Source=21.20 | Diff=8.44 | Version Difference
+Axis Bank Ltd | ROE=15.62 | Source=7.06 | Diff=8.56 | Version Difference
+Axis Bank Ltd | ROE=16.19 | Source=7.06 | Diff=9.13 | Version Difference
+Axis Bank Ltd | ROE=16.37 | Source=7.06 | Diff=9.31 | Version Difference
+Axis Bank Ltd | ROE=15.36 | Source=7.06 | Diff=8.30 | Version Difference
+Axis Bank Ltd | ROE=0.43 | Source=7.06 | Diff=6.63 | Version Difference
+Axis Bank Ltd | ROE=1.88 | Source=7.06 | Diff=5.18 | Version Difference
+Axis Bank Ltd | ROE=15.83 | Source=7.06 | Diff=8.77 | Version Difference
+Bajaj Auto Ltd | ROE=38.85 | Source=33.50 | Diff=5.35 | Version Difference
+Bajaj Auto Ltd | ROE=38.85 | Source=33.50 | Diff=5.35 | Version Difference
+Bajaj Auto Ltd | ROE=27.27 | Source=33.50 | Diff=6.23 | Version Difference
+Bajaj Auto Ltd | ROE=27.27 | Source=33.50 | Diff=6.23 | Version Difference
+Bajaj Auto Ltd | ROE=22.84 | Source=33.50 | Diff=10.66 | Formula Difference
+Bajaj Auto Ltd | ROE=22.84 | Source=33.50 | Diff=10.66 | Formula Difference
+Bajaj Auto Ltd | ROE=20.66 | Source=33.50 | Diff=12.84 | Formula Difference
+Bajaj Auto Ltd | ROE=20.66 | Source=33.50 | Diff=12.84 | Formula Difference
+Bajaj Auto Ltd | ROE=21.21 | Source=33.50 | Diff=12.29 | Formula Difference
+Bajaj Auto Ltd | ROE=21.21 | Source=33.50 | Diff=12.29 | Formula Difference
+Bajaj Auto Ltd | ROE=24.06 | Source=33.50 | Diff=9.44 | Version Difference
+Bajaj Auto Ltd | ROE=24.06 | Source=33.50 | Diff=9.44 | Version Difference
+Bajaj Auto Ltd | ROE=17.81 | Source=33.50 | Diff=15.69 | Formula Difference
+Bajaj Auto Ltd | ROE=17.81 | Source=33.50 | Diff=15.69 | Formula Difference
+Bajaj Auto Ltd | ROE=20.65 | Source=33.50 | Diff=12.85 | Formula Difference
+Bajaj Auto Ltd | ROE=20.65 | Source=33.50 | Diff=12.85 | Formula Difference
+Bajaj Auto Ltd | ROE=20.64 | Source=33.50 | Diff=12.86 | Formula Difference
+Bajaj Auto Ltd | ROE=20.64 | Source=33.50 | Diff=12.86 | Formula Difference
+Bajaj Auto Ltd | ROE=26.61 | Source=33.50 | Diff=6.89 | Version Difference
+Bajaj Auto Ltd | ROE=26.61 | Source=33.50 | Diff=6.89 | Version Difference
+Bajaj Finserv Ltd | ROE=28.38 | Source=21.14 | Diff=7.24 | Version Difference
+Bajaj Finserv Ltd | ROE=26.31 | Source=21.14 | Diff=5.17 | Version Difference
+Bajaj Finance Ltd | ROE=18.71 | Source=11.90 | Diff=6.81 | Version Difference
+Bajaj Finance Ltd | ROE=17.22 | Source=11.90 | Diff=5.32 | Version Difference
+Bajaj Finance Ltd | ROE=19.12 | Source=11.90 | Diff=7.22 | Version Difference
+Bajaj Finance Ltd | ROE=20.28 | Source=11.90 | Diff=8.38 | Version Difference
+Bajaj Finance Ltd | ROE=21.17 | Source=11.90 | Diff=9.27 | Version Difference
+Bajaj Finance Ltd | ROE=18.84 | Source=11.90 | Diff=6.94 | Version Difference
+Bank of Baroda | ROE=14.51 | Source=6.33 | Diff=8.18 | Version Difference
+Bank of Baroda | ROE=13.31 | Source=6.33 | Diff=6.98 | Version Difference
+Bank of Baroda | ROE=-11.84 | Source=6.33 | Diff=18.17 | Formula Difference
+Bank of Baroda | ROE=-3.94 | Source=6.33 | Diff=10.27 | Formula Difference
+Bank of Baroda | ROE=1.29 | Source=6.33 | Diff=5.04 | Version Difference
+Bank of Baroda | ROE=14.28 | Source=6.33 | Diff=7.95 | Version Difference
+Bank of Baroda | ROE=15.76 | Source=6.33 | Diff=9.43 | Version Difference
+Bharat Electronics Ltd | ROE=15183.33 | Source=34.60 | Diff=15148.73 | Data Source Issue
+Bharat Electronics Ltd | ROE=13600.00 | Source=34.60 | Diff=13565.40 | Data Source Issue
+Bharat Electronics Ltd | ROE=17100.00 | Source=34.60 | Diff=17065.40 | Data Source Issue
+Bharat Electronics Ltd | ROE=11141.67 | Source=34.60 | Diff=11107.07 | Data Source Issue
+Bharat Electronics Ltd | ROE=10153.33 | Source=34.60 | Diff=10118.73 | Data Source Issue
+Bharat Electronics Ltd | ROE=4616.13 | Source=34.60 | Diff=4581.53 | Data Source Issue
+Bharat Electronics Ltd | ROE=3851.02 | Source=34.60 | Diff=3816.42 | Data Source Issue
+Bharat Electronics Ltd | ROE=3318.18 | Source=34.60 | Diff=3283.58 | Data Source Issue
+Bharat Electronics Ltd | ROE=3559.32 | Source=34.60 | Diff=3524.72 | Data Source Issue
+Bharat Electronics Ltd | ROE=3478.26 | Source=34.60 | Diff=3443.66 | Data Source Issue
+Bharat Electronics Ltd | ROE=3981.33 | Source=34.60 | Diff=3946.73 | Data Source Issue
+Bharat Electronics Ltd | ROE=4744.05 | Source=34.60 | Diff=4709.45 | Data Source Issue
+Bharti Airtel Ltd | ROE=4.50 | Source=13.10 | Diff=8.60 | Version Difference
+Bharti Airtel Ltd | ROE=5.05 | Source=13.10 | Diff=8.05 | Version Difference
+Bharti Airtel Ltd | ROE=6.29 | Source=13.10 | Diff=6.81 | Version Difference
+Bharti Airtel Ltd | ROE=3.14 | Source=13.10 | Diff=9.96 | Version Difference
+Bharti Airtel Ltd | ROE=2.36 | Source=13.10 | Diff=10.74 | Formula Difference
+Bharti Airtel Ltd | ROE=-39.75 | Source=13.10 | Diff=52.85 | Data Source Issue
+Bharti Airtel Ltd | ROE=-20.97 | Source=13.10 | Diff=34.07 | Data Source Issue
+Bharat Heavy Electricals Limited
+ | ROE=21.91 | Source=3.28 | Diff=18.63 | Formula Difference
+Bharat Heavy Electricals Limited
+ | ROE=10.56 | Source=3.28 | Diff=7.28 | Version Difference
+Bharat Heavy Electricals Limited
+ | ROE=-2.18 | Source=3.28 | Diff=5.46 | Version Difference
+Bharat Heavy Electricals Limited
+ | ROE=-5.12 | Source=3.28 | Diff=8.40 | Version Difference
+Bharat Heavy Electricals Limited
+ | ROE=-10.39 | Source=3.28 | Diff=13.67 | Formula Difference
+Bosch Ltd | ROE=14.06 | Source=20.60 | Diff=6.54 | Version Difference
+Bosch Ltd | ROE=13.74 | Source=20.60 | Diff=6.86 | Version Difference
+Bosch Ltd | ROE=7.01 | Source=20.60 | Diff=13.59 | Formula Difference
+Bosch Ltd | ROE=4.91 | Source=20.60 | Diff=15.69 | Formula Difference
+Bosch Ltd | ROE=11.39 | Source=20.60 | Diff=9.21 | Version Difference
+Bosch Ltd | ROE=12.93 | Source=20.60 | Diff=7.67 | Version Difference
+Bharat Petroleum Corporation Ltd | ROE=11.54 | Source=32.10 | Diff=20.56 | Data Source Issue
+Bharat Petroleum Corporation Ltd | ROE=20.85 | Source=32.10 | Diff=11.25 | Formula Difference
+Bharat Petroleum Corporation Ltd | ROE=22.52 | Source=32.10 | Diff=9.58 | Version Difference
+Bharat Petroleum Corporation Ltd | ROE=26.74 | Source=32.10 | Diff=5.36 | Version Difference
+Bharat Petroleum Corporation Ltd | ROE=22.00 | Source=32.10 | Diff=10.10 | Formula Difference
+Bharat Petroleum Corporation Ltd | ROE=10.04 | Source=32.10 | Diff=22.06 | Data Source Issue
+Bharat Petroleum Corporation Ltd | ROE=22.51 | Source=32.10 | Diff=9.59 | Version Difference
+Bharat Petroleum Corporation Ltd | ROE=3.98 | Source=32.10 | Diff=28.12 | Data Source Issue
+Britannia Industries Ltd | ROE=55.34 | Source=48.90 | Diff=6.44 | Version Difference
+Britannia Industries Ltd | ROE=39.44 | Source=48.90 | Diff=9.46 | Version Difference
+Britannia Industries Ltd | ROE=32.83 | Source=48.90 | Diff=16.07 | Formula Difference
+Britannia Industries Ltd | ROE=29.48 | Source=48.90 | Diff=19.42 | Formula Difference
+Britannia Industries Ltd | ROE=27.16 | Source=48.90 | Diff=21.74 | Data Source Issue
+Britannia Industries Ltd | ROE=31.66 | Source=48.90 | Diff=17.24 | Formula Difference
+Britannia Industries Ltd | ROE=59.27 | Source=48.90 | Diff=10.37 | Formula Difference
+Britannia Industries Ltd | ROE=65.53 | Source=48.90 | Diff=16.63 | Formula Difference
+Britannia Industries Ltd | ROE=54.15 | Source=48.90 | Diff=5.25 | Version Difference
+Canara Bank | ROE=11.90 | Source=6.63 | Diff=5.27 | Version Difference
+Canara Bank | ROE=-7.82 | Source=6.63 | Diff=14.45 | Formula Difference
+Canara Bank | ROE=-10.50 | Source=6.63 | Diff=17.13 | Formula Difference
+Canara Bank | ROE=-4.66 | Source=6.63 | Diff=11.29 | Formula Difference
+Canara Bank | ROE=14.53 | Source=6.63 | Diff=7.90 | Version Difference
+Canara Bank | ROE=16.72 | Source=6.63 | Diff=10.09 | Formula Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=15.78 | Source=10.40 | Diff=5.38 | Version Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=16.09 | Source=10.40 | Diff=5.69 | Version Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=16.60 | Source=10.40 | Diff=6.20 | Version Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=15.67 | Source=10.40 | Diff=5.27 | Version Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=16.71 | Source=10.40 | Diff=6.31 | Version Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=17.91 | Source=10.40 | Diff=7.51 | Version Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=19.28 | Source=10.40 | Diff=8.88 | Version Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=15.84 | Source=10.40 | Diff=5.44 | Version Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=18.30 | Source=10.40 | Diff=7.90 | Version Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=18.58 | Source=10.40 | Diff=8.18 | Version Difference
+Cholamandalam Investment & Finance Company Ltd | ROE=17.46 | Source=10.40 | Diff=7.06 | Version Difference
+Cipla Ltd
+ | ROE=17.13 | Source=22.80 | Diff=5.67 | Version Difference
+Cipla Ltd
+ | ROE=13.97 | Source=22.80 | Diff=8.83 | Version Difference
+Cipla Ltd
+ | ROE=11.38 | Source=22.80 | Diff=11.42 | Formula Difference
+Cipla Ltd
+ | ROE=12.01 | Source=22.80 | Diff=10.79 | Formula Difference
+Cipla Ltd
+ | ROE=8.25 | Source=22.80 | Diff=14.55 | Formula Difference
+Cipla Ltd
+ | ROE=9.96 | Source=22.80 | Diff=12.84 | Formula Difference
+Cipla Ltd
+ | ROE=9.94 | Source=22.80 | Diff=12.86 | Formula Difference
+Cipla Ltd
+ | ROE=9.52 | Source=22.80 | Diff=13.28 | Formula Difference
+Cipla Ltd
+ | ROE=13.04 | Source=22.80 | Diff=9.76 | Version Difference
+Cipla Ltd
+ | ROE=12.22 | Source=22.80 | Diff=10.58 | Formula Difference
+Cipla Ltd
+ | ROE=12.10 | Source=22.80 | Diff=10.70 | Formula Difference
+Cipla Ltd
+ | ROE=15.55 | Source=22.80 | Diff=7.25 | Version Difference
+Coal India Ltd | ROE=35.81 | Source=63.60 | Diff=27.79 | Data Source Issue
+Coal India Ltd | ROE=35.64 | Source=63.60 | Diff=27.96 | Data Source Issue
+Coal India Ltd | ROE=34.02 | Source=63.60 | Diff=29.58 | Data Source Issue
+Coal India Ltd | ROE=40.96 | Source=63.60 | Diff=22.64 | Data Source Issue
+Coal India Ltd | ROE=37.85 | Source=63.60 | Diff=25.75 | Data Source Issue
+Coal India Ltd | ROE=34.88 | Source=63.60 | Diff=28.72 | Data Source Issue
+Coal India Ltd | ROE=51.93 | Source=63.60 | Diff=11.67 | Formula Difference
+Coal India Ltd | ROE=34.78 | Source=63.60 | Diff=28.82 | Data Source Issue
+Coal India Ltd | ROE=40.28 | Source=63.60 | Diff=23.32 | Data Source Issue
+Coal India Ltd | ROE=52.14 | Source=63.60 | Diff=11.46 | Formula Difference
+Coal India Ltd | ROE=45.17 | Source=63.60 | Diff=18.43 | Formula Difference
+Dabur India Ltd | ROE=36.56 | Source=22.30 | Diff=14.26 | Formula Difference
+Dabur India Ltd | ROE=34.49 | Source=22.30 | Diff=12.19 | Formula Difference
+Dabur India Ltd | ROE=31.84 | Source=22.30 | Diff=9.54 | Version Difference
+Dabur India Ltd | ROE=30.06 | Source=22.30 | Diff=7.76 | Version Difference
+Divis Laboratories Ltd | ROE=24.07 | Source=16.50 | Diff=7.57 | Version Difference
+Divis Laboratories Ltd | ROE=26.08 | Source=16.50 | Diff=9.58 | Version Difference
+Divis Laboratories Ltd | ROE=24.37 | Source=16.50 | Diff=7.87 | Version Difference
+Divis Laboratories Ltd | ROE=26.23 | Source=16.50 | Diff=9.73 | Version Difference
+Divis Laboratories Ltd | ROE=25.24 | Source=16.50 | Diff=8.74 | Version Difference
+DLF Ltd | ROE=12.68 | Source=5.74 | Diff=6.94 | Version Difference
+DLF Ltd | ROE=-1.71 | Source=5.74 | Diff=7.45 | Version Difference
+Avenue Supermarts Ltd | ROE=11.91 | Source=19.40 | Diff=7.49 | Version Difference
+Avenue Supermarts Ltd | ROE=12.47 | Source=19.40 | Diff=6.93 | Version Difference
+Avenue Supermarts Ltd | ROE=11.74 | Source=19.40 | Diff=7.66 | Version Difference
+Avenue Supermarts Ltd | ROE=9.02 | Source=19.40 | Diff=10.38 | Formula Difference
+Avenue Supermarts Ltd | ROE=10.91 | Source=19.40 | Diff=8.49 | Version Difference
+Avenue Supermarts Ltd | ROE=13.56 | Source=19.40 | Diff=5.84 | Version Difference
+Dr Reddys Laboratories Ltd | ROE=16.95 | Source=26.50 | Diff=9.55 | Version Difference
+Dr Reddys Laboratories Ltd | ROE=10.54 | Source=26.50 | Diff=15.96 | Formula Difference
+Dr Reddys Laboratories Ltd | ROE=7.53 | Source=26.50 | Diff=18.97 | Formula Difference
+Dr Reddys Laboratories Ltd | ROE=13.90 | Source=26.50 | Diff=12.60 | Formula Difference
+Dr Reddys Laboratories Ltd | ROE=12.99 | Source=26.50 | Diff=13.51 | Formula Difference
+Dr Reddys Laboratories Ltd | ROE=11.07 | Source=26.50 | Diff=15.43 | Formula Difference
+Dr Reddys Laboratories Ltd | ROE=11.36 | Source=26.50 | Diff=15.14 | Formula Difference
+Dr Reddys Laboratories Ltd | ROE=19.35 | Source=26.50 | Diff=7.15 | Version Difference
+Dr Reddys Laboratories Ltd | ROE=19.74 | Source=26.50 | Diff=6.76 | Version Difference
+Eicher Motors Ltd | ROE=25.55 | Source=31.10 | Diff=5.55 | Version Difference
+Eicher Motors Ltd | ROE=36.63 | Source=31.10 | Diff=5.53 | Version Difference
+Eicher Motors Ltd | ROE=24.70 | Source=31.10 | Diff=6.40 | Version Difference
+Eicher Motors Ltd | ROE=18.30 | Source=31.10 | Diff=12.80 | Formula Difference
+Eicher Motors Ltd | ROE=11.78 | Source=31.10 | Diff=19.32 | Formula Difference
+Eicher Motors Ltd | ROE=13.30 | Source=31.10 | Diff=17.80 | Formula Difference
+Eicher Motors Ltd | ROE=19.44 | Source=31.10 | Diff=11.66 | Formula Difference
+Eicher Motors Ltd | ROE=22.17 | Source=31.10 | Diff=8.93 | Version Difference
+GAIL (India) Ltd | ROE=9.29 | Source=14.70 | Diff=5.41 | Version Difference
+GAIL (India) Ltd | ROE=5.15 | Source=14.70 | Diff=9.55 | Version Difference
+GAIL (India) Ltd | ROE=8.58 | Source=14.70 | Diff=6.12 | Version Difference
+GAIL (India) Ltd | ROE=8.62 | Source=14.70 | Diff=6.08 | Version Difference
+Godrej Consumer Products Ltd | ROE=19.48 | Source=26.49 | Diff=7.01 | Version Difference
+Godrej Consumer Products Ltd | ROE=32.23 | Source=26.49 | Diff=5.74 | Version Difference
+Godrej Consumer Products Ltd | ROE=18.95 | Source=26.49 | Diff=7.54 | Version Difference
+Godrej Consumer Products Ltd | ROE=18.23 | Source=26.49 | Diff=8.26 | Version Difference
+Godrej Consumer Products Ltd | ROE=15.43 | Source=26.49 | Diff=11.06 | Formula Difference
+Godrej Consumer Products Ltd | ROE=12.34 | Source=26.49 | Diff=14.15 | Formula Difference
+Godrej Consumer Products Ltd | ROE=-4.45 | Source=26.49 | Diff=30.94 | Data Source Issue
+Grasim Industries Ltd | ROE=19.22 | Source=9.30 | Diff=9.92 | Version Difference
+Grasim Industries Ltd | ROE=14.80 | Source=9.30 | Diff=5.50 | Version Difference
+Hindustan Aeronautics Ltd | ROE=1665.00 | Source=38.90 | Diff=1626.10 | Data Source Issue
+Hindustan Aeronautics Ltd | ROE=1966.92 | Source=38.90 | Diff=1928.02 | Data Source Issue
+Hindustan Aeronautics Ltd | ROE=1528.46 | Source=38.90 | Diff=1489.56 | Data Source Issue
+Hindustan Aeronautics Ltd | ROE=1763.91 | Source=38.90 | Diff=1725.01 | Data Source Issue
+Hindustan Aeronautics Ltd | ROE=2059.42 | Source=38.90 | Diff=2020.52 | Data Source Issue
+Hindustan Aeronautics Ltd | ROE=2249.31 | Source=38.90 | Diff=2210.41 | Data Source Issue
+Hindustan Aeronautics Ltd | ROE=3324.18 | Source=38.90 | Diff=3285.28 | Data Source Issue
+Hindustan Aeronautics Ltd | ROE=3283.05 | Source=38.90 | Diff=3244.15 | Data Source Issue
+Hindustan Aeronautics Ltd | ROE=3816.58 | Source=38.90 | Diff=3777.68 | Data Source Issue
+Havells India Ltd | ROE=40.29 | Source=24.40 | Diff=15.89 | Formula Difference
+Havells India Ltd | ROE=42.95 | Source=24.40 | Diff=18.55 | Formula Difference
+Havells India Ltd | ROE=15.08 | Source=24.40 | Diff=9.32 | Version Difference
+Havells India Ltd | ROE=17.72 | Source=24.40 | Diff=6.68 | Version Difference
+Havells India Ltd | ROE=18.77 | Source=24.40 | Diff=5.63 | Version Difference
+Havells India Ltd | ROE=17.05 | Source=24.40 | Diff=7.35 | Version Difference
+Havells India Ltd | ROE=16.18 | Source=24.40 | Diff=8.22 | Version Difference
+Havells India Ltd | ROE=17.07 | Source=24.40 | Diff=7.33 | Version Difference
+HCL Technologies Ltd | ROE=23.97 | Source=29.60 | Diff=5.63 | Version Difference
+HCL Technologies Ltd | ROE=24.46 | Source=29.60 | Diff=5.14 | Version Difference
+HCL Technologies Ltd | ROE=21.57 | Source=29.60 | Diff=8.03 | Version Difference
+HCL Technologies Ltd | ROE=18.64 | Source=29.60 | Diff=10.96 | Formula Difference
+HCL Technologies Ltd | ROE=21.84 | Source=29.60 | Diff=7.76 | Version Difference
+HCL Technologies Ltd | ROE=22.70 | Source=29.60 | Diff=6.90 | Version Difference
+HCL Technologies Ltd | ROE=23.01 | Source=29.60 | Diff=6.59 | Version Difference
+HDFC Bank Ltd | ROE=18.84 | Source=7.67 | Diff=11.17 | Formula Difference
+HDFC Bank Ltd | ROE=19.85 | Source=7.67 | Diff=12.18 | Formula Difference
+HDFC Bank Ltd | ROE=16.95 | Source=7.67 | Diff=9.28 | Version Difference
+HDFC Bank Ltd | ROE=17.25 | Source=7.67 | Diff=9.58 | Version Difference
+HDFC Bank Ltd | ROE=16.69 | Source=7.67 | Diff=9.02 | Version Difference
+HDFC Bank Ltd | ROE=16.94 | Source=7.67 | Diff=9.27 | Version Difference
+HDFC Bank Ltd | ROE=14.61 | Source=7.67 | Diff=6.94 | Version Difference
+HDFC Bank Ltd | ROE=15.48 | Source=7.67 | Diff=7.81 | Version Difference
+HDFC Bank Ltd | ROE=15.18 | Source=7.67 | Diff=7.51 | Version Difference
+HDFC Bank Ltd | ROE=15.43 | Source=7.67 | Diff=7.76 | Version Difference
+HDFC Bank Ltd | ROE=15.94 | Source=7.67 | Diff=8.27 | Version Difference
+HDFC Bank Ltd | ROE=14.34 | Source=7.67 | Diff=6.67 | Version Difference
+HDFC Life Insurance Company Ltd | ROE=33.43 | Source=6.61 | Diff=26.82 | Data Source Issue
+HDFC Life Insurance Company Ltd | ROE=37.60 | Source=6.61 | Diff=30.99 | Data Source Issue
+HDFC Life Insurance Company Ltd | ROE=30.93 | Source=6.61 | Diff=24.32 | Data Source Issue
+HDFC Life Insurance Company Ltd | ROE=26.33 | Source=6.61 | Diff=19.72 | Formula Difference
+HDFC Life Insurance Company Ltd | ROE=23.18 | Source=6.61 | Diff=16.57 | Formula Difference
+HDFC Life Insurance Company Ltd | ROE=23.53 | Source=6.61 | Diff=16.92 | Formula Difference
+HDFC Life Insurance Company Ltd | ROE=22.65 | Source=6.61 | Diff=16.04 | Formula Difference
+HDFC Life Insurance Company Ltd | ROE=19.05 | Source=6.61 | Diff=12.44 | Formula Difference
+HDFC Life Insurance Company Ltd | ROE=15.75 | Source=6.61 | Diff=9.14 | Version Difference
+Hero MotoCorp Ltd
+ | ROE=37.38 | Source=29.10 | Diff=8.28 | Version Difference
+Hero MotoCorp Ltd
+ | ROE=36.15 | Source=29.10 | Diff=7.05 | Version Difference
+Hero MotoCorp Ltd
+ | ROE=35.23 | Source=29.10 | Diff=6.13 | Version Difference
+Hero MotoCorp Ltd
+ | ROE=34.37 | Source=29.10 | Diff=5.27 | Version Difference
+Hero MotoCorp Ltd
+ | ROE=19.05 | Source=29.10 | Diff=10.05 | Formula Difference
+Hero MotoCorp Ltd
+ | ROE=14.70 | Source=29.10 | Diff=14.40 | Formula Difference
+Hero MotoCorp Ltd
+ | ROE=16.81 | Source=29.10 | Diff=12.29 | Formula Difference
+Hero MotoCorp Ltd
+ | ROE=21.14 | Source=29.10 | Diff=7.96 | Version Difference
+Hindalco Industries Ltd | ROE=5.41 | Source=11.30 | Diff=5.89 | Version Difference
+Hindalco Industries Ltd | ROE=0.68 | Source=11.30 | Diff=10.62 | Formula Difference
+Hindalco Industries Ltd | ROE=-1.73 | Source=11.30 | Diff=13.03 | Formula Difference
+Hindalco Industries Ltd | ROE=4.09 | Source=11.30 | Diff=7.21 | Version Difference
+Hindalco Industries Ltd | ROE=5.23 | Source=11.30 | Diff=6.07 | Version Difference
+Hindalco Industries Ltd | ROE=17.56 | Source=11.30 | Diff=6.26 | Version Difference
+Hindustan Unilever Ltd
+ | ROE=134.00 | Source=27.20 | Diff=106.80 | Data Source Issue
+Hindustan Unilever Ltd
+ | ROE=111.85 | Source=27.20 | Diff=84.65 | Data Source Issue
+Hindustan Unilever Ltd
+ | ROE=108.67 | Source=27.20 | Diff=81.47 | Data Source Issue
+Hindustan Unilever Ltd
+ | ROE=63.15 | Source=27.20 | Diff=35.95 | Data Source Issue
+Hindustan Unilever Ltd
+ | ROE=66.58 | Source=27.20 | Diff=39.38 | Data Source Issue
+Hindustan Unilever Ltd
+ | ROE=71.79 | Source=27.20 | Diff=44.59 | Data Source Issue
+Hindustan Unilever Ltd
+ | ROE=77.03 | Source=27.20 | Diff=49.83 | Data Source Issue
+Hindustan Unilever Ltd
+ | ROE=82.10 | Source=27.20 | Diff=54.90 | Data Source Issue
+Hindustan Unilever Ltd
+ | ROE=16.78 | Source=27.20 | Diff=10.42 | Formula Difference
+Hindustan Unilever Ltd
+ | ROE=18.12 | Source=27.20 | Diff=9.08 | Version Difference
+Hindustan Unilever Ltd
+ | ROE=20.16 | Source=27.20 | Diff=7.04 | Version Difference
+Hindustan Unilever Ltd
+ | ROE=20.07 | Source=27.20 | Diff=7.13 | Version Difference
+ICICI Bank Ltd | ROE=14.73 | Source=7.60 | Diff=7.13 | Version Difference
+ICICI Bank Ltd | ROE=15.28 | Source=7.60 | Diff=7.68 | Version Difference
+ICICI Bank Ltd | ROE=15.28 | Source=7.60 | Diff=7.68 | Version Difference
+ICICI Bank Ltd | ROE=12.92 | Source=7.60 | Diff=5.32 | Version Difference
+ICICI Bank Ltd | ROE=14.58 | Source=7.60 | Diff=6.98 | Version Difference
+ICICI Bank Ltd | ROE=16.53 | Source=7.60 | Diff=8.93 | Version Difference
+ICICI Bank Ltd | ROE=17.99 | Source=7.60 | Diff=10.39 | Formula Difference
+ICICI Lombard General Insurance Company Ltd | ROE=15.66 | Source=22.50 | Diff=6.84 | Version Difference
+ICICI Lombard General Insurance Company Ltd | ROE=13.83 | Source=22.50 | Diff=8.67 | Version Difference
+ICICI Lombard General Insurance Company Ltd | ROE=16.55 | Source=22.50 | Diff=5.95 | Version Difference
+ICICI Lombard General Insurance Company Ltd | ROE=15.72 | Source=22.50 | Diff=6.78 | Version Difference
+ICICI Prudential Life Insurance Company Ltd | ROE=38.25 | Source=8.75 | Diff=29.50 | Data Source Issue
+ICICI Prudential Life Insurance Company Ltd | ROE=35.61 | Source=8.75 | Diff=26.86 | Data Source Issue
+ICICI Prudential Life Insurance Company Ltd | ROE=31.15 | Source=8.75 | Diff=22.40 | Data Source Issue
+ICICI Prudential Life Insurance Company Ltd | ROE=31.00 | Source=8.75 | Diff=22.25 | Data Source Issue
+ICICI Prudential Life Insurance Company Ltd | ROE=26.26 | Source=8.75 | Diff=17.51 | Formula Difference
+ICICI Prudential Life Insurance Company Ltd | ROE=24.63 | Source=8.75 | Diff=15.88 | Formula Difference
+ICICI Prudential Life Insurance Company Ltd | ROE=16.58 | Source=8.75 | Diff=7.83 | Version Difference
+ICICI Prudential Life Insurance Company Ltd | ROE=14.79 | Source=8.75 | Diff=6.04 | Version Difference
+Interglobe Aviation Ltd | ROE=17886.36 | Source=24.50 | Diff=17861.86 | Data Source Issue
+Interglobe Aviation Ltd | ROE=10772.73 | Source=24.50 | Diff=10748.23 | Data Source Issue
+Interglobe Aviation Ltd | ROE=4939.39 | Source=24.50 | Diff=4914.89 | Data Source Issue
+Interglobe Aviation Ltd | ROE=1534.78 | Source=24.50 | Diff=1510.28 | Data Source Issue
+Interglobe Aviation Ltd | ROE=1692.86 | Source=24.50 | Diff=1668.36 | Data Source Issue
+Interglobe Aviation Ltd | ROE=2242.00 | Source=24.50 | Diff=2217.50 | Data Source Issue
+Interglobe Aviation Ltd | ROE=120.93 | Source=24.50 | Diff=96.43 | Data Source Issue
+Interglobe Aviation Ltd | ROE=-138.55 | Source=24.50 | Diff=163.05 | Data Source Issue
+Interglobe Aviation Ltd | ROE=-1094.15 | Source=24.50 | Diff=1118.65 | Data Source Issue
+Interglobe Aviation Ltd | ROE=-48.77 | Source=24.50 | Diff=73.27 | Data Source Issue
+Interglobe Aviation Ltd | ROE=-40.80 | Source=24.50 | Diff=65.30 | Data Source Issue
+Interglobe Aviation Ltd | ROE=892.57 | Source=24.50 | Diff=868.07 | Data Source Issue
+IndusInd Bank Ltd | ROE=13.91 | Source=7.93 | Diff=5.98 | Version Difference
+IndusInd Bank Ltd | ROE=15.57 | Source=7.93 | Diff=7.64 | Version Difference
+IndusInd Bank Ltd | ROE=16.85 | Source=7.93 | Diff=8.92 | Version Difference
+IndusInd Bank Ltd | ROE=13.89 | Source=7.93 | Diff=5.96 | Version Difference
+IndusInd Bank Ltd | ROE=15.13 | Source=7.93 | Diff=7.20 | Version Difference
+IndusInd Bank Ltd | ROE=13.53 | Source=7.93 | Diff=5.60 | Version Difference
+IndusInd Bank Ltd | ROE=14.25 | Source=7.93 | Diff=6.32 | Version Difference
+Infosys Ltd | ROE=24.82 | Source=40.00 | Diff=15.18 | Formula Difference
+Infosys Ltd | ROE=23.93 | Source=40.00 | Diff=16.07 | Formula Difference
+Infosys Ltd | ROE=24.39 | Source=40.00 | Diff=15.61 | Formula Difference
+Infosys Ltd | ROE=21.85 | Source=40.00 | Diff=18.15 | Formula Difference
+Infosys Ltd | ROE=20.81 | Source=40.00 | Diff=19.19 | Formula Difference
+Infosys Ltd | ROE=24.69 | Source=40.00 | Diff=15.31 | Formula Difference
+Infosys Ltd | ROE=23.73 | Source=40.00 | Diff=16.27 | Formula Difference
+Infosys Ltd | ROE=25.42 | Source=40.00 | Diff=14.58 | Formula Difference
+Infosys Ltd | ROE=25.44 | Source=40.00 | Diff=14.56 | Formula Difference
+Infosys Ltd | ROE=29.39 | Source=40.00 | Diff=10.61 | Formula Difference
+Infosys Ltd | ROE=31.97 | Source=40.00 | Diff=8.03 | Version Difference
+Infosys Ltd | ROE=29.79 | Source=40.00 | Diff=10.21 | Formula Difference
+Indian Oil Corporation
+ | ROE=5.75 | Source=21.31 | Diff=15.56 | Formula Difference
+Indian Oil Corporation
+ | ROE=10.26 | Source=21.31 | Diff=11.05 | Formula Difference
+Indian Oil Corporation
+ | ROE=7.08 | Source=21.31 | Diff=14.23 | Formula Difference
+Indian Oil Corporation
+ | ROE=13.80 | Source=21.31 | Diff=7.51 | Version Difference
+Indian Oil Corporation
+ | ROE=15.36 | Source=21.31 | Diff=5.95 | Version Difference
+Indian Oil Corporation
+ | ROE=-1.97 | Source=21.31 | Diff=23.28 | Data Source Issue
+Indian Oil Corporation
+ | ROE=8.38 | Source=21.31 | Diff=12.93 | Formula Difference
+Indian Railway Catering & Tourism Corporation Ltd | ROE=29.50 | Source=53.80 | Diff=24.30 | Data Source Issue
+Indian Railway Catering & Tourism Corporation Ltd | ROE=34.87 | Source=53.80 | Diff=18.93 | Formula Difference
+Indian Railway Catering & Tourism Corporation Ltd | ROE=29.10 | Source=53.80 | Diff=24.70 | Data Source Issue
+Indian Railway Catering & Tourism Corporation Ltd | ROE=23.14 | Source=53.80 | Diff=30.66 | Data Source Issue
+Indian Railway Catering & Tourism Corporation Ltd | ROE=28.85 | Source=53.80 | Diff=24.95 | Data Source Issue
+Indian Railway Catering & Tourism Corporation Ltd | ROE=39.04 | Source=53.80 | Diff=14.76 | Formula Difference
+Indian Railway Catering & Tourism Corporation Ltd | ROE=12.84 | Source=53.80 | Diff=40.96 | Data Source Issue
+Indian Railway Catering & Tourism Corporation Ltd | ROE=35.29 | Source=53.80 | Diff=18.51 | Formula Difference
+Indian Railway Catering & Tourism Corporation Ltd | ROE=40.60 | Source=53.80 | Diff=13.20 | Formula Difference
+Indian Railway Catering & Tourism Corporation Ltd | ROE=34.40 | Source=53.80 | Diff=19.40 | Formula Difference
+Indian Railway Finance Corporation Ltd | ROE=14.75 | Source=5.73 | Diff=9.02 | Version Difference
+Indian Railway Finance Corporation Ltd | ROE=12.30 | Source=5.73 | Diff=6.57 | Version Difference
+Indian Railway Finance Corporation Ltd | ROE=14.85 | Source=5.73 | Diff=9.12 | Version Difference
+Indian Railway Finance Corporation Ltd | ROE=13.80 | Source=5.73 | Diff=8.07 | Version Difference
+Indian Railway Finance Corporation Ltd | ROE=13.04 | Source=5.73 | Diff=7.31 | Version Difference
+ITC Ltd
+ | ROE=22.26 | Source=34.76 | Diff=12.50 | Formula Difference
+ITC Ltd
+ | ROE=22.57 | Source=34.76 | Diff=12.19 | Formula Difference
+ITC Ltd
+ | ROE=21.89 | Source=34.76 | Diff=12.87 | Formula Difference
+ITC Ltd
+ | ROE=21.70 | Source=34.76 | Diff=13.06 | Formula Difference
+ITC Ltd
+ | ROE=23.89 | Source=34.76 | Diff=10.87 | Formula Difference
+ITC Ltd
+ | ROE=22.18 | Source=34.76 | Diff=12.58 | Formula Difference
+ITC Ltd
+ | ROE=24.82 | Source=34.76 | Diff=9.94 | Version Difference
+ITC Ltd
+ | ROE=28.16 | Source=34.76 | Diff=6.60 | Version Difference
+ITC Ltd
+ | ROE=27.85 | Source=34.76 | Diff=6.91 | Version Difference
+Jindal Steel & Power Ltd | ROE=-6.90 | Source=13.20 | Diff=20.10 | Data Source Issue
+Jindal Steel & Power Ltd | ROE=-9.52 | Source=13.20 | Diff=22.72 | Data Source Issue
+Jindal Steel & Power Ltd | ROE=-8.45 | Source=13.20 | Diff=21.65 | Data Source Issue
+Jindal Steel & Power Ltd | ROE=-5.32 | Source=13.20 | Diff=18.52 | Formula Difference
+Jindal Steel & Power Ltd | ROE=-7.52 | Source=13.20 | Diff=20.72 | Data Source Issue
+Jindal Steel & Power Ltd | ROE=-1.24 | Source=13.20 | Diff=14.44 | Formula Difference
+Jindal Steel & Power Ltd | ROE=18.99 | Source=13.20 | Diff=5.79 | Version Difference
+JSW Energy Ltd | ROE=14.52 | Source=8.59 | Diff=5.93 | Version Difference
+JSW Energy Ltd | ROE=18.06 | Source=8.59 | Diff=9.47 | Version Difference
+JSW Energy Ltd | ROE=15.05 | Source=8.59 | Diff=6.46 | Version Difference
+JSW Energy Ltd | ROE=0.77 | Source=8.59 | Diff=7.82 | Version Difference
+JSW Steel Ltd | ROE=5.44 | Source=13.36 | Diff=7.92 | Version Difference
+JSW Steel Ltd | ROE=1.90 | Source=13.36 | Diff=11.46 | Formula Difference
+JSW Steel Ltd | ROE=7.73 | Source=13.36 | Diff=5.63 | Version Difference
+JSW Steel Ltd | ROE=-2.54 | Source=13.36 | Diff=15.90 | Formula Difference
+JSW Steel Ltd | ROE=21.83 | Source=13.36 | Diff=8.47 | Version Difference
+JSW Steel Ltd | ROE=21.62 | Source=13.36 | Diff=8.26 | Version Difference
+JSW Steel Ltd | ROE=31.11 | Source=13.36 | Diff=17.75 | Formula Difference
+JSW Steel Ltd | ROE=6.30 | Source=13.36 | Diff=7.06 | Version Difference
+Kotak Mahindra Bank Ltd
+ | ROE=14.66 | Source=7.86 | Diff=6.80 | Version Difference
+Kotak Mahindra Bank Ltd
+ | ROE=13.24 | Source=7.86 | Diff=5.38 | Version Difference
+Kotak Mahindra Bank Ltd
+ | ROE=14.01 | Source=7.86 | Diff=6.15 | Version Difference
+Kotak Mahindra Bank Ltd
+ | ROE=13.04 | Source=7.86 | Diff=5.18 | Version Difference
+Kotak Mahindra Bank Ltd
+ | ROE=12.90 | Source=7.86 | Diff=5.04 | Version Difference
+Kotak Mahindra Bank Ltd
+ | ROE=13.35 | Source=7.86 | Diff=5.49 | Version Difference
+Kotak Mahindra Bank Ltd
+ | ROE=14.01 | Source=7.86 | Diff=6.15 | Version Difference
+Life Insurance Corporation of India | ROE=324.32 | Source=63.79 | Diff=260.53 | Data Source Issue
+Life Insurance Corporation of India | ROE=270.46 | Source=63.79 | Diff=206.67 | Data Source Issue
+Life Insurance Corporation of India | ROE=43.20 | Source=63.79 | Diff=20.59 | Data Source Issue
+Life Insurance Corporation of India | ROE=36.38 | Source=63.79 | Diff=27.41 | Data Source Issue
+Life Insurance Corporation of India | ROE=77.86 | Source=63.79 | Diff=14.07 | Formula Difference
+Life Insurance Corporation of India | ROE=49.45 | Source=63.79 | Diff=14.34 | Formula Difference
+Macrotech Developers Ltd | ROE=35.48 | Source=11.10 | Diff=24.38 | Data Source Issue
+Macrotech Developers Ltd | ROE=33.84 | Source=11.10 | Diff=22.74 | Data Source Issue
+Macrotech Developers Ltd | ROE=24.23 | Source=11.10 | Diff=13.13 | Formula Difference
+Macrotech Developers Ltd | ROE=17.69 | Source=11.10 | Diff=6.59 | Version Difference
+Macrotech Developers Ltd | ROE=42.80 | Source=11.10 | Diff=31.70 | Data Source Issue
+Macrotech Developers Ltd | ROE=16.30 | Source=11.10 | Diff=5.20 | Version Difference
+Macrotech Developers Ltd | ROE=1.04 | Source=11.10 | Diff=10.06 | Formula Difference
+Macrotech Developers Ltd | ROE=3.87 | Source=11.10 | Diff=7.23 | Version Difference
+Larsen & Toubro Ltd | ROE=395.15 | Source=17.18 | Diff=377.97 | Data Source Issue
+Larsen & Toubro Ltd | ROE=303.42 | Source=17.18 | Diff=286.24 | Data Source Issue
+Larsen & Toubro Ltd | ROE=245.11 | Source=17.18 | Diff=227.93 | Data Source Issue
+Larsen & Toubro Ltd | ROE=216.09 | Source=17.18 | Diff=198.91 | Data Source Issue
+Larsen & Toubro Ltd | ROE=206.30 | Source=17.18 | Diff=189.12 | Data Source Issue
+Larsen & Toubro Ltd | ROE=207.36 | Source=17.18 | Diff=190.18 | Data Source Issue
+Larsen & Toubro Ltd | ROE=208.81 | Source=17.18 | Diff=191.63 | Data Source Issue
+Larsen & Toubro Ltd | ROE=201.59 | Source=17.18 | Diff=184.41 | Data Source Issue
+Larsen & Toubro Ltd | ROE=176.90 | Source=17.18 | Diff=159.72 | Data Source Issue
+Larsen & Toubro Ltd | ROE=72.92 | Source=17.18 | Diff=55.74 | Data Source Issue
+Larsen & Toubro Ltd | ROE=75.52 | Source=17.18 | Diff=58.34 | Data Source Issue
+Larsen & Toubro Ltd | ROE=77.67 | Source=17.18 | Diff=60.49 | Data Source Issue
+LTIMindtree Ltd | ROE=41.97 | Source=34.10 | Diff=7.87 | Version Difference
+LTIMindtree Ltd | ROE=61.86 | Source=34.10 | Diff=27.76 | Data Source Issue
+LTIMindtree Ltd | ROE=39.34 | Source=34.10 | Diff=5.24 | Version Difference
+LTIMindtree Ltd | ROE=28.81 | Source=34.10 | Diff=5.29 | Version Difference
+LTIMindtree Ltd | ROE=28.13 | Source=34.10 | Diff=5.97 | Version Difference
+LTIMindtree Ltd | ROE=26.53 | Source=34.10 | Diff=7.57 | Version Difference
+LTIMindtree Ltd | ROE=27.65 | Source=34.10 | Diff=6.45 | Version Difference
+LTIMindtree Ltd | ROE=26.58 | Source=34.10 | Diff=7.52 | Version Difference
+LTIMindtree Ltd | ROE=22.90 | Source=34.10 | Diff=11.20 | Formula Difference
+Mahindra & Mahindra Ltd
+ | ROE=20.69 | Source=26.98 | Diff=6.29 | Version Difference
+Mahindra & Mahindra Ltd
+ | ROE=13.08 | Source=26.98 | Diff=13.90 | Formula Difference
+Mahindra & Mahindra Ltd
+ | ROE=13.42 | Source=26.98 | Diff=13.56 | Formula Difference
+Mahindra & Mahindra Ltd
+ | ROE=13.60 | Source=26.98 | Diff=13.38 | Formula Difference
+Mahindra & Mahindra Ltd
+ | ROE=21.64 | Source=26.98 | Diff=5.34 | Version Difference
+Mahindra & Mahindra Ltd
+ | ROE=15.05 | Source=26.98 | Diff=11.93 | Formula Difference
+Mahindra & Mahindra Ltd
+ | ROE=-0.80 | Source=26.98 | Diff=27.78 | Data Source Issue
+Mahindra & Mahindra Ltd
+ | ROE=3.64 | Source=26.98 | Diff=23.34 | Data Source Issue
+Mahindra & Mahindra Ltd
+ | ROE=15.39 | Source=26.98 | Diff=11.59 | Formula Difference
+Mahindra & Mahindra Ltd
+ | ROE=20.18 | Source=26.98 | Diff=6.80 | Version Difference
+Mahindra & Mahindra Ltd
+ | ROE=18.54 | Source=26.98 | Diff=8.44 | Version Difference
+Maruti Suzuki India Ltd | ROE=12.98 | Source=23.67 | Diff=10.69 | Formula Difference
+Maruti Suzuki India Ltd | ROE=13.28 | Source=23.67 | Diff=10.39 | Formula Difference
+Maruti Suzuki India Ltd | ROE=15.66 | Source=23.67 | Diff=8.01 | Version Difference
+Maruti Suzuki India Ltd | ROE=17.95 | Source=23.67 | Diff=5.72 | Version Difference
+Maruti Suzuki India Ltd | ROE=18.52 | Source=23.67 | Diff=5.15 | Version Difference
+Maruti Suzuki India Ltd | ROE=16.25 | Source=23.67 | Diff=7.42 | Version Difference
+Maruti Suzuki India Ltd | ROE=11.49 | Source=23.67 | Diff=12.18 | Formula Difference
+Maruti Suzuki India Ltd | ROE=8.36 | Source=23.67 | Diff=15.31 | Formula Difference
+Maruti Suzuki India Ltd | ROE=7.01 | Source=23.67 | Diff=16.66 | Formula Difference
+Maruti Suzuki India Ltd | ROE=11.08 | Source=23.67 | Diff=12.59 | Formula Difference
+Maruti Suzuki India Ltd | ROE=15.75 | Source=23.67 | Diff=7.92 | Version Difference
+Samvardhana Motherson International Ltd | ROE=19.75 | Source=13.70 | Diff=6.05 | Version Difference
+Samvardhana Motherson International Ltd | ROE=37.07 | Source=13.70 | Diff=23.37 | Data Source Issue
+Samvardhana Motherson International Ltd | ROE=38.87 | Source=13.70 | Diff=25.17 | Data Source Issue
+Samvardhana Motherson International Ltd | ROE=40.35 | Source=13.70 | Diff=26.65 | Data Source Issue
+Samvardhana Motherson International Ltd | ROE=26.26 | Source=13.70 | Diff=12.56 | Formula Difference
+Samvardhana Motherson International Ltd | ROE=22.87 | Source=13.70 | Diff=9.17 | Version Difference
+Samvardhana Motherson International Ltd | ROE=19.14 | Source=13.70 | Diff=5.44 | Version Difference
+Samvardhana Motherson International Ltd | ROE=5.74 | Source=13.70 | Diff=7.96 | Version Difference
+Samvardhana Motherson International Ltd | ROE=7.44 | Source=13.70 | Diff=6.26 | Version Difference
+Info Edge (India) Ltd | ROE=12.50 | Source=3.65 | Diff=8.85 | Version Difference
+Info Edge (India) Ltd | ROE=8.93 | Source=3.65 | Diff=5.28 | Version Difference
+Info Edge (India) Ltd | ROE=-2.70 | Source=3.65 | Diff=6.35 | Version Difference
+Info Edge (India) Ltd | ROE=24.50 | Source=3.65 | Diff=20.85 | Data Source Issue
+Info Edge (India) Ltd | ROE=23.28 | Source=3.65 | Diff=19.63 | Formula Difference
+Info Edge (India) Ltd | ROE=-11.21 | Source=3.65 | Diff=14.86 | Formula Difference
+Info Edge (India) Ltd | ROE=26.28 | Source=3.65 | Diff=22.63 | Data Source Issue
+Info Edge (India) Ltd | ROE=74.71 | Source=3.65 | Diff=71.06 | Data Source Issue
+Nestle India Ltd | ROE=47.17 | Source=185.43 | Diff=138.26 | Data Source Issue
+Nestle India Ltd | ROE=41.77 | Source=185.43 | Diff=143.66 | Data Source Issue
+Nestle India Ltd | ROE=19.99 | Source=185.43 | Diff=165.44 | Data Source Issue
+Nestle India Ltd | ROE=30.50 | Source=185.43 | Diff=154.93 | Data Source Issue
+Nestle India Ltd | ROE=35.82 | Source=185.43 | Diff=149.61 | Data Source Issue
+Nestle India Ltd | ROE=43.75 | Source=185.43 | Diff=141.68 | Data Source Issue
+Nestle India Ltd | ROE=102.61 | Source=185.43 | Diff=82.82 | Data Source Issue
+Nestle India Ltd | ROE=103.12 | Source=185.43 | Diff=82.31 | Data Source Issue
+Nestle India Ltd | ROE=108.84 | Source=185.43 | Diff=76.59 | Data Source Issue
+Nestle India Ltd | ROE=97.23 | Source=185.43 | Diff=88.20 | Data Source Issue
+Nestle India Ltd | ROE=121.96 | Source=185.43 | Diff=63.47 | Data Source Issue
+Nestle India Ltd | ROE=117.75 | Source=185.43 | Diff=67.68 | Data Source Issue
+Oil & Natural Gas Corpn Ltd | ROE=9.81 | Source=19.71 | Diff=9.90 | Version Difference
+Oil & Natural Gas Corpn Ltd | ROE=6.62 | Source=19.71 | Diff=13.09 | Formula Difference
+Oil & Natural Gas Corpn Ltd | ROE=12.78 | Source=19.71 | Diff=6.93 | Version Difference
+Oil & Natural Gas Corpn Ltd | ROE=5.59 | Source=19.71 | Diff=14.12 | Formula Difference
+Oil & Natural Gas Corpn Ltd | ROE=9.67 | Source=19.71 | Diff=10.04 | Formula Difference
+Oil & Natural Gas Corpn Ltd | ROE=11.68 | Source=19.71 | Diff=8.03 | Version Difference
+Power Finance Corporation Ltd | ROE=18.74 | Source=9.96 | Diff=8.78 | Version Difference
+Power Finance Corporation Ltd | ROE=19.85 | Source=9.96 | Diff=9.89 | Version Difference
+Power Finance Corporation Ltd | ROE=18.52 | Source=9.96 | Diff=8.56 | Version Difference
+Power Finance Corporation Ltd | ROE=17.16 | Source=9.96 | Diff=7.20 | Version Difference
+Power Finance Corporation Ltd | ROE=22.08 | Source=9.96 | Diff=12.12 | Formula Difference
+Power Finance Corporation Ltd | ROE=26.82 | Source=9.96 | Diff=16.86 | Formula Difference
+Power Finance Corporation Ltd | ROE=19.18 | Source=9.96 | Diff=9.22 | Version Difference
+Power Finance Corporation Ltd | ROE=25.86 | Source=9.96 | Diff=15.90 | Formula Difference
+Power Finance Corporation Ltd | ROE=26.18 | Source=9.96 | Diff=16.22 | Formula Difference
+Power Finance Corporation Ltd | ROE=25.17 | Source=9.96 | Diff=15.21 | Formula Difference
+Power Finance Corporation Ltd | ROE=26.16 | Source=9.96 | Diff=16.20 | Formula Difference
+Pidilite Industries Ltd | ROE=23.05 | Source=29.70 | Diff=6.65 | Version Difference
+Pidilite Industries Ltd | ROE=22.64 | Source=29.70 | Diff=7.06 | Version Difference
+Pidilite Industries Ltd | ROE=22.37 | Source=29.70 | Diff=7.33 | Version Difference
+Pidilite Industries Ltd | ROE=20.13 | Source=29.70 | Diff=9.57 | Version Difference
+Pidilite Industries Ltd | ROE=18.85 | Source=29.70 | Diff=10.85 | Formula Difference
+Pidilite Industries Ltd | ROE=17.87 | Source=29.70 | Diff=11.83 | Formula Difference
+Pidilite Industries Ltd | ROE=20.78 | Source=29.70 | Diff=8.92 | Version Difference
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=812.30 | Source=1.63 | Diff=810.67 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=393.36 | Source=1.63 | Diff=391.73 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=223.24 | Source=1.63 | Diff=221.61 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=-163.56 | Source=1.63 | Diff=165.19 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=22.21 | Source=1.63 | Diff=20.58 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-184.37 | Source=1.63 | Diff=186.00 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=-128.45 | Source=1.63 | Diff=130.08 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=30.39 | Source=1.63 | Diff=28.76 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=39.87 | Source=1.63 | Diff=38.24 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=30.67 | Source=1.63 | Diff=29.04 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Punjab National Bank | ROE=61.32 | Source=1.63 | Diff=59.69 | Data Source Issue
+Power Grid Corporation of India Ltd | ROE=22.07 | Source=13.20 | Diff=8.87 | Version Difference
+Power Grid Corporation of India Ltd | ROE=22.07 | Source=13.20 | Diff=8.87 | Version Difference
+Power Grid Corporation of India Ltd | ROE=22.07 | Source=13.20 | Diff=8.87 | Version Difference
+Power Grid Corporation of India Ltd | ROE=22.07 | Source=13.20 | Diff=8.87 | Version Difference
+Power Grid Corporation of India Ltd | ROE=18.57 | Source=13.20 | Diff=5.37 | Version Difference
+Power Grid Corporation of India Ltd | ROE=18.57 | Source=13.20 | Diff=5.37 | Version Difference
+Power Grid Corporation of India Ltd | ROE=18.57 | Source=13.20 | Diff=5.37 | Version Difference
+Power Grid Corporation of India Ltd | ROE=18.57 | Source=13.20 | Diff=5.37 | Version Difference
+REC Ltd | ROE=21.87 | Source=10.00 | Diff=11.87 | Formula Difference
+REC Ltd | ROE=22.79 | Source=10.00 | Diff=12.79 | Formula Difference
+REC Ltd | ROE=21.31 | Source=10.00 | Diff=11.31 | Formula Difference
+REC Ltd | ROE=19.70 | Source=10.00 | Diff=9.70 | Version Difference
+REC Ltd | ROE=18.75 | Source=10.00 | Diff=8.75 | Version Difference
+REC Ltd | ROE=16.62 | Source=10.00 | Diff=6.62 | Version Difference
+REC Ltd | ROE=19.14 | Source=10.00 | Diff=9.14 | Version Difference
+REC Ltd | ROE=19.56 | Source=10.00 | Diff=9.56 | Version Difference
+REC Ltd | ROE=19.21 | Source=10.00 | Diff=9.21 | Version Difference
+REC Ltd | ROE=20.40 | Source=10.00 | Diff=10.40 | Formula Difference
+SBI Life Insurance Company Ltd | ROE=23.03 | Source=13.20 | Diff=9.83 | Version Difference
+SBI Life Insurance Company Ltd | ROE=21.69 | Source=13.20 | Diff=8.49 | Version Difference
+SBI Life Insurance Company Ltd | ROE=20.09 | Source=13.20 | Diff=6.89 | Version Difference
+Shree Cement Ltd | ROE=26.12 | Source=14.80 | Diff=11.32 | Formula Difference
+Shree Cement Ltd | ROE=8.07 | Source=14.80 | Diff=6.73 | Version Difference
+Shree Cement Ltd | ROE=7.27 | Source=14.80 | Diff=7.53 | Version Difference
+Shree Cement Ltd | ROE=8.37 | Source=14.80 | Diff=6.43 | Version Difference
+Shriram Finance Ltd
+ | ROE=19.94 | Source=11.30 | Diff=8.64 | Version Difference
+Shriram Finance Ltd
+ | ROE=18.62 | Source=11.30 | Diff=7.32 | Version Difference
+Siemens Ltd | ROE=13.78 | Source=25.60 | Diff=11.82 | Formula Difference
+Siemens Ltd | ROE=42.83 | Source=25.60 | Diff=17.23 | Formula Difference
+Siemens Ltd | ROE=14.79 | Source=25.60 | Diff=10.81 | Formula Difference
+Siemens Ltd | ROE=10.86 | Source=25.60 | Diff=14.74 | Formula Difference
+Siemens Ltd | ROE=12.14 | Source=25.60 | Diff=13.46 | Formula Difference
+Siemens Ltd | ROE=8.10 | Source=25.60 | Diff=17.50 | Formula Difference
+Siemens Ltd | ROE=10.52 | Source=25.60 | Diff=15.08 | Formula Difference
+Siemens Ltd | ROE=13.29 | Source=25.60 | Diff=12.31 | Formula Difference
+Siemens Ltd | ROE=14.99 | Source=25.60 | Diff=10.61 | Formula Difference
+Siemens Ltd | ROE=17.70 | Source=25.60 | Diff=7.90 | Version Difference
+Sun Pharmaceuticals Industries Ltd | ROE=23.14 | Source=17.30 | Diff=5.84 | Version Difference
+Sun Pharmaceuticals Industries Ltd | ROE=6.63 | Source=17.30 | Diff=10.67 | Formula Difference
+Sun Pharmaceuticals Industries Ltd | ROE=7.75 | Source=17.30 | Diff=9.55 | Version Difference
+Sun Pharmaceuticals Industries Ltd | ROE=9.22 | Source=17.30 | Diff=8.08 | Version Difference
+Sun Pharmaceuticals Industries Ltd | ROE=4.89 | Source=17.30 | Diff=12.41 | Formula Difference
+Sun Pharmaceuticals Industries Ltd | ROE=7.06 | Source=17.30 | Diff=10.24 | Formula Difference
+Tata Consumer Products Ltd | ROE=4.97 | Source=10.60 | Diff=5.63 | Version Difference
+Tata Consumer Products Ltd | ROE=-0.59 | Source=10.60 | Diff=11.19 | Formula Difference
+Tata Consumer Products Ltd | ROE=3.33 | Source=10.60 | Diff=7.27 | Version Difference
+Tata Motors Ltd | ROE=26.51 | Source=20.10 | Diff=6.41 | Version Difference
+Tata Motors Ltd | ROE=14.79 | Source=20.10 | Diff=5.31 | Version Difference
+Tata Motors Ltd | ROE=13.02 | Source=20.10 | Diff=7.08 | Version Difference
+Tata Motors Ltd | ROE=9.53 | Source=20.10 | Diff=10.57 | Formula Difference
+Tata Motors Ltd | ROE=-47.73 | Source=20.10 | Diff=67.83 | Data Source Issue
+Tata Motors Ltd | ROE=-18.98 | Source=20.10 | Diff=39.08 | Data Source Issue
+Tata Motors Ltd | ROE=-24.25 | Source=20.10 | Diff=44.35 | Data Source Issue
+Tata Motors Ltd | ROE=-25.38 | Source=20.10 | Diff=45.48 | Data Source Issue
+Tata Motors Ltd | ROE=5.94 | Source=20.10 | Diff=14.16 | Formula Difference
+Tata Motors Ltd | ROE=37.46 | Source=20.10 | Diff=17.36 | Formula Difference
+Tata Power Company Ltd
+ | ROE=1.00 | Source=11.10 | Diff=10.10 | Formula Difference
+Tata Power Company Ltd
+ | ROE=0.10 | Source=11.10 | Diff=11.00 | Formula Difference
+Tata Power Company Ltd
+ | ROE=3.19 | Source=11.10 | Diff=7.91 | Version Difference
+Tata Steel Ltd
+ | ROE=-21.28 | Source=7.02 | Diff=28.30 | Data Source Issue
+Tata Steel Ltd
+ | ROE=-12.56 | Source=7.02 | Diff=19.58 | Formula Difference
+Tata Steel Ltd
+ | ROE=-1.14 | Source=7.02 | Diff=8.16 | Version Difference
+Tata Steel Ltd
+ | ROE=-11.02 | Source=7.02 | Diff=18.04 | Formula Difference
+Tata Steel Ltd
+ | ROE=29.15 | Source=7.02 | Diff=22.13 | Data Source Issue
+Tata Steel Ltd
+ | ROE=13.23 | Source=7.02 | Diff=6.21 | Version Difference
+Tata Steel Ltd
+ | ROE=1.60 | Source=7.02 | Diff=5.42 | Version Difference
+Tata Steel Ltd
+ | ROE=36.48 | Source=7.02 | Diff=29.46 | Data Source Issue
+Tata Steel Ltd
+ | ROE=-5.33 | Source=7.02 | Diff=12.35 | Formula Difference
+Tata Consultancy Services Ltd | ROE=36.52 | Source=64.30 | Diff=27.78 | Data Source Issue
+Tata Consultancy Services Ltd | ROE=39.30 | Source=64.30 | Diff=25.00 | Data Source Issue
+Tata Consultancy Services Ltd | ROE=39.62 | Source=64.30 | Diff=24.68 | Data Source Issue
+Tata Consultancy Services Ltd | ROE=34.24 | Source=64.30 | Diff=30.06 | Data Source Issue
+Tata Consultancy Services Ltd | ROE=30.57 | Source=64.30 | Diff=33.73 | Data Source Issue
+Tata Consultancy Services Ltd | ROE=30.40 | Source=64.30 | Diff=33.90 | Data Source Issue
+Tata Consultancy Services Ltd | ROE=35.29 | Source=64.30 | Diff=29.01 | Data Source Issue
+Tata Consultancy Services Ltd | ROE=38.57 | Source=64.30 | Diff=25.73 | Data Source Issue
+Tata Consultancy Services Ltd | ROE=37.67 | Source=64.30 | Diff=26.63 | Data Source Issue
+Tata Consultancy Services Ltd | ROE=43.13 | Source=64.30 | Diff=21.17 | Data Source Issue
+Tata Consultancy Services Ltd | ROE=46.78 | Source=64.30 | Diff=17.52 | Formula Difference
+Tata Consultancy Services Ltd | ROE=50.94 | Source=64.30 | Diff=13.36 | Formula Difference
+Tech Mahindra Ltd | ROE=24.09 | Source=11.90 | Diff=12.19 | Formula Difference
+Tech Mahindra Ltd | ROE=24.09 | Source=11.90 | Diff=12.19 | Formula Difference
+Tech Mahindra Ltd | ROE=24.09 | Source=11.90 | Diff=12.19 | Formula Difference
+Tech Mahindra Ltd | ROE=24.09 | Source=11.90 | Diff=12.19 | Formula Difference
+Tech Mahindra Ltd | ROE=33.35 | Source=11.90 | Diff=21.45 | Data Source Issue
+Tech Mahindra Ltd | ROE=33.35 | Source=11.90 | Diff=21.45 | Data Source Issue
+Tech Mahindra Ltd | ROE=33.35 | Source=11.90 | Diff=21.45 | Data Source Issue
+Tech Mahindra Ltd | ROE=33.35 | Source=11.90 | Diff=21.45 | Data Source Issue
+Tech Mahindra Ltd | ROE=21.71 | Source=11.90 | Diff=9.81 | Version Difference
+Tech Mahindra Ltd | ROE=21.71 | Source=11.90 | Diff=9.81 | Version Difference
+Tech Mahindra Ltd | ROE=21.71 | Source=11.90 | Diff=9.81 | Version Difference
+Tech Mahindra Ltd | ROE=21.71 | Source=11.90 | Diff=9.81 | Version Difference
+Tech Mahindra Ltd | ROE=20.75 | Source=11.90 | Diff=8.85 | Version Difference
+Tech Mahindra Ltd | ROE=20.75 | Source=11.90 | Diff=8.85 | Version Difference
+Tech Mahindra Ltd | ROE=20.75 | Source=11.90 | Diff=8.85 | Version Difference
+Tech Mahindra Ltd | ROE=20.75 | Source=11.90 | Diff=8.85 | Version Difference
+Tech Mahindra Ltd | ROE=17.35 | Source=11.90 | Diff=5.45 | Version Difference
+Tech Mahindra Ltd | ROE=17.35 | Source=11.90 | Diff=5.45 | Version Difference
+Tech Mahindra Ltd | ROE=17.35 | Source=11.90 | Diff=5.45 | Version Difference
+Tech Mahindra Ltd | ROE=17.35 | Source=11.90 | Diff=5.45 | Version Difference
+Tech Mahindra Ltd | ROE=20.09 | Source=11.90 | Diff=8.19 | Version Difference
+Tech Mahindra Ltd | ROE=20.09 | Source=11.90 | Diff=8.19 | Version Difference
+Tech Mahindra Ltd | ROE=20.09 | Source=11.90 | Diff=8.19 | Version Difference
+Tech Mahindra Ltd | ROE=20.09 | Source=11.90 | Diff=8.19 | Version Difference
+Tech Mahindra Ltd | ROE=21.14 | Source=11.90 | Diff=9.24 | Version Difference
+Tech Mahindra Ltd | ROE=21.14 | Source=11.90 | Diff=9.24 | Version Difference
+Tech Mahindra Ltd | ROE=21.14 | Source=11.90 | Diff=9.24 | Version Difference
+Tech Mahindra Ltd | ROE=21.14 | Source=11.90 | Diff=9.24 | Version Difference
+Tech Mahindra Ltd | ROE=17.87 | Source=11.90 | Diff=5.97 | Version Difference
+Tech Mahindra Ltd | ROE=17.87 | Source=11.90 | Diff=5.97 | Version Difference
+Tech Mahindra Ltd | ROE=17.87 | Source=11.90 | Diff=5.97 | Version Difference
+Tech Mahindra Ltd | ROE=17.87 | Source=11.90 | Diff=5.97 | Version Difference
+Tech Mahindra Ltd | ROE=17.51 | Source=11.90 | Diff=5.61 | Version Difference
+Tech Mahindra Ltd | ROE=17.51 | Source=11.90 | Diff=5.61 | Version Difference
+Tech Mahindra Ltd | ROE=17.51 | Source=11.90 | Diff=5.61 | Version Difference
+Tech Mahindra Ltd | ROE=17.51 | Source=11.90 | Diff=5.61 | Version Difference
+Tech Mahindra Ltd | ROE=20.94 | Source=11.90 | Diff=9.04 | Version Difference
+Tech Mahindra Ltd | ROE=20.94 | Source=11.90 | Diff=9.04 | Version Difference
+Tech Mahindra Ltd | ROE=20.94 | Source=11.90 | Diff=9.04 | Version Difference
+Tech Mahindra Ltd | ROE=20.94 | Source=11.90 | Diff=9.04 | Version Difference
+Tech Mahindra Ltd | ROE=17.39 | Source=11.90 | Diff=5.49 | Version Difference
+Tech Mahindra Ltd | ROE=17.39 | Source=11.90 | Diff=5.49 | Version Difference
+Tech Mahindra Ltd | ROE=17.39 | Source=11.90 | Diff=5.49 | Version Difference
+Tech Mahindra Ltd | ROE=17.39 | Source=11.90 | Diff=5.49 | Version Difference
+Titan Company Ltd
+ | ROE=36.80 | Source=22.70 | Diff=14.10 | Formula Difference
+Titan Company Ltd
+ | ROE=29.13 | Source=22.70 | Diff=6.43 | Version Difference
+Titan Company Ltd
+ | ROE=16.47 | Source=22.70 | Diff=6.23 | Version Difference
+Titan Company Ltd
+ | ROE=12.99 | Source=22.70 | Diff=9.71 | Version Difference
+Titan Company Ltd
+ | ROE=37.22 | Source=22.70 | Diff=14.52 | Formula Difference
+Torrent Pharmaceuticals Ltd | ROE=30.59 | Source=23.20 | Diff=7.39 | Version Difference
+Torrent Pharmaceuticals Ltd | ROE=34.89 | Source=23.20 | Diff=11.69 | Formula Difference
+Torrent Pharmaceuticals Ltd | ROE=30.15 | Source=23.20 | Diff=6.95 | Version Difference
+Torrent Pharmaceuticals Ltd | ROE=49.60 | Source=23.20 | Diff=26.40 | Data Source Issue
+Torrent Pharmaceuticals Ltd | ROE=14.67 | Source=23.20 | Diff=8.53 | Version Difference
+Torrent Pharmaceuticals Ltd | ROE=9.23 | Source=23.20 | Diff=13.97 | Formula Difference
+Torrent Pharmaceuticals Ltd | ROE=13.05 | Source=23.20 | Diff=10.15 | Formula Difference
+Trent Ltd | ROE=-2.19 | Source=23.80 | Diff=25.99 | Data Source Issue
+Trent Ltd | ROE=-1.92 | Source=23.80 | Diff=25.72 | Data Source Issue
+Trent Ltd | ROE=9.07 | Source=23.80 | Diff=14.73 | Formula Difference
+Trent Ltd | ROE=3.76 | Source=23.80 | Diff=20.04 | Data Source Issue
+Trent Ltd | ROE=5.49 | Source=23.80 | Diff=18.31 | Formula Difference
+Trent Ltd | ROE=5.45 | Source=23.80 | Diff=18.35 | Formula Difference
+Trent Ltd | ROE=5.77 | Source=23.80 | Diff=18.03 | Formula Difference
+Trent Ltd | ROE=4.44 | Source=23.80 | Diff=19.36 | Formula Difference
+Trent Ltd | ROE=-7.83 | Source=23.80 | Diff=31.63 | Data Source Issue
+Trent Ltd | ROE=1.48 | Source=23.80 | Diff=22.32 | Data Source Issue
+Trent Ltd | ROE=15.18 | Source=23.80 | Diff=8.62 | Version Difference
+Trent Ltd | ROE=36.31 | Source=23.80 | Diff=12.51 | Formula Difference
