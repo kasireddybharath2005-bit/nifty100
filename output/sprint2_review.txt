@@ -1,0 +1,24 @@
+
+
+SPRINT 2 REVIEW
+==============================
+
+Database : nifty100.db
+
+financial_ratios Table : YES
+
+Rows Loaded : 1659
+
+Companies : 100
+
+Days Completed
+Day 8 - Profitability Ratios
+Day 9 - Leverage Ratios
+Day 10 - CAGR Engine
+Day 11 - Cash Flow KPIs
+Day 12 - Financial Ratio Table
+Day 13 - Edge Case Validation
+Day 14 - Testing & Review
+
+Status : SUCCESS
+
