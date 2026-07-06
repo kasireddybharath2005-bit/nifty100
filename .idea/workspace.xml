@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="457c34be-a711-4466-a067-6133950348db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/screener/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screener/engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screener/test_engine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +38,7 @@
   "keyToString": {
     "Python.check_db.executor": "Run",
     "Python.dashboard_export.executor": "Run",
+    "Python.engine.executor": "Run",
     "Python.load_audit.executor": "Run",
     "Python.loader.executor": "Run",
     "Python.manual_review.executor": "Run",
