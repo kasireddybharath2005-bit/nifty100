@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="457c34be-a711-4466-a067-6133950348db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/screener/  presets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screener/ composite_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screener/format_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/screener_output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/output/screener_output.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.  presets.executor": "Run",
+    "Python. composite_score.executor": "Run",
     "Python.check_db.executor": "Run",
     "Python.dashboard_export.executor": "Run",
     "Python.engine.executor": "Run",
