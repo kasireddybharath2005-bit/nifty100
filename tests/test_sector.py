@@ -1,15 +1,15 @@
-from pathlib import Path
 import sqlite3
 import pandas as pd
+from pathlib import Path
 
 project_root = Path(__file__).resolve().parents[1]
 
 db_path = project_root / "db" / "nifty100.db"
 
-print("Database:", db_path)
-
 conn = sqlite3.connect(db_path)
 
-print(pd.read_sql("SELECT * FROM peer_groups LIMIT 10", conn))
+print("Columns in sectors table:\n")
+
+print(pd.read_sql("PRAGMA table_info(sectors)", conn))
 
 conn.close()
