@@ -142,20 +142,17 @@ def get_peer_companies():
 
     conn = get_connection()
 
-    df = pd.read_sql(
-        """
-        SELECT DISTINCT
-            "HDFCBANK" AS company_id
-        FROM peer_groups
-        ORDER BY company_id
-        """,
-        conn
-    )
+    query = """
+    SELECT DISTINCT company_id
+    FROM peer_percentiles
+    ORDER BY company_id
+    """
+
+    df = pd.read_sql(query, conn)
 
     conn.close()
 
     return df
-
 def get_trend_data(company):
 
     conn = get_connection()
@@ -525,10 +522,11 @@ def get_roe_asset_turnover(company):
 
 def get_screener_filtered(
     roe_min,
-    debt_max,
-    npm_min,
+    de_max,
+    revenue_min,
+    profit_min,
     opm_min,
-    asset_min
+    icr_min
 ):
 
     conn = get_connection()
@@ -538,18 +536,20 @@ def get_screener_filtered(
         company_id,
         roe_calculated,
         debt_to_equity,
-        net_profit_margin,
-        operating_profit_margin,
-        asset_turnover,
         revenue_cagr_5yr,
-        profit_cagr_5yr
+        profit_cagr_5yr,
+        operating_profit_margin,
+        interest_coverage
     FROM financial_ratios
+
     WHERE
         roe_calculated >= ?
         AND debt_to_equity <= ?
-        AND net_profit_margin >= ?
+        AND revenue_cagr_5yr >= ?
+        AND profit_cagr_5yr >= ?
         AND operating_profit_margin >= ?
-        AND asset_turnover >= ?
+        AND interest_coverage >= ?
+
     ORDER BY roe_calculated DESC
     """
 
@@ -558,13 +558,99 @@ def get_screener_filtered(
         conn,
         params=[
             roe_min,
-            debt_max,
-            npm_min,
+            de_max,
+            revenue_min,
+            profit_min,
             opm_min,
-            asset_min
+            icr_min
         ]
     )
 
     conn.close()
 
     return df
+def get_peer_comparison(company):
+
+    conn = get_connection()
+
+    query = """
+    SELECT
+        company_id,
+        metric,
+        value,
+        percentile_rank,
+        year
+    FROM peer_percentiles
+    WHERE peer_group_name = (
+        SELECT peer_group_name
+        FROM peer_percentiles
+        WHERE company_id = ?
+        LIMIT 1
+    )
+    ORDER BY
+        company_id,
+        year,
+        metric
+    """
+
+    df = pd.read_sql(
+        query,
+        conn,
+        params=[company]
+    )
+
+    conn.close()
+
+    return df
+def get_peer_radar(company):
+
+    conn = get_connection()
+
+    query = """
+    SELECT
+        metric,
+        AVG(value) AS avg_value
+    FROM peer_percentiles
+    WHERE peer_group_name = (
+        SELECT peer_group_name
+        FROM peer_percentiles
+        WHERE company_id = ?
+        LIMIT 1
+    )
+    GROUP BY metric
+    """
+
+    peer_avg = pd.read_sql(query, conn, params=[company])
+
+    query2 = """
+    SELECT
+        metric,
+        value
+    FROM peer_percentiles
+    WHERE company_id = ?
+    """
+
+    company_df = pd.read_sql(query2, conn, params=[company])
+
+    conn.close()
+
+    return company_df, peer_avg
+
+def get_peer_summary(company):
+
+    company_df, peer_df = get_peer_radar(company)
+
+    summary = company_df.merge(
+        peer_df,
+        on="metric"
+    )
+
+    summary = summary.rename(
+        columns={
+            "metric": "Metric",
+            "value": "Company Value",
+            "avg_value": "Peer Average"
+        }
+    )
+
+    return summary

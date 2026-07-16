@@ -8,9 +8,20 @@ db = project_root / "db" / "nifty100.db"
 
 conn = sqlite3.connect(db)
 
-print(pd.read_sql(
-    "PRAGMA table_info(peer_percentiles)",
-    conn
-))
+company = "HDFCBANK"
+
+query = """
+SELECT *
+FROM peer_percentiles
+WHERE company_id = ?
+"""
+
+df = pd.read_sql(
+    query,
+    conn,
+    params=[company]
+)
+
+print(df)
 
 conn.close()
