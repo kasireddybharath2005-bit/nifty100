@@ -8,6 +8,6 @@ db_path = project_root / "db" / "nifty100.db"
 
 conn = sqlite3.connect(db_path)
 
-print(pd.read_sql("PRAGMA table_info(financial_ratios)", conn))
+print(pd.read_sql("PRAGMA table_info(peer_percentiles)", conn))
 
 conn.close()
