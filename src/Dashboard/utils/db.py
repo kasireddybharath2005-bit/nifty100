@@ -4,7 +4,9 @@ print(__file__)
 print("=" * 60)
 import sqlite3
 import pandas as pd
+import streamlit as st
 from pathlib import Path
+
 
 project_root = Path(__file__).resolve().parents[3]
 
@@ -654,3 +656,89 @@ def get_peer_summary(company):
     )
 
     return summary
+
+def get_trend_companies():
+
+    conn = get_connection()
+
+    query = """
+    SELECT DISTINCT company_id
+    FROM financial_ratios
+    ORDER BY company_id
+    """
+
+    df = pd.read_sql(query, conn)
+
+    conn.close()
+
+    return df
+
+def get_company_trend(company):
+
+    conn = get_connection()
+
+    query = """
+    SELECT *
+    FROM financial_ratios
+    WHERE company_id = ?
+    ORDER BY year
+    """
+
+    df = pd.read_sql(
+        query,
+        conn,
+        params=[company]
+    )
+
+    conn.close()
+
+    return df
+
+@st.cache_data(ttl=600)
+def get_sectors():
+    conn = get_connection()
+
+    query = """
+    SELECT DISTINCT sector_name
+    FROM sectors
+    ORDER BY sector_name
+    """
+
+    df = pd.read_sql(query, conn)
+    conn.close()
+    return df
+
+
+@st.cache_data(ttl=600)
+def get_sector_data(sector):
+    conn = get_connection()
+
+    query = """
+    SELECT *
+    FROM sectors
+    WHERE sector_name = ?
+    ORDER BY company_id
+    """
+
+    df = pd.read_sql(query, conn, params=[sector])
+    conn.close()
+    return df
+@st.cache_data(ttl=600)
+def get_sector_distribution():
+
+    conn = get_connection()
+
+    query = """
+    SELECT
+        sector_name,
+        COUNT(company_id) AS total_companies
+    FROM sectors
+    GROUP BY sector_name
+    ORDER BY total_companies DESC
+    """
+
+    df = pd.read_sql(query, conn)
+
+    conn.close()
+
+    return df
