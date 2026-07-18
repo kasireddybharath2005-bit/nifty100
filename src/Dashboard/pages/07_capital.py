@@ -1,14 +1,20 @@
 import streamlit as st
-import plotly.express as px
 import pandas as pd
+import plotly.express as px
+
 from utils.db import (
     get_companies,
-    get_capital_data
+    get_capital_data,
+    get_capital_patterns
 )
 
 st.set_page_config(page_title="Capital Allocation")
 
 st.title("💰 Capital Allocation")
+
+# ----------------------------------------------------
+# Select Company
+# ----------------------------------------------------
 
 companies = get_companies()
 
@@ -17,7 +23,91 @@ company = st.selectbox(
     companies["company_id"]
 )
 
+# ----------------------------------------------------
+# Load Data
+# ----------------------------------------------------
+
 capital_df = get_capital_data(company)
+
+pattern_df = get_capital_patterns()
+
+# Keep only latest year for each company
+pattern_df = pattern_df.sort_values("year")
+pattern_df = pattern_df.groupby("company_id").tail(1).reset_index(drop=True)
+
+# ----------------------------------------------------
+# Capital Pattern Classification
+# ----------------------------------------------------
+
+def classify_pattern(row):
+
+    equity = row["equity_capital"]
+    reserves = row["reserves"]
+    debt = row["borrowings"]
+
+    if debt == 0 and reserves > equity:
+        return "Cash Rich"
+
+    elif debt == 0:
+        return "Debt Free"
+
+    elif debt > reserves * 2:
+        return "Highly Leveraged"
+
+    elif debt > reserves:
+        return "Debt Heavy"
+
+    elif reserves > debt * 2:
+        return "Reserve Heavy"
+
+    elif equity > reserves:
+        return "Equity Heavy"
+
+    elif debt == reserves:
+        return "Balanced"
+
+    else:
+        return "Mixed Capital"
+
+pattern_df["capital_pattern"] = pattern_df.apply(
+    classify_pattern,
+    axis=1
+)
+st.markdown("---")
+
+st.subheader("🌳 Capital Allocation Patterns")
+
+fig = px.treemap(
+    pattern_df,
+    path=["capital_pattern", "company_id"],
+    values="total_assets",
+    title="Capital Allocation Patterns"
+)
+
+st.plotly_chart(
+    fig,
+    use_container_width=True
+)
+
+st.markdown("---")
+
+pattern = st.selectbox(
+    "Select Capital Pattern",
+    sorted(pattern_df["capital_pattern"].unique())
+)
+filtered_df = pattern_df[
+    pattern_df["capital_pattern"] == pattern
+]
+
+st.subheader(f"Companies in '{pattern}'")
+
+st.dataframe(
+    filtered_df,
+    use_container_width=True
+)
+# ----------------------------------------------------
+# Capital Allocation Data
+# ----------------------------------------------------
 
 st.markdown("---")
 
@@ -28,21 +118,20 @@ st.dataframe(
     use_container_width=True
 )
 
-st.markdown("---")
+# ----------------------------------------------------
+# Trend Chart
+# ----------------------------------------------------
 
-st.subheader("📈 Capital Allocation Trend")
 metrics = [
     "equity_capital",
     "reserves",
     "borrowings"
 ]
 
-# Include these only if they exist
 for col in ["total_assets", "total_liabilities"]:
     if col in capital_df.columns:
         metrics.append(col)
 
-# Create the chart AFTER the loop
 fig = px.line(
     capital_df,
     x="year",
@@ -61,69 +150,3 @@ st.plotly_chart(
     fig,
     use_container_width=True
 )
-st.markdown("---")
-
-st.subheader("📌 Latest Capital Position")
-latest = capital_df.iloc[-1]
-col1, col2, col3, col4 = st.columns(4)
-
-col1.metric(
-    "Equity Capital",
-    f"{latest['equity_capital']:.2f}"
-)
-
-col2.metric(
-    "Reserves",
-    f"{latest['reserves']:.2f}"
-)
-
-col3.metric(
-    "Borrowings",
-    f"{latest['borrowings']:.2f}"
-)
-
-if "debt_to_equity" in capital_df.columns:
-    col4.metric(
-        "Debt to Equity",
-        f"{latest['debt_to_equity']:.2f}"
-    )
-else:
-    col4.metric(
-        "Debt to Equity",
-        "N/A"
-    )
-
-    st.markdown("---")
-
-    st.subheader("📊 Capital Structure Breakdown")
-
-    breakdown_df = pd.DataFrame({
-        "Component": [
-            "Equity Capital",
-            "Reserves",
-            "Borrowings"
-        ],
-        "Amount": [
-            latest["equity_capital"],
-            latest["reserves"],
-            latest["borrowings"]
-        ]
-    })
-
-    fig = px.bar(
-        breakdown_df,
-        x="Component",
-        y="Amount",
-        text="Amount",
-        title=f"Latest Capital Structure - {company}"
-    )
-
-    fig.update_layout(
-        xaxis_title="Capital Components",
-        yaxis_title="Amount"
-    )
-
-    st.plotly_chart(
-        fig,
-        use_container_width=True
-    )

@@ -1,9 +1,11 @@
 import streamlit as st
+import pandas as pd
 import plotly.express as px
 from utils.db import (
     get_sectors,
     get_sector_data,
-    get_sector_distribution
+    get_sector_distribution,
+    get_sector_kpis
 )
 
 st.set_page_config(page_title="Sector Analysis")
@@ -17,7 +19,29 @@ sector = st.selectbox(
     sectors["sector_name"]
 )
 sector_df = get_sector_data(sector)
+kpi_df = get_sector_kpis(sector)
+median_roe = kpi_df["roe_calculated"].median()
 
+median_de = kpi_df["debt_to_equity"].median()
+
+median_asset = kpi_df["asset_turnover"].median()
+
+median_margin = kpi_df["net_profit_margin"].median()
+
+chart_df = pd.DataFrame({
+    "Metric": [
+        "Median ROE",
+        "Median Debt/Equity",
+        "Median Asset Turnover",
+        "Median Net Profit Margin"
+    ],
+    "Value": [
+        median_roe,
+        median_de,
+        median_asset,
+        median_margin
+    ]
+})
 st.markdown("---")
 
 
@@ -110,6 +134,29 @@ fig.update_layout(
     yaxis_title="Number of Companies"
 )
 
+st.plotly_chart(
+    fig,
+    use_container_width=True
+)
+st.markdown("---")
+
+st.subheader("📊 Sector Median KPI Chart")
+fig = px.bar(
+    chart_df,
+    x="Metric",
+    y="Value",
+    text="Value",
+    title=f"Median Financial KPIs - {sector}"
+)
+fig.update_layout(
+    xaxis_title="Financial Metrics",
+    yaxis_title="Median Value"
+)
+
+fig.update_traces(
+    texttemplate="%{text:.2f}",
+    textposition="outside"
+)
 st.plotly_chart(
     fig,
     use_container_width=True

@@ -742,3 +742,70 @@ def get_sector_distribution():
     conn.close()
 
     return df
+def get_sector_kpis(sector):
+
+    conn = get_connection()
+
+    query = """
+    SELECT
+        f.roe_calculated,
+        f.debt_to_equity,
+        f.asset_turnover,
+        f.net_profit_margin
+    FROM financial_ratios f
+    JOIN sectors s
+        ON f.company_id = s.company_id
+    WHERE s.sector_name = ?
+    """
+
+    df = pd.read_sql(query, conn, params=[sector])
+
+    conn.close()
+
+    return df
+
+def get_capital_patterns():
+
+    conn = get_connection()
+
+    query = """
+    SELECT
+        company_id,
+        year,
+        equity_capital,
+        reserves,
+        borrowings,
+        total_assets,
+        total_liabilities
+    FROM balancesheet
+    """
+
+    df = pd.read_sql(query, conn)
+
+    conn.close()
+
+    return df
+
+@st.cache_data(ttl=600)
+def get_annual_reports(company):
+
+    conn = get_connection()
+
+    query = """
+    SELECT
+        Year,
+        Annual_Report
+    FROM documents
+    WHERE company_id = ?
+    ORDER BY Year DESC
+    """
+
+    df = pd.read_sql(
+        query,
+        conn,
+        params=[company]
+    )
+
+    conn.close()
+
+    return df
