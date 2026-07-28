@@ -10,6 +10,7 @@ from src.api.routers import companies
 from src.api.routers import sectors
 from src.api.routers import peers
 from src.api.routers import valuation
+from src.api.routers import screener
 
 # ----------------------------------------------------
 # APP
@@ -110,4 +111,9 @@ app.include_router(
     valuation.router,
     prefix="/api/v1",
     tags=["Valuation"]
+)
+app.include_router(
+    screener.router,
+    prefix="/api/v1",
+    tags=["Screener"]
 )
