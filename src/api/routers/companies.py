@@ -24,7 +24,7 @@ def get_companies():
     query = """
     SELECT *
     FROM companies
-    ORDER BY company_id
+    ORDER BY id
     """
 
     cursor = conn.execute(query)
@@ -58,8 +58,9 @@ def get_company(ticker: str):
     query = """
     SELECT *
     FROM companies
-    WHERE company_id=?
+    WHERE id = ?
     """
+
 
     cursor = conn.execute(query, (ticker.upper(),))
 
@@ -70,9 +71,9 @@ def get_company(ticker: str):
     conn.close()
 
     if row is None:
-        raise HTTPException(
-            status_code=404,
-            detail="Company not found"
-        )
+      raise HTTPException(
+        status_code=404,
+        detail="Company not found"
+    )
 
     return dict(zip(columns, row))

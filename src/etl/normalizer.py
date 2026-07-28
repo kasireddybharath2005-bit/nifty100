@@ -1,20 +1,36 @@
-import pandas as pd
-from pathlib import Path
+import re
 
-# Project root
-project_root = Path(__file__).resolve().parents[2]
 
-raw_path = project_root / "data" / "raw"
-processed_path = project_root / "data" / "processed"
+def normalize_year(value):
+    if value is None:
+        return None
 
-# Create processed folder if not exists
-processed_path.mkdir(parents=True, exist_ok=True)
+    value = str(value).strip()
 
-for file in raw_path.glob("*.xlsx"):
-    df = pd.read_excel(file, header=1)
+    if value == "":
+        return None
 
-    output_file = processed_path / f"{file.stem}_cleaned.csv"
+    # Handle 2024.0
+    if value.endswith(".0"):
+        value = value[:-2]
 
-    df.to_csv(output_file, index=False)
+    # 2024
+    if value.isdigit() and len(value) == 4:
+        return value
 
-    print(f"Saved: {output_file.name}")
+    # 24
+    if value.isdigit() and len(value) == 2:
+        return "20" + value
+
+    # FY24
+    if value.upper().startswith("FY"):
+        yy = value[-2:]
+        if yy.isdigit():
+            return "20" + yy
+
+    # Mar-24
+    match = re.search(r"(\d{2})$", value)
+    if match:
+        return "20" + match.group(1)
+
+    return None
