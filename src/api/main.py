@@ -1,0 +1,89 @@
+from pathlib import Path
+import sqlite3
+import time
+
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+from src.api.routers import health
+from src.api.routers import companies
+# ----------------------------------------------------
+# APP
+# ----------------------------------------------------
+
+app = FastAPI(
+    title="Nifty100 Analytics API",
+    version="1.0",
+    description="REST API for Nifty100 Analytics Dashboard"
+)
+
+# ----------------------------------------------------
+# CORS
+# ----------------------------------------------------
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
+
+# ----------------------------------------------------
+# DATABASE
+# ----------------------------------------------------
+
+project_root = Path(__file__).resolve().parents[2]
+
+db_path = project_root / "db" / "nifty100.db"
+
+def get_connection():
+    return sqlite3.connect(db_path)
+
+# ----------------------------------------------------
+# LOGGING MIDDLEWARE
+# ----------------------------------------------------
+
+@app.middleware("http")
+async def log_requests(request, call_next):
+
+    start = time.time()
+
+    response = await call_next(request)
+
+    duration = time.time() - start
+
+    print("=" * 60)
+    print(request.method, request.url.path)
+    print(f"Execution Time : {duration:.4f} sec")
+    print("=" * 60)
+
+    return response
+
+# ----------------------------------------------------
+# ROOT
+# ----------------------------------------------------
+
+@app.get("/")
+def home():
+
+    return {
+        "project": "Nifty100 Analytics",
+        "status": "Running"
+    }
+
+# ----------------------------------------------------
+# ROUTERS
+# ----------------------------------------------------
+
+app.include_router(
+    health.router,
+    prefix="/api/v1",
+    tags=["Health"]
+)
+
+app.include_router(
+    companies.router,
+    prefix="/api/v1",
+    tags=["Companies"]
+)
