@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">pytest_report.html</title>
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">pytest_report.html</h1>
+    <p>Report generated on 28-Jul-2026 at 21:30:53 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.2.0</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</td>
+        </tr>
+      </tbody>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left">&lt;</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">&gt;</div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">43 tests took 00:00:05.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" disabled>
+            <span class="failed">0 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" >
+            <span class="passed">43 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled>
+            <span class="rerun">0 Reruns</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="retried" disabled>
+            <span class="retried">0 Retried,</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.13.7&#34;, &#34;Platform&#34;: &#34;Windows-11-10.0.26200-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;9.1.1&#34;, &#34;pluggy&#34;: &#34;1.6.0&#34;}, &#34;Plugins&#34;: {&#34;anyio&#34;: &#34;4.14.2&#34;, &#34;html&#34;: &#34;4.2.0&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;}}, &#34;tests&#34;: {&#34;tests/api/test_companies.py::test_get_all_companies&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_companies.py::test_get_all_companies&#34;, &#34;duration&#34;: &#34;22 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_companies.py::test_get_all_companies&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;22 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/companies\nExecution Time : 0.0096 sec\n============================================================\n&#34;}], &#34;tests/api/test_companies.py::test_single_company&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_companies.py::test_single_company&#34;, &#34;duration&#34;: &#34;8 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_companies.py::test_single_company&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;8 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/companies/TCS\nExecution Time : 0.0043 sec\n============================================================\n&#34;}], &#34;tests/api/test_companies.py::test_invalid_company&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_companies.py::test_invalid_company&#34;, &#34;duration&#34;: &#34;5 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_companies.py::test_invalid_company&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;5 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/companies/INVALID\nExecution Time : 0.0013 sec\n============================================================\n&#34;}], &#34;tests/api/test_health.py::test_health_status&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_health.py::test_health_status&#34;, &#34;duration&#34;: &#34;40 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_health.py::test_health_status&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;40 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/health\nExecution Time : 0.0325 sec\n============================================================\n&#34;}], &#34;tests/api/test_health.py::test_database_connected&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_health.py::test_database_connected&#34;, &#34;duration&#34;: &#34;10 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_health.py::test_database_connected&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;10 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/health\nExecution Time : 0.0041 sec\n============================================================\n&#34;}], &#34;tests/api/test_health.py::test_version&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_health.py::test_version&#34;, &#34;duration&#34;: &#34;7 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_health.py::test_version&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;7 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/health\nExecution Time : 0.0039 sec\n============================================================\n&#34;}], &#34;tests/api/test_health.py::test_uptime&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_health.py::test_uptime&#34;, &#34;duration&#34;: &#34;7 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_health.py::test_uptime&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;7 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/health\nExecution Time : 0.0031 sec\n============================================================\n&#34;}], &#34;tests/api/test_screener.py::test_get_screener&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_screener.py::test_get_screener&#34;, &#34;duration&#34;: &#34;20 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_screener.py::test_get_screener&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;20 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/screener\nExecution Time : 0.0164 sec\n============================================================\n&#34;}], &#34;tests/api/test_screener.py::test_screener_filter&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_screener.py::test_screener_filter&#34;, &#34;duration&#34;: &#34;6 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_screener.py::test_screener_filter&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;6 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/screener\nExecution Time : 0.0027 sec\n============================================================\n&#34;}], &#34;tests/api/test_screener.py::test_invalid_filter&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_screener.py::test_invalid_filter&#34;, &#34;duration&#34;: &#34;7 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_screener.py::test_invalid_filter&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;7 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/screener\nExecution Time : 0.0030 sec\n============================================================\nStatus Code: 200\n{&amp;quot;count&amp;quot;:100,&amp;quot;companies&amp;quot;:[{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:19.29,&amp;quot;pb_ratio&amp;quot;:14.26,&amp;quot;fcf_yield_pct&amp;quot;:0.02866235693782654,&amp;quot;market_cap_crore&amp;quot;:844312.98,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:19.29,&amp;quot;pb_ratio&amp;quot;:14.26,&amp;quot;fcf_yield_pct&amp;quot;:-0.05436372658868752,&amp;quot;market_cap_crore&amp;quot;:844312.98,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:67.54,&amp;quot;pb_ratio&amp;quot;:13.03,&amp;quot;fcf_yield_pct&amp;quot;:0.02435923492644859,&amp;quot;market_cap_crore&amp;quot;:923674.33,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:67.54,&amp;quot;pb_ratio&amp;quot;:13.03,&amp;quot;fcf_yield_pct&amp;quot;:-0.02230223286599293,&amp;quot;market_cap_crore&amp;quot;:923674.33,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:62.63,&amp;quot;pb_ratio&amp;quot;:6.67,&amp;quot;fcf_yield_pct&amp;quot;:0.06417327591807488,&amp;quot;market_cap_crore&amp;quot;:1020674.09,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:62.63,&amp;quot;pb_ratio&amp;quot;:6.67,&amp;quot;fcf_yield_pct&amp;quot;:-0.0220442550863616,&amp;quot;market_cap_crore&amp;quot;:1020674.09,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:18.68,&amp;quot;pb_ratio&amp;quot;:4.75,&amp;quot;fcf_yield_pct&amp;quot;:0.0465432049694787,&amp;quot;market_cap_crore&amp;quot;:1185994.82,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:18.68,&amp;quot;pb_ratio&amp;quot;:4.75,&amp;quot;fcf_yield_pct&amp;quot;:0.01357510144943129,&amp;quot;market_cap_crore&amp;quot;:1185994.82,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:58.34,&amp;quot;pb_ratio&amp;quot;:12.72,&amp;quot;fcf_yield_pct&amp;quot;:0.06414046337894648,&amp;quot;market_cap_crore&amp;quot;:1161513.28,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:58.34,&amp;quot;pb_ratio&amp;quot;:12.72,&amp;quot;fcf_yield_pct&amp;quot;:-0.07937920434280356,&amp;quot;market_cap_crore&amp;quot;:1161513.28,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:75.58,&amp;quot;pb_ratio&amp;quot;:4.48,&amp;quot;fcf_yield_pct&amp;quot;:0.05188004157485571,&amp;quot;market_cap_crore&amp;quot;:1536236.24,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ABB&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:75.58,&amp;quot;pb_ratio&amp;quot;:4.48,&amp;quot;fcf_yield_pct&amp;quot;:0.07127809977975783,&amp;quot;market_cap_crore&amp;quot;:1536236.24,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENSOL&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:76.72,&amp;quot;pb_ratio&amp;quot;:12.85,&amp;quot;fcf_yield_pct&amp;quot;:-0.2670068687080689,&amp;quot;market_cap_crore&amp;quot;:171905.69,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENSOL&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:35.93,&amp;quot;pb_ratio&amp;quot;:9.79,&amp;quot;fcf_yield_pct&amp;quot;:-0.09487174468447661,&amp;quot;market_cap_crore&amp;quot;:217135.25,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENSOL&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:59.65,&amp;quot;pb_ratio&amp;quot;:14.71,&amp;quot;fcf_yield_pct&amp;quot;:-0.08162359413788778,&amp;quot;market_cap_crore&amp;quot;:275655.59,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENSOL&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:71.21,&amp;quot;pb_ratio&amp;quot;:6.44,&amp;quot;fcf_yield_pct&amp;quot;:0.05256224283677836,&amp;quot;market_cap_crore&amp;quot;:306303.52,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENSOL&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:28.96,&amp;quot;pb_ratio&amp;quot;:13.96,&amp;quot;fcf_yield_pct&amp;quot;:-0.350192839650307,&amp;quot;market_cap_crore&amp;quot;:263283.51,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENSOL&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:58.5,&amp;quot;pb_ratio&amp;quot;:9.05,&amp;quot;fcf_yield_pct&amp;quot;:0.3141880794689826,&amp;quot;market_cap_crore&amp;quot;:348517.36,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENT&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:56.08,&amp;quot;pb_ratio&amp;quot;:5.69,&amp;quot;fcf_yield_pct&amp;quot;:3.294403951488736,&amp;quot;market_cap_crore&amp;quot;:173718.83,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENT&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:36.71,&amp;quot;pb_ratio&amp;quot;:2.39,&amp;quot;fcf_yield_pct&amp;quot;:0.6313577541776372,&amp;quot;market_cap_crore&amp;quot;:217309.44,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENT&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:72.59,&amp;quot;pb_ratio&amp;quot;:8.25,&amp;quot;fcf_yield_pct&amp;quot;:-2.225484664081895,&amp;quot;market_cap_crore&amp;quot;:205258.66,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENT&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:56.13,&amp;quot;pb_ratio&amp;quot;:9.8,&amp;quot;fcf_yield_pct&amp;quot;:-8.382456764438082,&amp;quot;market_cap_crore&amp;quot;:186771.02,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENT&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:65.7,&amp;quot;pb_ratio&amp;quot;:5.32,&amp;quot;fcf_yield_pct&amp;quot;:1.10244019821539,&amp;quot;market_cap_crore&amp;quot;:196563.95,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIENT&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:58.87,&amp;quot;pb_ratio&amp;quot;:10.41,&amp;quot;fcf_yield_pct&amp;quot;:-4.499064189327432,&amp;quot;market_cap_crore&amp;quot;:187927.97,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIGREEN&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:29.07,&amp;quot;pb_ratio&amp;quot;:10.49,&amp;quot;fcf_yield_pct&amp;quot;:-0.2144741760730384,&amp;quot;market_cap_crore&amp;quot;:485373.12,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIGREEN&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:72.14,&amp;quot;pb_ratio&amp;quot;:14.91,&amp;quot;fcf_yield_pct&amp;quot;:-0.3435458554110173,&amp;quot;market_cap_crore&amp;quot;:517543.72,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIGREEN&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:17.73,&amp;quot;pb_ratio&amp;quot;:4.85,&amp;quot;fcf_yield_pct&amp;quot;:-1.451785353073196,&amp;quot;market_cap_crore&amp;quot;:519085.0,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIGREEN&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:37.61,&amp;quot;pb_ratio&amp;quot;:5.59,&amp;quot;fcf_yield_pct&amp;quot;:-3.149283357895375,&amp;quot;market_cap_crore&amp;quot;:495446.05,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIGREEN&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:9.89,&amp;quot;pb_ratio&amp;quot;:6.92,&amp;quot;fcf_yield_pct&amp;quot;:0.7589946714698914,&amp;quot;market_cap_crore&amp;quot;:449015.01,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIGREEN&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:45.26,&amp;quot;pb_ratio&amp;quot;:6.24,&amp;quot;fcf_yield_pct&amp;quot;:-2.61443014217979,&amp;quot;market_cap_crore&amp;quot;:510512.78,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPORTS&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:50.76,&amp;quot;pb_ratio&amp;quot;:1.64,&amp;quot;fcf_yield_pct&amp;quot;:0.2382314318104909,&amp;quot;market_cap_crore&amp;quot;:697221.18,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPORTS&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:53.52,&amp;quot;pb_ratio&amp;quot;:5.91,&amp;quot;fcf_yield_pct&amp;quot;:0.9465931517734564,&amp;quot;market_cap_crore&amp;quot;:702836.27,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPORTS&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:77.47,&amp;quot;pb_ratio&amp;quot;:0.9,&amp;quot;fcf_yield_pct&amp;quot;:-1.064873960843858,&amp;quot;market_cap_crore&amp;quot;:611152.14,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPORTS&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:15.26,&amp;quot;pb_ratio&amp;quot;:3.96,&amp;quot;fcf_yield_pct&amp;quot;:0.6714288922597972,&amp;quot;market_cap_crore&amp;quot;:733808.16,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPORTS&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:29.48,&amp;quot;pb_ratio&amp;quot;:7.65,&amp;quot;fcf_yield_pct&amp;quot;:-0.7588986420425908,&amp;quot;market_cap_crore&amp;quot;:634603.85,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPORTS&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:48.9,&amp;quot;pb_ratio&amp;quot;:2.31,&amp;quot;fcf_yield_pct&amp;quot;:1.221140364223394,&amp;quot;market_cap_crore&amp;quot;:675598.01,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Industrials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPOWER&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:27.22,&amp;quot;pb_ratio&amp;quot;:4.37,&amp;quot;fcf_yield_pct&amp;quot;:0.3893097691799546,&amp;quot;market_cap_crore&amp;quot;:1188256.85,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPOWER&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:66.83,&amp;quot;pb_ratio&amp;quot;:5.7,&amp;quot;fcf_yield_pct&amp;quot;:0.2946685706752995,&amp;quot;market_cap_crore&amp;quot;:1117866.08,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPOWER&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:66.6,&amp;quot;pb_ratio&amp;quot;:14.89,&amp;quot;fcf_yield_pct&amp;quot;:0.4893234212455347,&amp;quot;market_cap_crore&amp;quot;:986259.76,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPOWER&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:52.23,&amp;quot;pb_ratio&amp;quot;:2.28,&amp;quot;fcf_yield_pct&amp;quot;:1.05557666272001,&amp;quot;market_cap_crore&amp;quot;:1042747.57,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPOWER&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:33.86,&amp;quot;pb_ratio&amp;quot;:8.51,&amp;quot;fcf_yield_pct&amp;quot;:0.9283138477998552,&amp;quot;market_cap_crore&amp;quot;:1074636.56,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ADANIPOWER&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:44.57,&amp;quot;pb_ratio&amp;quot;:9.91,&amp;quot;fcf_yield_pct&amp;quot;:1.286343944292292,&amp;quot;market_cap_crore&amp;quot;:1372183.55,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AMBUJACEM&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:46.35,&amp;quot;pb_ratio&amp;quot;:0.8,&amp;quot;fcf_yield_pct&amp;quot;:0.4254424565575048,&amp;quot;market_cap_crore&amp;quot;:833955.32,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AMBUJACEM&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:79.32,&amp;quot;pb_ratio&amp;quot;:9.29,&amp;quot;fcf_yield_pct&amp;quot;:0.3427814631742316,&amp;quot;market_cap_crore&amp;quot;:1025434.68,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AMBUJACEM&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:45.48,&amp;quot;pb_ratio&amp;quot;:10.09,&amp;quot;fcf_yield_pct&amp;quot;:0.2833474676695348,&amp;quot;market_cap_crore&amp;quot;:1165353.63,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AMBUJACEM&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:33.86,&amp;quot;pb_ratio&amp;quot;:3.27,&amp;quot;fcf_yield_pct&amp;quot;:null,&amp;quot;market_cap_crore&amp;quot;:1157298.18,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AMBUJACEM&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:73.29,&amp;quot;pb_ratio&amp;quot;:1.59,&amp;quot;fcf_yield_pct&amp;quot;:-0.974277037851641,&amp;quot;market_cap_crore&amp;quot;:1410892.33,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AMBUJACEM&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:55.62,&amp;quot;pb_ratio&amp;quot;:9.21,&amp;quot;fcf_yield_pct&amp;quot;:-0.2571384120430241,&amp;quot;market_cap_crore&amp;quot;:1281411.04,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;APOLLOHOSP&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:49.76,&amp;quot;pb_ratio&amp;quot;:14.18,&amp;quot;fcf_yield_pct&amp;quot;:0.01790019823823666,&amp;quot;market_cap_crore&amp;quot;:1083786.88,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Healthcare&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;APOLLOHOSP&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:28.39,&amp;quot;pb_ratio&amp;quot;:8.78,&amp;quot;fcf_yield_pct&amp;quot;:0.07872388642827954,&amp;quot;market_cap_crore&amp;quot;:1275343.54,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Healthcare&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;APOLLOHOSP&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:11.18,&amp;quot;pb_ratio&amp;quot;:6.7,&amp;quot;fcf_yield_pct&amp;quot;:0.03335822752435701,&amp;quot;market_cap_crore&amp;quot;:1154138.06,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Healthcare&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;APOLLOHOSP&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:53.27,&amp;quot;pb_ratio&amp;quot;:1.11,&amp;quot;fcf_yield_pct&amp;quot;:0.06327806515547,&amp;quot;market_cap_crore&amp;quot;:1499729.8,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Healthcare&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;APOLLOHOSP&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:17.38,&amp;quot;pb_ratio&amp;quot;:12.98,&amp;quot;fcf_yield_pct&amp;quot;:0.03595620578389314,&amp;quot;market_cap_crore&amp;quot;:1446203.76,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Healthcare&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;APOLLOHOSP&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:47.72,&amp;quot;pb_ratio&amp;quot;:7.68,&amp;quot;fcf_yield_pct&amp;quot;:0.0200984200212211,&amp;quot;market_cap_crore&amp;quot;:1905622.43,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Healthcare&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ASIANPAINT&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:30.34,&amp;quot;pb_ratio&amp;quot;:5.08,&amp;quot;fcf_yield_pct&amp;quot;:0.1456159690127717,&amp;quot;market_cap_crore&amp;quot;:1065817.17,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ASIANPAINT&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:13.27,&amp;quot;pb_ratio&amp;quot;:6.46,&amp;quot;fcf_yield_pct&amp;quot;:0.219366221042179,&amp;quot;market_cap_crore&amp;quot;:1148763.92,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ASIANPAINT&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:78.48,&amp;quot;pb_ratio&amp;quot;:8.21,&amp;quot;fcf_yield_pct&amp;quot;:0.2475370496864213,&amp;quot;market_cap_crore&amp;quot;:1269304.94,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ASIANPAINT&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:40.61,&amp;quot;pb_ratio&amp;quot;:0.54,&amp;quot;fcf_yield_pct&amp;quot;:0.03908324380407903,&amp;quot;market_cap_crore&amp;quot;:1711731.0,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ASIANPAINT&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:49.2,&amp;quot;pb_ratio&amp;quot;:4.65,&amp;quot;fcf_yield_pct&amp;quot;:0.1391767281058213,&amp;quot;market_cap_crore&amp;quot;:2091585.31,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ASIANPAINT&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:73.37,&amp;quot;pb_ratio&amp;quot;:3.9,&amp;quot;fcf_yield_pct&amp;quot;:0.167205430839917,&amp;quot;market_cap_crore&amp;quot;:2126725.18,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Materials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ATGL&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:21.14,&amp;quot;pb_ratio&amp;quot;:0.81,&amp;quot;fcf_yield_pct&amp;quot;:null,&amp;quot;market_cap_crore&amp;quot;:1148243.4,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ATGL&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:22.78,&amp;quot;pb_ratio&amp;quot;:14.0,&amp;quot;fcf_yield_pct&amp;quot;:null,&amp;quot;market_cap_crore&amp;quot;:1099356.08,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ATGL&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:35.59,&amp;quot;pb_ratio&amp;quot;:6.88,&amp;quot;fcf_yield_pct&amp;quot;:null,&amp;quot;market_cap_crore&amp;quot;:1254318.65,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ATGL&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:74.55,&amp;quot;pb_ratio&amp;quot;:14.11,&amp;quot;fcf_yield_pct&amp;quot;:null,&amp;quot;market_cap_crore&amp;quot;:1548060.05,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ATGL&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:28.01,&amp;quot;pb_ratio&amp;quot;:4.26,&amp;quot;fcf_yield_pct&amp;quot;:null,&amp;quot;market_cap_crore&amp;quot;:1644865.15,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;ATGL&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:56.96,&amp;quot;pb_ratio&amp;quot;:5.76,&amp;quot;fcf_yield_pct&amp;quot;:null,&amp;quot;market_cap_crore&amp;quot;:1535602.41,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Energy&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AXISBANK&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:32.36,&amp;quot;pb_ratio&amp;quot;:2.69,&amp;quot;fcf_yield_pct&amp;quot;:2.80045551607473,&amp;quot;market_cap_crore&amp;quot;:658857.1,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AXISBANK&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:65.08,&amp;quot;pb_ratio&amp;quot;:0.53,&amp;quot;fcf_yield_pct&amp;quot;:3.436877921771102,&amp;quot;market_cap_crore&amp;quot;:609012.03,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AXISBANK&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:60.2,&amp;quot;pb_ratio&amp;quot;:4.08,&amp;quot;fcf_yield_pct&amp;quot;:-5.431312516079287,&amp;quot;market_cap_crore&amp;quot;:766941.69,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AXISBANK&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:56.88,&amp;quot;pb_ratio&amp;quot;:1.27,&amp;quot;fcf_yield_pct&amp;quot;:0.1396084170500314,&amp;quot;market_cap_crore&amp;quot;:734196.42,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AXISBANK&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:38.88,&amp;quot;pb_ratio&amp;quot;:12.76,&amp;quot;fcf_yield_pct&amp;quot;:-1.09367216991519,&amp;quot;market_cap_crore&amp;quot;:939586.86,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;AXISBANK&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:38.14,&amp;quot;pb_ratio&amp;quot;:4.66,&amp;quot;fcf_yield_pct&amp;quot;:-1.534037435719632,&amp;quot;market_cap_crore&amp;quot;:948868.63,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:42.63,&amp;quot;pb_ratio&amp;quot;:11.32,&amp;quot;fcf_yield_pct&amp;quot;:0.6853630020187254,&amp;quot;market_cap_crore&amp;quot;:323040.49,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:42.63,&amp;quot;pb_ratio&amp;quot;:11.32,&amp;quot;fcf_yield_pct&amp;quot;:0.6853630020187254,&amp;quot;market_cap_crore&amp;quot;:323040.49,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:79.31,&amp;quot;pb_ratio&amp;quot;:9.65,&amp;quot;fcf_yield_pct&amp;quot;:1.598683795887933,&amp;quot;market_cap_crore&amp;quot;:351288.98,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:79.31,&amp;quot;pb_ratio&amp;quot;:9.65,&amp;quot;fcf_yield_pct&amp;quot;:1.598683795887933,&amp;quot;market_cap_crore&amp;quot;:351288.98,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:49.41,&amp;quot;pb_ratio&amp;quot;:11.43,&amp;quot;fcf_yield_pct&amp;quot;:0.05538066273619881,&amp;quot;market_cap_crore&amp;quot;:453226.79,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:49.41,&amp;quot;pb_ratio&amp;quot;:11.43,&amp;quot;fcf_yield_pct&amp;quot;:0.05538066273619881,&amp;quot;market_cap_crore&amp;quot;:453226.79,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:49.72,&amp;quot;pb_ratio&amp;quot;:10.06,&amp;quot;fcf_yield_pct&amp;quot;:0.7733755750046536,&amp;quot;market_cap_crore&amp;quot;:578373.58,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:49.72,&amp;quot;pb_ratio&amp;quot;:10.06,&amp;quot;fcf_yield_pct&amp;quot;:0.7733755750046536,&amp;quot;market_cap_crore&amp;quot;:578373.58,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:78.58,&amp;quot;pb_ratio&amp;quot;:8.54,&amp;quot;fcf_yield_pct&amp;quot;:1.173933458925637,&amp;quot;market_cap_crore&amp;quot;:552671.87,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:78.58,&amp;quot;pb_ratio&amp;quot;:8.54,&amp;quot;fcf_yield_pct&amp;quot;:1.173933458925637,&amp;quot;market_cap_crore&amp;quot;:552671.87,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:29.91,&amp;quot;pb_ratio&amp;quot;:9.83,&amp;quot;fcf_yield_pct&amp;quot;:0.992020247858232,&amp;quot;market_cap_crore&amp;quot;:653817.3,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJ-AUTO&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:29.91,&amp;quot;pb_ratio&amp;quot;:9.83,&amp;quot;fcf_yield_pct&amp;quot;:0.992020247858232,&amp;quot;market_cap_crore&amp;quot;:653817.3,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Consumer Discretionary&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJFINSV&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:43.61,&amp;quot;pb_ratio&amp;quot;:5.19,&amp;quot;fcf_yield_pct&amp;quot;:-2.957759839928777,&amp;quot;market_cap_crore&amp;quot;:1148808.62,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJFINSV&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:33.33,&amp;quot;pb_ratio&amp;quot;:3.61,&amp;quot;fcf_yield_pct&amp;quot;:-2.816324358334176,&amp;quot;market_cap_crore&amp;quot;:1182995.84,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJFINSV&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:51.06,&amp;quot;pb_ratio&amp;quot;:2.31,&amp;quot;fcf_yield_pct&amp;quot;:0.05795591813768872,&amp;quot;market_cap_crore&amp;quot;:1489062.77,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJFINSV&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:59.39,&amp;quot;pb_ratio&amp;quot;:12.5,&amp;quot;fcf_yield_pct&amp;quot;:-1.716071307877773,&amp;quot;market_cap_crore&amp;quot;:1877835.72,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJFINSV&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:76.89,&amp;quot;pb_ratio&amp;quot;:13.57,&amp;quot;fcf_yield_pct&amp;quot;:-2.894486865314339,&amp;quot;market_cap_crore&amp;quot;:1845750.3,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJFINSV&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:15.07,&amp;quot;pb_ratio&amp;quot;:6.08,&amp;quot;fcf_yield_pct&amp;quot;:-4.180016339930263,&amp;quot;market_cap_crore&amp;quot;:1905112.17,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJHLDNG&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:76.88,&amp;quot;pb_ratio&amp;quot;:9.04,&amp;quot;fcf_yield_pct&amp;quot;:0.04583640120966698,&amp;quot;market_cap_crore&amp;quot;:1014477.55,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJHLDNG&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:50.76,&amp;quot;pb_ratio&amp;quot;:2.05,&amp;quot;fcf_yield_pct&amp;quot;:0.08199914741386476,&amp;quot;market_cap_crore&amp;quot;:1365867.86,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJHLDNG&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:35.88,&amp;quot;pb_ratio&amp;quot;:14.51,&amp;quot;fcf_yield_pct&amp;quot;:-0.002635232790096198,&amp;quot;market_cap_crore&amp;quot;:1366103.22,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJHLDNG&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:79.41,&amp;quot;pb_ratio&amp;quot;:5.56,&amp;quot;fcf_yield_pct&amp;quot;:0.1046261097762816,&amp;quot;market_cap_crore&amp;quot;:1394489.39,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJHLDNG&amp;quot;,&amp;quot;year&amp;quot;:2023,&amp;quot;pe_ratio&amp;quot;:26.75,&amp;quot;pb_ratio&amp;quot;:3.46,&amp;quot;fcf_yield_pct&amp;quot;:0.0928051752505572,&amp;quot;market_cap_crore&amp;quot;:1714344.05,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Discount&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJAJHLDNG&amp;quot;,&amp;quot;year&amp;quot;:2024,&amp;quot;pe_ratio&amp;quot;:37.73,&amp;quot;pb_ratio&amp;quot;:9.38,&amp;quot;fcf_yield_pct&amp;quot;:0.06702962960133939,&amp;quot;market_cap_crore&amp;quot;:2191568.13,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJFINANCE&amp;quot;,&amp;quot;year&amp;quot;:2019,&amp;quot;pe_ratio&amp;quot;:58.62,&amp;quot;pb_ratio&amp;quot;:5.53,&amp;quot;fcf_yield_pct&amp;quot;:-3.977830866341325,&amp;quot;market_cap_crore&amp;quot;:865823.64,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJFINANCE&amp;quot;,&amp;quot;year&amp;quot;:2020,&amp;quot;pe_ratio&amp;quot;:46.9,&amp;quot;pb_ratio&amp;quot;:6.39,&amp;quot;fcf_yield_pct&amp;quot;:-3.407110369195794,&amp;quot;market_cap_crore&amp;quot;:973552.26,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJFINANCE&amp;quot;,&amp;quot;year&amp;quot;:2021,&amp;quot;pe_ratio&amp;quot;:35.63,&amp;quot;pb_ratio&amp;quot;:6.6,&amp;quot;fcf_yield_pct&amp;quot;:-0.1117482206265734,&amp;quot;market_cap_crore&amp;quot;:1106057.88,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Fair&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;},{&amp;quot;company_id&amp;quot;:&amp;quot;BAJFINANCE&amp;quot;,&amp;quot;year&amp;quot;:2022,&amp;quot;pe_ratio&amp;quot;:54.84,&amp;quot;pb_ratio&amp;quot;:11.71,&amp;quot;fcf_yield_pct&amp;quot;:-2.161862695721338,&amp;quot;market_cap_crore&amp;quot;:1422060.71,&amp;quot;valuation_flag&amp;quot;:&amp;quot;Caution&amp;quot;,&amp;quot;broad_sector&amp;quot;:&amp;quot;Financials&amp;quot;}]}\n&#34;}], &#34;tests/api/test_sectors.py::test_get_sectors&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_sectors.py::test_get_sectors&#34;, &#34;duration&#34;: &#34;8 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_sectors.py::test_get_sectors&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;8 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/sectors\nExecution Time : 0.0033 sec\n============================================================\n&#34;}], &#34;tests/api/test_sectors.py::test_sector_companies&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_sectors.py::test_sector_companies&#34;, &#34;duration&#34;: &#34;6 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_sectors.py::test_sector_companies&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;6 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/sectors/Information Technology/companies\nExecution Time : 0.0020 sec\n============================================================\n&#34;}], &#34;tests/api/test_sectors.py::test_invalid_sector&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/api/test_sectors.py::test_invalid_sector&#34;, &#34;duration&#34;: &#34;6 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/api/test_sectors.py::test_invalid_sector&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;6 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n============================================================\nGET /api/v1/sectors/INVALID/companies\nExecution Time : 0.0020 sec\n============================================================\n&#34;}], &#34;tests/dq/test_rules.py::test_positive_pass&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/dq/test_rules.py::test_positive_pass&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/dq/test_rules.py::test_positive_pass&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/dq/test_rules.py::test_positive_fail&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/dq/test_rules.py::test_positive_fail&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/dq/test_rules.py::test_positive_fail&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/dq/test_rules.py::test_not_null&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/dq/test_rules.py::test_not_null&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/dq/test_rules.py::test_not_null&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/dq/test_rules.py::test_null&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/dq/test_rules.py::test_null&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/dq/test_rules.py::test_null&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/dq/test_rules.py::test_percentage_valid&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/dq/test_rules.py::test_percentage_valid&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/dq/test_rules.py::test_percentage_valid&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/dq/test_rules.py::test_percentage_zero&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/dq/test_rules.py::test_percentage_zero&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/dq/test_rules.py::test_percentage_zero&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/dq/test_rules.py::test_percentage_hundred&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/dq/test_rules.py::test_percentage_hundred&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/dq/test_rules.py::test_percentage_hundred&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/dq/test_rules.py::test_percentage_negative&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/dq/test_rules.py::test_percentage_negative&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/dq/test_rules.py::test_percentage_negative&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/dq/test_rules.py::test_percentage_above&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/dq/test_rules.py::test_percentage_above&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/dq/test_rules.py::test_percentage_above&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/dq/test_rules.py::test_dataframe_rule&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/dq/test_rules.py::test_dataframe_rule&#34;, &#34;duration&#34;: &#34;13 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/dq/test_rules.py::test_dataframe_rule&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;13 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/etl/test_loader.py::test_cashflow_file_exists&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/etl/test_loader.py::test_cashflow_file_exists&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/etl/test_loader.py::test_cashflow_file_exists&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/etl/test_loader.py::test_cashflow_not_empty&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/etl/test_loader.py::test_cashflow_not_empty&#34;, &#34;duration&#34;: &#34;540 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/etl/test_loader.py::test_cashflow_not_empty&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;540 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/etl/test_loader.py::test_company_column_exists&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/etl/test_loader.py::test_company_column_exists&#34;, &#34;duration&#34;: &#34;223 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/etl/test_loader.py::test_company_column_exists&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;223 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/etl/test_loader.py::test_year_column_exists&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/etl/test_loader.py::test_year_column_exists&#34;, &#34;duration&#34;: &#34;197 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/etl/test_loader.py::test_year_column_exists&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;197 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/etl/test_loader.py::test_free_cash_flow_exists&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/etl/test_loader.py::test_free_cash_flow_exists&#34;, &#34;duration&#34;: &#34;281 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/etl/test_loader.py::test_free_cash_flow_exists&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;281 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/etl/test_loader.py::test_no_duplicate_rows&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/etl/test_loader.py::test_no_duplicate_rows&#34;, &#34;duration&#34;: &#34;244 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/etl/test_loader.py::test_no_duplicate_rows&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;244 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nDuplicate Rows: 396\n&#34;}], &#34;tests/etl/test_loader.py::test_company_count&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/etl/test_loader.py::test_company_count&#34;, &#34;duration&#34;: &#34;222 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/etl/test_loader.py::test_company_count&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;222 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/etl/test_loader.py::test_free_cash_flow_numeric&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/etl/test_loader.py::test_free_cash_flow_numeric&#34;, &#34;duration&#34;: &#34;207 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/etl/test_loader.py::test_free_cash_flow_numeric&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;207 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/etl/test_loader.py::test_dataframe_type&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/etl/test_loader.py::test_dataframe_type&#34;, &#34;duration&#34;: &#34;199 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/etl/test_loader.py::test_dataframe_type&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;199 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/etl/test_loader.py::test_columns_not_empty&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/etl/test_loader.py::test_columns_not_empty&#34;, &#34;duration&#34;: &#34;215 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/etl/test_loader.py::test_columns_not_empty&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;215 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/kpi/test_ratios.py::test_roe_positive&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/kpi/test_ratios.py::test_roe_positive&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/kpi/test_ratios.py::test_roe_positive&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/kpi/test_ratios.py::test_roe_negative_equity&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/kpi/test_ratios.py::test_roe_negative_equity&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/kpi/test_ratios.py::test_roe_negative_equity&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/kpi/test_ratios.py::test_de_ratio&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/kpi/test_ratios.py::test_de_ratio&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/kpi/test_ratios.py::test_de_ratio&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/kpi/test_ratios.py::test_de_zero_equity&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/kpi/test_ratios.py::test_de_zero_equity&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/kpi/test_ratios.py::test_de_zero_equity&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/kpi/test_ratios.py::test_icr&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/kpi/test_ratios.py::test_icr&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/kpi/test_ratios.py::test_icr&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/kpi/test_ratios.py::test_icr_zero_interest&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/kpi/test_ratios.py::test_icr_zero_interest&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/kpi/test_ratios.py::test_icr_zero_interest&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/kpi/test_ratios.py::test_opm&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/kpi/test_ratios.py::test_opm&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/kpi/test_ratios.py::test_opm&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/kpi/test_ratios.py::test_cagr&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/kpi/test_ratios.py::test_cagr&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/kpi/test_ratios.py::test_cagr&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/kpi/test_ratios.py::test_cfo_quality&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/kpi/test_ratios.py::test_cfo_quality&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/kpi/test_ratios.py::test_cfo_quality&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/kpi/test_ratios.py::test_cfo_zero_profit&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/kpi/test_ratios.py::test_cfo_zero_profit&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/kpi/test_ratios.py::test_cfo_zero_profit&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;pytest_report.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > .col-result')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > .col-result')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+  </body>
+</html>
