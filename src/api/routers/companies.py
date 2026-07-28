@@ -1,6 +1,5 @@
 from pathlib import Path
 import sqlite3
-
 from fastapi import APIRouter, HTTPException
 
 router = APIRouter()
@@ -13,9 +12,9 @@ def get_connection():
     return sqlite3.connect(db_path)
 
 
-# ----------------------------------------------------
+# ------------------------------------------
 # GET ALL COMPANIES
-# ----------------------------------------------------
+# ------------------------------------------
 
 @router.get("/companies")
 def get_companies():
@@ -23,25 +22,33 @@ def get_companies():
     conn = get_connection()
 
     query = """
-    SELECT DISTINCT
-        company_id
-    FROM financial_ratios
+    SELECT *
+    FROM companies
     ORDER BY company_id
     """
 
-    companies = conn.execute(query).fetchall()
+    cursor = conn.execute(query)
+
+    columns = [col[0] for col in cursor.description]
+
+    rows = cursor.fetchall()
 
     conn.close()
 
+    result = []
+
+    for row in rows:
+        result.append(dict(zip(columns, row)))
+
     return {
-        "count": len(companies),
-        "companies": [row[0] for row in companies]
+        "count": len(result),
+        "companies": result
     }
 
 
-# ----------------------------------------------------
-# GET COMPANY PROFILE
-# ----------------------------------------------------
+# ------------------------------------------
+# GET SINGLE COMPANY
+# ------------------------------------------
 
 @router.get("/companies/{ticker}")
 def get_company(ticker: str):
@@ -50,31 +57,22 @@ def get_company(ticker: str):
 
     query = """
     SELECT *
-    FROM financial_ratios
+    FROM companies
     WHERE company_id=?
-    ORDER BY year DESC
     """
 
-    df = conn.execute(query, (ticker.upper(),)).fetchall()
+    cursor = conn.execute(query, (ticker.upper(),))
 
-    columns = [
-        col[0]
-        for col in conn.execute(
-            "PRAGMA table_info(financial_ratios)"
-        ).fetchall()
-    ]
+    columns = [col[0] for col in cursor.description]
+
+    row = cursor.fetchone()
 
     conn.close()
 
-    if len(df) == 0:
-
+    if row is None:
         raise HTTPException(
             status_code=404,
             detail="Company not found"
         )
 
-    latest = dict(
-        zip(columns, df[0])
-    )
-
-    return latest
+    return dict(zip(columns, row))

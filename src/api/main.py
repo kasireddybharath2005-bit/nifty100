@@ -7,6 +7,10 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from src.api.routers import health
 from src.api.routers import companies
+from src.api.routers import sectors
+from src.api.routers import peers
+from src.api.routers import valuation
+
 # ----------------------------------------------------
 # APP
 # ----------------------------------------------------
@@ -86,4 +90,24 @@ app.include_router(
     companies.router,
     prefix="/api/v1",
     tags=["Companies"]
+)
+
+
+
+app.include_router(
+    sectors.router,
+    prefix="/api/v1",
+    tags=["Sectors"]
+)
+
+app.include_router(
+    peers.router,
+    prefix="/api/v1",
+    tags=["Peers"]
+)
+
+app.include_router(
+    valuation.router,
+    prefix="/api/v1",
+    tags=["Valuation"]
 )
