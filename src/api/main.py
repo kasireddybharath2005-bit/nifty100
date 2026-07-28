@@ -11,6 +11,7 @@ from src.api.routers import sectors
 from src.api.routers import peers
 from src.api.routers import valuation
 from src.api.routers import screener
+from src.api.routers import market_cap
 
 # ----------------------------------------------------
 # APP
@@ -116,4 +117,10 @@ app.include_router(
     screener.router,
     prefix="/api/v1",
     tags=["Screener"]
+)
+
+app.include_router(
+    market_cap.router,
+    prefix="/api/v1",
+    tags=["Market Cap"]
 )
