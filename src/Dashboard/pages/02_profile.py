@@ -8,19 +8,17 @@ from utils.db import (
     search_companies,
     get_company_info,
     get_revenue_profit,
-    get_roe_asset_turnover
+    get_roe_asset_turnover,
 )
 
 import plotly.express as px
+
 st.set_page_config(page_title="Company Profile")
 
 st.title("🏢 Company Profile")
 
 # Search box
-search_text = st.text_input(
-    "🔍 Search Company",
-    ""
-)
+search_text = st.text_input("🔍 Search Company", "")
 
 companies = search_companies(search_text)
 
@@ -28,10 +26,7 @@ if companies.empty:
     st.warning("No matching company found.")
     st.stop()
 
-company = st.selectbox(
-    "Select Company",
-    companies["company_id"]
-)
+company = st.selectbox("Select Company", companies["company_id"])
 info = get_company_info(company)
 if not info.empty:
 
@@ -64,13 +59,10 @@ fig = px.bar(
     x="year",
     y=["sales", "net_profit"],
     barmode="group",
-    title="Revenue & Net Profit"
+    title="Revenue & Net Profit",
 )
 
-st.plotly_chart(
-    fig,
-    use_container_width=True
-)
+st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
 st.subheader("📈 ROE vs Asset Turnover")
@@ -78,18 +70,12 @@ st.subheader("📈 ROE vs Asset Turnover")
 fig = px.line(
     roe_df,
     x="year",
-    y=[
-        "roe_calculated",
-        "asset_turnover"
-    ],
+    y=["roe_calculated", "asset_turnover"],
     markers=True,
-    title="ROE vs Asset Turnover"
+    title="ROE vs Asset Turnover",
 )
 
-st.plotly_chart(
-    fig,
-    use_container_width=True
-)
+st.plotly_chart(fig, use_container_width=True)
 st.markdown("---")
 st.header("📊 Financial Ratios")
 st.dataframe(ratios, use_container_width=True)

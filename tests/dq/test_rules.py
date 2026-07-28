@@ -17,6 +17,7 @@ def validate_percentage(value):
 # Positive Value Tests
 # -----------------------
 
+
 def test_positive_pass():
     assert validate_positive(100)
 
@@ -29,6 +30,7 @@ def test_positive_fail():
 # Null Tests
 # -----------------------
 
+
 def test_not_null():
     assert validate_not_null(50)
 
@@ -40,6 +42,7 @@ def test_null():
 # -----------------------
 # Percentage Tests
 # -----------------------
+
 
 def test_percentage_valid():
     assert validate_percentage(25)
@@ -63,10 +66,7 @@ def test_percentage_above():
 
 def test_dataframe_rule():
 
-    df = pd.DataFrame({
-        "roe": [15, -2, 30],
-        "pe_ratio": [20, 25, None]
-    })
+    df = pd.DataFrame({"roe": [15, -2, 30], "pe_ratio": [20, 25, None]})
 
     assert df["roe"].min() < 0
     assert df["pe_ratio"].isna().sum() == 1

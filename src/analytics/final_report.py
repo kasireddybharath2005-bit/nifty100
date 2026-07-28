@@ -1,43 +1,20 @@
 from pathlib import Path
 import pandas as pd
+
 project_root = Path(__file__).resolve().parents[2]
 
 output_path = project_root / "output"
-ranking_df = pd.read_excel(
-    output_path / "company_rankings.xlsx"
-)
+ranking_df = pd.read_excel(output_path / "company_rankings.xlsx")
 
-portfolio_df = pd.read_excel(
-    output_path / "recommended_portfolio.xlsx"
-)
+portfolio_df = pd.read_excel(output_path / "recommended_portfolio.xlsx")
 
-summary_df = pd.read_excel(
-    output_path / "portfolio_summary.xlsx"
-)
-with pd.ExcelWriter(
+summary_df = pd.read_excel(output_path / "portfolio_summary.xlsx")
+with pd.ExcelWriter(output_path / "Final_Analytics_Report.xlsx") as writer:
 
-    output_path /
+    ranking_df.to_excel(writer, sheet_name="Rankings", index=False)
 
-    "Final_Analytics_Report.xlsx"
+    portfolio_df.to_excel(writer, sheet_name="Portfolio", index=False)
 
-) as writer:
-
-    ranking_df.to_excel(
-        writer,
-        sheet_name="Rankings",
-        index=False
-    )
-
-    portfolio_df.to_excel(
-        writer,
-        sheet_name="Portfolio",
-        index=False
-    )
-
-    summary_df.to_excel(
-        writer,
-        sheet_name="Summary",
-        index=False
-    )
+    summary_df.to_excel(writer, sheet_name="Summary", index=False)
 
 print("Final_Analytics_Report.xlsx created successfully.")

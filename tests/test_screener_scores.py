@@ -8,10 +8,7 @@ db_path = project_root / "db" / "nifty100.db"
 
 conn = sqlite3.connect(db_path)
 
-tables = pd.read_sql(
-    "SELECT name FROM sqlite_master WHERE type='table'",
-    conn
-)
+tables = pd.read_sql("SELECT name FROM sqlite_master WHERE type='table'", conn)
 
 print(tables)
 

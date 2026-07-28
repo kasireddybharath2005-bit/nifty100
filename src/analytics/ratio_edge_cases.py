@@ -19,10 +19,7 @@ output_path.mkdir(exist_ok=True)
 
 conn = sqlite3.connect(db_path)
 
-df = pd.read_sql(
-    "SELECT * FROM financial_ratios",
-    conn
-)
+df = pd.read_sql("SELECT * FROM financial_ratios", conn)
 
 conn.close()
 
@@ -42,39 +39,20 @@ for col in required:
 # LOAD SOURCE ROE
 # ==========================================
 
-companies = pd.read_csv(
-    project_root / "data" / "processed" / "companies_cleaned.csv"
-)
+companies = pd.read_csv(project_root / "data" / "processed" / "companies_cleaned.csv")
 
 print("Companies Loaded :", len(companies))
 
-companies = companies[
-    [
-        "id",
-        "company_name",
-        "roce_percentage"
-    ]
-]
+companies = companies[["id", "company_name", "roce_percentage"]]
 
 companies.rename(
-    columns={
-        "id": "company_id",
-        "roce_percentage": "source_roce"
-    },
-    inplace=True
+    columns={"id": "company_id", "roce_percentage": "source_roce"}, inplace=True
 )
-merged = pd.merge(
-    df,
-    companies,
-    on="company_id",
-    how="left"
-)
+merged = pd.merge(df, companies, on="company_id", how="left")
 
 print("Merged :", merged.shape)
-merged["difference"] = (
-    merged["roe_calculated"] -
-    merged["source_roce"]
-).abs()
+merged["difference"] = (merged["roe_calculated"] - merged["source_roce"]).abs()
+
 
 def category(diff):
 
@@ -94,12 +72,8 @@ def category(diff):
         return "Data Source Issue"
 
 
-merged["category"] = merged[
-    "difference"
-].apply(category)
-issues = merged[
-    merged["difference"] > 5
-]
+merged["category"] = merged["difference"].apply(category)
+issues = merged[merged["difference"] > 5]
 
 print()
 
@@ -111,16 +85,9 @@ issues[
         "roe_calculated",
         "source_roce",
         "difference",
-        "category"
+        "category",
     ]
-].to_csv(
-
-    output_path /
-    "ratio_edge_cases.csv",
-
-    index=False
-
-)
+].to_csv(output_path / "ratio_edge_cases.csv", index=False)
 log_file = output_path / "ratio_edge_cases.log"
 
 with open(log_file, "w") as f:
@@ -159,10 +126,7 @@ print("Issues :", len(issues))
 
 print()
 
-print(
-    issues["category"]
-    .value_counts()
-)
+print(issues["category"].value_counts())
 
 print()
 

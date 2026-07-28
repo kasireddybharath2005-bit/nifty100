@@ -1,17 +1,27 @@
 # Performance Notes
 
 ## Load Test
-- 10 concurrent API requests completed successfully.
-- Average response time below target.
 
-## Dashboard Performance
-- Company Profile pages loaded in under 3 seconds.
+- 10 concurrent requests completed successfully.
+- Response time within target.
 
-## Integration
-- FastAPI (8000) and Streamlit (8501) ran simultaneously.
-- Dashboard successfully retrieved data from API.
-- No port conflicts observed.
+## Dashboard
+
+- Company profile loaded under 3 seconds.
+
+## FastAPI
+
+- Stable.
+
+## Streamlit
+
+- Stable.
+
+## Database
+
+- SQLite performance acceptable.
 
 ## Optimization
-- SQLite queries performed efficiently.
-- No additional indexing required after testing.
+
+- Queries optimized.
+- API response satisfactory.

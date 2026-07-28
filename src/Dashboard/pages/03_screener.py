@@ -15,35 +15,17 @@ dividend = st.sidebar.button("💰 Dividend")
 debt_free = st.sidebar.button("🏦 Debt Free")
 turnaround = st.sidebar.button("🔄 Turnaround")
 
-roe = st.sidebar.slider(
-    "Minimum ROE",
-    0.0, 50.0, 10.0
-)
+roe = st.sidebar.slider("Minimum ROE", 0.0, 50.0, 10.0)
 
-debt = st.sidebar.slider(
-    "Maximum Debt/Equity",
-    0.0, 10.0, 2.0
-)
+debt = st.sidebar.slider("Maximum Debt/Equity", 0.0, 10.0, 2.0)
 
-revenue = st.sidebar.slider(
-    "Minimum Revenue CAGR",
-    0.0, 50.0, 5.0
-)
+revenue = st.sidebar.slider("Minimum Revenue CAGR", 0.0, 50.0, 5.0)
 
-profit = st.sidebar.slider(
-    "Minimum Profit CAGR",
-    0.0, 50.0, 5.0
-)
+profit = st.sidebar.slider("Minimum Profit CAGR", 0.0, 50.0, 5.0)
 
-opm = st.sidebar.slider(
-    "Minimum Operating Profit Margin",
-    0.0, 60.0, 10.0
-)
+opm = st.sidebar.slider("Minimum Operating Profit Margin", 0.0, 60.0, 10.0)
 
-icr = st.sidebar.slider(
-    "Minimum Interest Coverage",
-    0.0, 100.0, 2.0
-)
+icr = st.sidebar.slider("Minimum Interest Coverage", 0.0, 100.0, 2.0)
 if quality:
     roe = 20
     debt = 0.5
@@ -91,21 +73,11 @@ elif turnaround:
     profit = 10
     opm = 5
     icr = 1
-df = get_screener_filtered(
-    roe,
-    debt,
-    revenue,
-    profit,
-    opm,
-    icr
-)
+df = get_screener_filtered(roe, debt, revenue, profit, opm, icr)
 
 st.subheader("📊 Filter Results")
 
-st.metric(
-    "Matching Companies",
-    len(df)
-)
+st.metric("Matching Companies", len(df))
 
 if df.empty:
 
@@ -113,10 +85,7 @@ if df.empty:
 
 else:
 
-    st.dataframe(
-        df,
-        use_container_width=True
-    )
+    st.dataframe(df, use_container_width=True)
 
     csv = df.to_csv(index=False).encode("utf-8")
 
@@ -124,5 +93,5 @@ else:
         label="📥 Download CSV",
         data=csv,
         file_name="filtered_companies.csv",
-        mime="text/csv"
+        mime="text/csv",
     )

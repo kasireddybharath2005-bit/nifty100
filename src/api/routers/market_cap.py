@@ -18,6 +18,7 @@ def get_connection():
 # MARKET CAP HISTORY
 # ---------------------------------------------
 
+
 @router.get("/market-cap/{ticker}")
 def market_cap_history(ticker: str):
 
@@ -47,17 +48,11 @@ def market_cap_history(ticker: str):
     conn.close()
 
     if len(rows) == 0:
-        raise HTTPException(
-            status_code=404,
-            detail="Company not found"
-        )
+        raise HTTPException(status_code=404, detail="Company not found")
 
     result = []
 
     for row in rows:
         result.append(dict(zip(columns, row)))
 
-    return {
-        "company": ticker.upper(),
-        "history": result
-    }
+    return {"company": ticker.upper(), "history": result}

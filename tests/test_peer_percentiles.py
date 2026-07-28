@@ -8,9 +8,6 @@ db = project_root / "db" / "nifty100.db"
 
 conn = sqlite3.connect(db)
 
-print(pd.read_sql(
-    "PRAGMA table_info(peer_percentiles)",
-    conn
-))
+print(pd.read_sql("PRAGMA table_info(peer_percentiles)", conn))
 
 conn.close()

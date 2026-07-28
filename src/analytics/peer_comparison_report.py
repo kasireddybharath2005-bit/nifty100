@@ -32,10 +32,7 @@ print("Database Connected")
 # Load Financial Ratios
 # ---------------------------------------------------
 
-financial = pd.read_sql(
-    "SELECT * FROM financial_ratios",
-    conn
-)
+financial = pd.read_sql("SELECT * FROM financial_ratios", conn)
 
 print("Financial Ratios Loaded")
 
@@ -43,17 +40,9 @@ print("Financial Ratios Loaded")
 # Load Peer Groups
 # ---------------------------------------------------
 
-peer = pd.read_csv(
-    peer_file,
-    header=None
-)
+peer = pd.read_csv(peer_file, header=None)
 
-peer.columns = [
-    "id",
-    "peer_group_name",
-    "company_id",
-    "is_active"
-]
+peer.columns = ["id", "peer_group_name", "company_id", "is_active"]
 
 print("Peer Groups Loaded")
 
@@ -61,12 +50,7 @@ print("Peer Groups Loaded")
 # Merge Tables
 # ---------------------------------------------------
 
-df = pd.merge(
-    financial,
-    peer,
-    on="company_id",
-    how="left"
-)
+df = pd.merge(financial, peer, on="company_id", how="left")
 
 df = df.dropna(subset=["peer_group_name"])
 
@@ -86,44 +70,19 @@ wb.remove(wb.active)
 # Excel Styles
 # ---------------------------------------------------
 
-header_fill = PatternFill(
-    start_color="1F4E78",
-    end_color="1F4E78",
-    fill_type="solid"
-)
+header_fill = PatternFill(start_color="1F4E78", end_color="1F4E78", fill_type="solid")
 
-header_font = Font(
-    bold=True,
-    color="FFFFFF"
-)
+header_font = Font(bold=True, color="FFFFFF")
 
-center = Alignment(
-    horizontal="center"
-)
+center = Alignment(horizontal="center")
 
-green_fill = PatternFill(
-    start_color="92D050",
-    end_color="92D050",
-    fill_type="solid"
-)
+green_fill = PatternFill(start_color="92D050", end_color="92D050", fill_type="solid")
 
-yellow_fill = PatternFill(
-    start_color="FFD966",
-    end_color="FFD966",
-    fill_type="solid"
-)
+yellow_fill = PatternFill(start_color="FFD966", end_color="FFD966", fill_type="solid")
 
-red_fill = PatternFill(
-    start_color="F4CCCC",
-    end_color="F4CCCC",
-    fill_type="solid"
-)
+red_fill = PatternFill(start_color="F4CCCC", end_color="F4CCCC", fill_type="solid")
 
-gold_fill = PatternFill(
-    start_color="FFC000",
-    end_color="FFC000",
-    fill_type="solid"
-)
+gold_fill = PatternFill(start_color="FFC000", end_color="FFC000", fill_type="solid")
 
 print("Workbook Created")
 
@@ -132,7 +91,6 @@ print("Workbook Created")
 # ---------------------------------------------------
 
 metrics = [
-
     "roe_calculated",
     "roa",
     "net_profit_margin",
@@ -152,8 +110,7 @@ metrics = [
     "eps_cagr_5yr",
     "revenue_cagr_10yr",
     "profit_cagr_10yr",
-    "eps_cagr_10yr"
-
+    "eps_cagr_10yr",
 ]
 
 peer_groups = sorted(df["peer_group_name"].unique())
@@ -170,9 +127,7 @@ for group in peer_groups:
 
     sheet = wb.create_sheet(title=group[:31])
 
-    peer_df = df[
-        df["peer_group_name"] == group
-    ].copy()
+    peer_df = df[df["peer_group_name"] == group].copy()
 
     columns = ["company_id"] + metrics
 
@@ -184,10 +139,7 @@ for group in peer_groups:
 
     for col_num, column_name in enumerate(columns, start=1):
 
-        cell = sheet.cell(
-            row=1,
-            column=col_num
-        )
+        cell = sheet.cell(row=1, column=col_num)
 
         cell.value = column_name
 
@@ -207,14 +159,9 @@ for group in peer_groups:
 
             value = row[column_name]
 
-            sheet.cell(
-                row=row_num,
-                column=col_num
-            ).value = value
+            sheet.cell(row=row_num, column=col_num).value = value
 
-    print(
-        f"Rows Written : {len(peer_df)}"
-    )
+    print(f"Rows Written : {len(peer_df)}")
     # ---------------------------------------------------
     # Apply Formatting
     # ---------------------------------------------------
@@ -306,11 +253,7 @@ for group in peer_groups:
 
             if len(values) > 0:
                 sheet.cell(summary_row, col).value = round(
-
-                    pd.Series(values).median(),
-
-                    2
-
+                    pd.Series(values).median(), 2
                 )
 
     # ---------------------------------------------------

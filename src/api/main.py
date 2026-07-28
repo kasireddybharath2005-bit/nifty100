@@ -22,7 +22,7 @@ from src.api.routers import documents
 app = FastAPI(
     title="Nifty100 Analytics API",
     version="1.0",
-    description="REST API for Nifty100 Analytics Dashboard"
+    description="REST API for Nifty100 Analytics Dashboard",
 )
 
 # ----------------------------------------------------
@@ -34,7 +34,7 @@ app.add_middleware(
     allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"]
+    allow_headers=["*"],
 )
 
 # ----------------------------------------------------
@@ -45,12 +45,15 @@ project_root = Path(__file__).resolve().parents[2]
 
 db_path = project_root / "db" / "nifty100.db"
 
+
 def get_connection():
     return sqlite3.connect(db_path)
+
 
 # ----------------------------------------------------
 # LOGGING MIDDLEWARE
 # ----------------------------------------------------
+
 
 @app.middleware("http")
 async def log_requests(request, call_next):
@@ -68,73 +71,36 @@ async def log_requests(request, call_next):
 
     return response
 
+
 # ----------------------------------------------------
 # ROOT
 # ----------------------------------------------------
 
+
 @app.get("/")
 def home():
 
-    return {
-        "project": "Nifty100 Analytics",
-        "status": "Running"
-    }
+    return {"project": "Nifty100 Analytics", "status": "Running"}
+
 
 # ----------------------------------------------------
 # ROUTERS
 # ----------------------------------------------------
 
-app.include_router(
-    health.router,
-    prefix="/api/v1",
-    tags=["Health"]
-)
+app.include_router(health.router, prefix="/api/v1", tags=["Health"])
 
-app.include_router(
-    companies.router,
-    prefix="/api/v1",
-    tags=["Companies"]
-)
+app.include_router(companies.router, prefix="/api/v1", tags=["Companies"])
 
 
+app.include_router(sectors.router, prefix="/api/v1", tags=["Sectors"])
 
-app.include_router(
-    sectors.router,
-    prefix="/api/v1",
-    tags=["Sectors"]
-)
+app.include_router(peers.router, prefix="/api/v1", tags=["Peers"])
 
-app.include_router(
-    peers.router,
-    prefix="/api/v1",
-    tags=["Peers"]
-)
+app.include_router(valuation.router, prefix="/api/v1", tags=["Valuation"])
+app.include_router(screener.router, prefix="/api/v1", tags=["Screener"])
 
-app.include_router(
-    valuation.router,
-    prefix="/api/v1",
-    tags=["Valuation"]
-)
-app.include_router(
-    screener.router,
-    prefix="/api/v1",
-    tags=["Screener"]
-)
+app.include_router(market_cap.router, prefix="/api/v1", tags=["Market Cap"])
 
-app.include_router(
-    market_cap.router,
-    prefix="/api/v1",
-    tags=["Market Cap"]
-)
+app.include_router(portfolio.router, prefix="/api/v1", tags=["Portfolio"])
 
-app.include_router(
-    portfolio.router,
-    prefix="/api/v1",
-    tags=["Portfolio"]
-)
-
-app.include_router(
-    documents.router,
-    prefix="/api/v1",
-    tags=["Documents"]
-)
+app.include_router(documents.router, prefix="/api/v1", tags=["Documents"])

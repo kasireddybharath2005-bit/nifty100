@@ -18,12 +18,7 @@ for file in processed_path.glob("*_cleaned.csv"):
 
     df = pd.read_csv(file)
 
-    df.to_sql(
-        table_name,
-        conn,
-        if_exists="replace",
-        index=False
-    )
+    df.to_sql(table_name, conn, if_exists="replace", index=False)
 
     print(f"Loaded {table_name} : {len(df)} rows")
 

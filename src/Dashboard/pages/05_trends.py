@@ -3,23 +3,15 @@ import plotly.express as px
 import numpy as np
 import pandas as pd
 
-from utils.db import (
-    get_trend_companies,
-    get_company_trend
-)
+from utils.db import get_trend_companies, get_company_trend
 
-st.set_page_config(
-    page_title="Trend Analysis"
-)
+st.set_page_config(page_title="Trend Analysis")
 
 st.title("📈 Trend Analysis")
 
 companies = get_trend_companies()
 
-company = st.selectbox(
-    "Select Company",
-    companies["company_id"]
-)
+company = st.selectbox("Select Company", companies["company_id"])
 
 trend_df = get_company_trend(company)
 st.markdown("---")
@@ -41,14 +33,14 @@ metric_options = [
     "profit_cagr_10yr",
     "eps_cagr_3yr",
     "eps_cagr_5yr",
-    "eps_cagr_10yr"
+    "eps_cagr_10yr",
 ]
 
 selected_metrics = st.multiselect(
     "Choose up to 3 metrics",
     metric_options,
     default=["roe_calculated"],
-    max_selections=3
+    max_selections=3,
 )
 st.write("Selected Metrics:")
 
@@ -64,7 +56,7 @@ if len(selected_metrics) > 0:
         x="year",
         y=selected_metrics,
         markers=True,
-        title="Financial Trends Over Time"
+        title="Financial Trends Over Time",
     )
 
     for metric in selected_metrics:
@@ -79,35 +71,22 @@ if len(selected_metrics) > 0:
                     y=trend_df[metric].iloc[i],
                     text=f"{yoy.iloc[i]:.1f}%",
                     showarrow=False,
-                    font=dict(size=9)
+                    font=dict(size=9),
                 )
 
     fig.update_layout(
-        xaxis_title="Year",
-        yaxis_title="Metric Value",
-        legend_title="Metrics"
+        xaxis_title="Year", yaxis_title="Metric Value", legend_title="Metrics"
     )
 
+    fig.update_xaxes(tickangle=-45)
 
-    fig.update_xaxes(
-        tickangle=-45
-    )
-
-
-
-    st.plotly_chart(
-        fig,
-        use_container_width=True
-    )
+    st.plotly_chart(fig, use_container_width=True)
 st.markdown("---")
 
 
 st.subheader("Financial Data")
 
-st.dataframe(
-    trend_df,
-    use_container_width=True
-)
+st.dataframe(trend_df, use_container_width=True)
 
 st.markdown("---")
 
@@ -119,7 +98,4 @@ cols = st.columns(len(selected_metrics))
 
 for i, metric in enumerate(selected_metrics):
 
-    cols[i].metric(
-        metric.replace("_", " ").title(),
-        round(latest[metric], 2)
-    )
+    cols[i].metric(metric.replace("_", " ").title(), round(latest[metric], 2))

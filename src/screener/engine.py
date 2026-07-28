@@ -32,10 +32,7 @@ print("Configuration Loaded")
 
 conn = sqlite3.connect(db_path)
 
-df = pd.read_sql(
-    "SELECT * FROM financial_ratios",
-    conn
-)
+df = pd.read_sql("SELECT * FROM financial_ratios", conn)
 
 conn.close()
 
@@ -46,12 +43,12 @@ print("Rows Loaded:", len(df))
 # ==========================================
 
 filtered = df[
-    (df["roe_calculated"] >= config["roe_min"]) &
-    (df["debt_to_equity"] <= config["debt_to_equity_max"]) &
-    (df["net_profit_margin"] >= config["net_profit_margin_min"]) &
-    (df["asset_turnover"] >= config["asset_turnover_min"]) &
-    (df["revenue_cagr_5yr"] >= config["revenue_cagr_5yr_min"]) &
-    (df["free_cash_flow"] >= config["fcf_min"])
+    (df["roe_calculated"] >= config["roe_min"])
+    & (df["debt_to_equity"] <= config["debt_to_equity_max"])
+    & (df["net_profit_margin"] >= config["net_profit_margin_min"])
+    & (df["asset_turnover"] >= config["asset_turnover_min"])
+    & (df["revenue_cagr_5yr"] >= config["revenue_cagr_5yr_min"])
+    & (df["free_cash_flow"] >= config["fcf_min"])
 ]
 
 print("Companies Selected:", len(filtered))
@@ -60,18 +57,13 @@ print("Companies Selected:", len(filtered))
 # SORT
 # ==========================================
 
-filtered = filtered.sort_values(
-    by=config["sort_by"],
-    ascending=False
-)
+filtered = filtered.sort_values(by=config["sort_by"], ascending=False)
 
 # ==========================================
 # QUALITY SCORE
 # ==========================================
 
-filtered["quality_score"] = (
-      filtered["roe_calculated"]
-    + filtered["net_profit_margin"])
+filtered["quality_score"] = filtered["roe_calculated"] + filtered["net_profit_margin"]
 filtered["quality_score"] = (
     filtered["roe_calculated"].fillna(0)
     + filtered["net_profit_margin"].fillna(0)
@@ -79,10 +71,7 @@ filtered["quality_score"] = (
     + filtered["revenue_cagr_5yr"].fillna(0)
 )
 
-filtered = filtered.sort_values(
-    by="quality_score",
-    ascending=False
-)
+filtered = filtered.sort_values(by="quality_score", ascending=False)
 
 result = filtered[
     [
@@ -94,13 +83,10 @@ result = filtered[
         "asset_turnover",
         "revenue_cagr_5yr",
         "free_cash_flow",
-        "quality_score"
+        "quality_score",
     ]
 ]
-result.to_csv(
-    output_path / "screener_output.csv",
-    index=False
-)
+result.to_csv(output_path / "screener_output.csv", index=False)
 
 print("\nTop 10 Companies")
 

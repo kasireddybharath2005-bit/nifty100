@@ -16,13 +16,9 @@ output_path.mkdir(exist_ok=True)
 # LOAD DATA
 # ==========================================
 
-cashflow = pd.read_csv(
-    processed_path / "cashflow_cleaned.csv"
-)
+cashflow = pd.read_csv(processed_path / "cashflow_cleaned.csv")
 
-profitloss = pd.read_csv(
-    processed_path / "profitandloss_cleaned.csv"
-)
+profitloss = pd.read_csv(processed_path / "profitandloss_cleaned.csv")
 
 print("Datasets Loaded Successfully")
 
@@ -30,12 +26,7 @@ print("Datasets Loaded Successfully")
 # MERGE
 # ==========================================
 
-df = pd.merge(
-    cashflow,
-    profitloss,
-    on=["company_id", "year"],
-    how="inner"
-)
+df = pd.merge(cashflow, profitloss, on=["company_id", "year"], how="inner")
 
 print("Merged Shape :", df.shape)
 
@@ -43,14 +34,12 @@ print("Merged Shape :", df.shape)
 # FREE CASH FLOW
 # ==========================================
 
-df["free_cash_flow"] = (
-    df["operating_activity"] +
-    df["investing_activity"]
-)
+df["free_cash_flow"] = df["operating_activity"] + df["investing_activity"]
 
 # ==========================================
 # CFO QUALITY SCORE
 # ==========================================
+
 
 def cfo_quality(cfo, profit):
 
@@ -71,18 +60,15 @@ def cfo_quality(cfo, profit):
 
         return "Low Quality"
 
+
 df["cfo_quality"] = df.apply(
-    lambda row:
-    cfo_quality(
-        row["operating_activity"],
-        row["net_profit"]
-    ),
-    axis=1
+    lambda row: cfo_quality(row["operating_activity"], row["net_profit"]), axis=1
 )
 
 # ==========================================
 # CAPEX INTENSITY
 # ==========================================
+
 
 def capex_label(value):
 
@@ -95,18 +81,15 @@ def capex_label(value):
     else:
         return "Capital Intensive"
 
-df["capex_intensity"] = (
-    abs(df["investing_activity"])
-    / df["sales"]
-) * 100
 
-df["capex_label"] = df[
-    "capex_intensity"
-].apply(capex_label)
+df["capex_intensity"] = (abs(df["investing_activity"]) / df["sales"]) * 100
+
+df["capex_label"] = df["capex_intensity"].apply(capex_label)
 
 # ==========================================
 # FCF CONVERSION
 # ==========================================
+
 
 def fcf_conversion(fcf, op):
 
@@ -115,20 +98,15 @@ def fcf_conversion(fcf, op):
 
     return round((fcf / op) * 100, 2)
 
+
 df["fcf_conversion"] = df.apply(
-
-    lambda row:
-    fcf_conversion(
-        row["free_cash_flow"],
-        row["operating_profit"]
-    ),
-
-    axis=1
+    lambda row: fcf_conversion(row["free_cash_flow"], row["operating_profit"]), axis=1
 )
 
 # ==========================================
 # CAPITAL ALLOCATION
 # ==========================================
+
 
 def sign(x):
 
@@ -140,48 +118,28 @@ def sign(x):
 
     return "0"
 
+
 def pattern(cfo, cfi, cff):
 
-    code = (
-        sign(cfo),
-        sign(cfi),
-        sign(cff)
-    )
+    code = (sign(cfo), sign(cfi), sign(cff))
 
     mapping = {
-
-        ("+","-","-"):"Shareholder Returns",
-
-        ("+","+","+"):"Cash Accumulator",
-
-        ("+","-","+"):"Growth Funded by Debt",
-
-        ("-","+","+"):"Distress Signal",
-
-        ("-","-","-"):"Pre-Revenue",
-
-        ("+","+","-"):"Liquidating Assets"
-
+        ("+", "-", "-"): "Shareholder Returns",
+        ("+", "+", "+"): "Cash Accumulator",
+        ("+", "-", "+"): "Growth Funded by Debt",
+        ("-", "+", "+"): "Distress Signal",
+        ("-", "-", "-"): "Pre-Revenue",
+        ("+", "+", "-"): "Liquidating Assets",
     }
 
-    return mapping.get(code,"Mixed")
+    return mapping.get(code, "Mixed")
+
 
 df["capital_pattern"] = df.apply(
-
-    lambda row:
-
-    pattern(
-
-        row["operating_activity"],
-
-        row["investing_activity"],
-
-        row["financing_activity"]
-
+    lambda row: pattern(
+        row["operating_activity"], row["investing_activity"], row["financing_activity"]
     ),
-
-    axis=1
-
+    axis=1,
 )
 
 # ==========================================
@@ -189,34 +147,19 @@ df["capital_pattern"] = df.apply(
 # ==========================================
 
 columns = [
-
     "company_id",
-
     "year",
-
     "free_cash_flow",
-
     "cfo_quality",
-
     "capex_intensity",
-
     "capex_label",
-
     "fcf_conversion",
-
-    "capital_pattern"
-
+    "capital_pattern",
 ]
 
 result = df[columns]
 
-result.to_csv(
-
-    output_path / "capital_allocation.csv",
-
-    index=False
-
-)
+result.to_csv(output_path / "capital_allocation.csv", index=False)
 
 print()
 

@@ -28,7 +28,7 @@ print("Rows :", len(pl))
 
 # Converts "Mar 2016" -> 2016
 # Extract 4-digit year
-pl["year"] = pl["year"].astype(str).str.extract(r'(\d{4})')[0]
+pl["year"] = pl["year"].astype(str).str.extract(r"(\d{4})")[0]
 
 # Remove rows where year is missing
 pl = pl.dropna(subset=["year"])
@@ -36,16 +36,14 @@ pl = pl.dropna(subset=["year"])
 # Convert to integer
 pl["year"] = pl["year"].astype(int)
 
-pl = pl.sort_values(
-    ["company_id", "year"]
-
-)
+pl = pl.sort_values(["company_id", "year"])
 
 print("Years Converted Successfully")
 
 # ==========================================================
 # CAGR FUNCTION
 # ==========================================================
+
 
 def calculate_cagr(start_value, end_value, years):
     """
@@ -67,17 +65,13 @@ def calculate_cagr(start_value, end_value, years):
     if end_value <= 0:
         return None
 
-    return round(
-        (
-            ((end_value / start_value) ** (1 / years))
-            - 1
-        ) * 100,
-        2
-    )
+    return round((((end_value / start_value) ** (1 / years)) - 1) * 100, 2)
+
 
 # ==========================================================
 # EDGE CASE FUNCTION
 # ==========================================================
+
 
 def detect_case(start_value, end_value):
 
@@ -97,6 +91,7 @@ def detect_case(start_value, end_value):
         return "BOTH_NEGATIVE"
 
     return "NORMAL"
+
 
 # ==========================================================
 # RESULT STORAGE
@@ -118,15 +113,11 @@ periods = [3, 5, 10]
 
 for company in companies:
 
-    company_df = pl[
-        pl["company_id"] == company
-    ].sort_values("year")
+    company_df = pl[pl["company_id"] == company].sort_values("year")
 
     company_df = company_df.reset_index(drop=True)
 
-    result = {
-        "company_id": company
-    }
+    result = {"company_id": company}
 
     for period in periods:
 
@@ -138,41 +129,30 @@ for company in companies:
             # ---------------- Revenue CAGR ----------------
 
             result[f"revenue_cagr_{period}yr"] = calculate_cagr(
-                start["sales"],
-                end["sales"],
-                period
+                start["sales"], end["sales"], period
             )
 
             result[f"revenue_flag_{period}yr"] = detect_case(
-                start["sales"],
-                end["sales"]
+                start["sales"], end["sales"]
             )
 
             # ---------------- Profit CAGR ----------------
 
             result[f"profit_cagr_{period}yr"] = calculate_cagr(
-                start["net_profit"],
-                end["net_profit"],
-                period
+                start["net_profit"], end["net_profit"], period
             )
 
             result[f"profit_flag_{period}yr"] = detect_case(
-                start["net_profit"],
-                end["net_profit"]
+                start["net_profit"], end["net_profit"]
             )
 
             # ---------------- EPS CAGR ----------------
 
             result[f"eps_cagr_{period}yr"] = calculate_cagr(
-                start["eps"],
-                end["eps"],
-                period
+                start["eps"], end["eps"], period
             )
 
-            result[f"eps_flag_{period}yr"] = detect_case(
-                start["eps"],
-                end["eps"]
-            )
+            result[f"eps_flag_{period}yr"] = detect_case(start["eps"], end["eps"])
 
         else:
 
@@ -195,17 +175,11 @@ for company in companies:
 
     print("Total Companies:", len(result_df))
 
-    result_df.to_csv(
-        output_path / "day10_cagr.csv",
-        index=False
-    )
-
-
+    result_df.to_csv(output_path / "day10_cagr.csv", index=False)
 
     print("CSV Saved Successfully")
 
     print(result_df.head())
-
 
     def detect_case(start_value, end_value):
 
@@ -229,24 +203,47 @@ for company in companies:
 
         return "UNKNOWN"
 
-
     print("\n==============================")
     print("DAY 10 SUMMARY")
     print("==============================")
 
     print("Companies Processed :", len(result_df))
 
-    print("Turnaround Cases :",
-          (result_df.astype(str).apply(lambda c: c.str.contains("TURNAROUND")).sum()).sum())
+    print(
+        "Turnaround Cases :",
+        (
+            result_df.astype(str).apply(lambda c: c.str.contains("TURNAROUND")).sum()
+        ).sum(),
+    )
 
-    print("Decline To Loss :",
-          (result_df.astype(str).apply(lambda c: c.str.contains("DECLINE_TO_LOSS")).sum()).sum())
+    print(
+        "Decline To Loss :",
+        (
+            result_df.astype(str)
+            .apply(lambda c: c.str.contains("DECLINE_TO_LOSS"))
+            .sum()
+        ).sum(),
+    )
 
-    print("Both Negative :",
-          (result_df.astype(str).apply(lambda c: c.str.contains("BOTH_NEGATIVE")).sum()).sum())
+    print(
+        "Both Negative :",
+        (
+            result_df.astype(str).apply(lambda c: c.str.contains("BOTH_NEGATIVE")).sum()
+        ).sum(),
+    )
 
-    print("Zero Base :",
-          (result_df.astype(str).apply(lambda c: c.str.contains("ZERO_BASE")).sum()).sum())
+    print(
+        "Zero Base :",
+        (
+            result_df.astype(str).apply(lambda c: c.str.contains("ZERO_BASE")).sum()
+        ).sum(),
+    )
 
-    print("Insufficient Data :",
-          (result_df.astype(str).apply(lambda c: c.str.contains("INSUFFICIENT_DATA")).sum()).sum())
+    print(
+        "Insufficient Data :",
+        (
+            result_df.astype(str)
+            .apply(lambda c: c.str.contains("INSUFFICIENT_DATA"))
+            .sum()
+        ).sum(),
+    )

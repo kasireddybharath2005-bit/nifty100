@@ -4,7 +4,7 @@ st.set_page_config(
     page_title="Nifty100 Analytics Dashboard",
     page_icon="📈",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
 )
 
 st.title("📈 Nifty100 Analytics Dashboard")

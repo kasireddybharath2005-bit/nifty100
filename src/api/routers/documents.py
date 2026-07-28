@@ -39,17 +39,11 @@ def company_documents(ticker: str):
     conn.close()
 
     if len(rows) == 0:
-        raise HTTPException(
-            status_code=404,
-            detail="No documents found"
-        )
+        raise HTTPException(status_code=404, detail="No documents found")
 
     result = []
 
     for row in rows:
         result.append(dict(zip(columns, row)))
 
-    return {
-        "company": ticker.upper(),
-        "documents": result
-    }
+    return {"company": ticker.upper(), "documents": result}

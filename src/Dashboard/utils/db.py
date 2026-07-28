@@ -7,7 +7,6 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 
-
 project_root = Path(__file__).resolve().parents[3]
 
 db_path = project_root / "db" / "nifty100.db"
@@ -27,7 +26,7 @@ def get_companies():
         FROM financial_ratios
         ORDER BY company_id
         """,
-        conn
+        conn,
     )
 
     conn.close()
@@ -47,12 +46,13 @@ def get_ratios(company):
         ORDER BY year
         """,
         conn,
-        params=[company]
+        params=[company],
     )
 
     conn.close()
 
     return df
+
 
 def get_pl(company):
 
@@ -70,15 +70,13 @@ def get_pl(company):
 
     print(query)
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[company]
-    )
+    df = pd.read_sql(query, conn, params=[company])
 
     conn.close()
 
     return df
+
+
 def get_bs(company):
 
     conn = get_connection()
@@ -91,7 +89,7 @@ def get_bs(company):
         ORDER BY year
         """,
         conn,
-        params=[company]
+        params=[company],
     )
 
     conn.close()
@@ -111,12 +109,14 @@ def get_cf(company):
         ORDER BY year
         """,
         conn,
-        params=[company]
+        params=[company],
     )
 
     conn.close()
 
     return df
+
+
 def get_screener_data():
 
     conn = get_connection()
@@ -140,6 +140,7 @@ def get_screener_data():
 
     return df
 
+
 def get_peer_companies():
 
     conn = get_connection()
@@ -155,6 +156,8 @@ def get_peer_companies():
     conn.close()
 
     return df
+
+
 def get_trend_data(company):
 
     conn = get_connection()
@@ -180,9 +183,11 @@ def get_trend_data(company):
 
     return df
 
+
 # -------------------------------------------------------
 # Peer Comparison Data
 # -------------------------------------------------------
+
 
 def get_peer_data(company):
 
@@ -196,11 +201,7 @@ def get_peer_data(company):
     LIMIT 1
     """
 
-    peer_group_df = pd.read_sql(
-        peer_group_query,
-        conn,
-        params=[company]
-    )
+    peer_group_df = pd.read_sql(peer_group_query, conn, params=[company])
 
     if peer_group_df.empty:
         conn.close()
@@ -228,15 +229,12 @@ def get_peer_data(company):
     ORDER BY f.return_on_equity_pct DESC
     """
 
-    peer_df = pd.read_sql(
-        query,
-        conn,
-        params=[peer_group]
-    )
+    peer_df = pd.read_sql(query, conn, params=[peer_group])
 
     conn.close()
 
     return peer_df
+
 
 def get_trend_data(company):
 
@@ -262,6 +260,8 @@ def get_trend_data(company):
     conn.close()
 
     return df
+
+
 def get_sector_data():
 
     conn = get_connection()
@@ -281,6 +281,7 @@ def get_sector_data():
 
     return df
 
+
 def get_capital_data(company):
 
     conn = get_connection()
@@ -298,47 +299,37 @@ def get_capital_data(company):
     ORDER BY year
     """
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[company]
-    )
+    df = pd.read_sql(query, conn, params=[company])
 
     conn.close()
 
     return df
+
 
 def get_company_report(company):
 
     conn = get_connection()
 
     ratios = pd.read_sql(
-        "SELECT * FROM financial_ratios WHERE company_id=?",
-        conn,
-        params=[company]
+        "SELECT * FROM financial_ratios WHERE company_id=?", conn, params=[company]
     )
 
     pl = pd.read_sql(
-        "SELECT * FROM profitandloss WHERE company_id=?",
-        conn,
-        params=[company]
+        "SELECT * FROM profitandloss WHERE company_id=?", conn, params=[company]
     )
 
     bs = pd.read_sql(
-        "SELECT * FROM balancesheet WHERE company_id=?",
-        conn,
-        params=[company]
+        "SELECT * FROM balancesheet WHERE company_id=?", conn, params=[company]
     )
 
     cf = pd.read_sql(
-        "SELECT * FROM cashflow WHERE company_id=?",
-        conn,
-        params=[company]
+        "SELECT * FROM cashflow WHERE company_id=?", conn, params=[company]
     )
 
     conn.close()
 
     return ratios, pl, bs, cf
+
 
 def get_home_kpis(year):
 
@@ -362,15 +353,13 @@ def get_home_kpis(year):
     WHERE year = ?
     """
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[year]
-    )
+    df = pd.read_sql(query, conn, params=[year])
 
     conn.close()
 
     return df.iloc[0]
+
+
 def get_sector_distribution():
 
     conn = get_connection()
@@ -390,6 +379,7 @@ def get_sector_distribution():
 
     return df
 
+
 def get_top_companies(year):
 
     conn = get_connection()
@@ -405,15 +395,13 @@ def get_top_companies(year):
     LIMIT 5
     """
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[year]
-    )
+    df = pd.read_sql(query, conn, params=[year])
 
     conn.close()
 
     return df
+
+
 def get_years():
 
     conn = get_connection()
@@ -430,6 +418,7 @@ def get_years():
 
     return df["year"].tolist()
 
+
 def search_companies(search_text):
 
     conn = get_connection()
@@ -441,15 +430,12 @@ def search_companies(search_text):
     ORDER BY company_id
     """
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[f"%{search_text}%"]
-    )
+    df = pd.read_sql(query, conn, params=[f"%{search_text}%"])
 
     conn.close()
 
     return df
+
 
 def get_company_info(company):
 
@@ -465,15 +451,12 @@ def get_company_info(company):
     WHERE company_id = ?
     """
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[company]
-    )
+    df = pd.read_sql(query, conn, params=[company])
 
     conn.close()
 
     return df
+
 
 def get_revenue_profit(company):
 
@@ -489,15 +472,13 @@ def get_revenue_profit(company):
     ORDER BY year
     """
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[company]
-    )
+    df = pd.read_sql(query, conn, params=[company])
 
     conn.close()
 
     return df
+
+
 def get_roe_asset_turnover(company):
 
     conn = get_connection()
@@ -512,24 +493,14 @@ def get_roe_asset_turnover(company):
     ORDER BY year
     """
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[company]
-    )
+    df = pd.read_sql(query, conn, params=[company])
 
     conn.close()
 
     return df
 
-def get_screener_filtered(
-    roe_min,
-    de_max,
-    revenue_min,
-    profit_min,
-    opm_min,
-    icr_min
-):
+
+def get_screener_filtered(roe_min, de_max, revenue_min, profit_min, opm_min, icr_min):
 
     conn = get_connection()
 
@@ -556,21 +527,14 @@ def get_screener_filtered(
     """
 
     df = pd.read_sql(
-        query,
-        conn,
-        params=[
-            roe_min,
-            de_max,
-            revenue_min,
-            profit_min,
-            opm_min,
-            icr_min
-        ]
+        query, conn, params=[roe_min, de_max, revenue_min, profit_min, opm_min, icr_min]
     )
 
     conn.close()
 
     return df
+
+
 def get_peer_comparison(company):
 
     conn = get_connection()
@@ -595,15 +559,13 @@ def get_peer_comparison(company):
         metric
     """
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[company]
-    )
+    df = pd.read_sql(query, conn, params=[company])
 
     conn.close()
 
     return df
+
+
 def get_peer_radar(company):
 
     conn = get_connection()
@@ -638,24 +600,23 @@ def get_peer_radar(company):
 
     return company_df, peer_avg
 
+
 def get_peer_summary(company):
 
     company_df, peer_df = get_peer_radar(company)
 
-    summary = company_df.merge(
-        peer_df,
-        on="metric"
-    )
+    summary = company_df.merge(peer_df, on="metric")
 
     summary = summary.rename(
         columns={
             "metric": "Metric",
             "value": "Company Value",
-            "avg_value": "Peer Average"
+            "avg_value": "Peer Average",
         }
     )
 
     return summary
+
 
 def get_trend_companies():
 
@@ -673,6 +634,7 @@ def get_trend_companies():
 
     return df
 
+
 def get_company_trend(company):
 
     conn = get_connection()
@@ -684,15 +646,12 @@ def get_company_trend(company):
     ORDER BY year
     """
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[company]
-    )
+    df = pd.read_sql(query, conn, params=[company])
 
     conn.close()
 
     return df
+
 
 @st.cache_data(ttl=600)
 def get_sectors():
@@ -723,6 +682,8 @@ def get_sector_data(sector):
     df = pd.read_sql(query, conn, params=[sector])
     conn.close()
     return df
+
+
 @st.cache_data(ttl=600)
 def get_sector_distribution():
 
@@ -742,6 +703,8 @@ def get_sector_distribution():
     conn.close()
 
     return df
+
+
 def get_sector_kpis(sector):
 
     conn = get_connection()
@@ -763,6 +726,7 @@ def get_sector_kpis(sector):
     conn.close()
 
     return df
+
 
 def get_capital_patterns():
 
@@ -786,6 +750,7 @@ def get_capital_patterns():
 
     return df
 
+
 @st.cache_data(ttl=600)
 def get_annual_reports(company):
 
@@ -800,11 +765,7 @@ def get_annual_reports(company):
     ORDER BY Year DESC
     """
 
-    df = pd.read_sql(
-        query,
-        conn,
-        params=[company]
-    )
+    df = pd.read_sql(query, conn, params=[company])
 
     conn.close()
 

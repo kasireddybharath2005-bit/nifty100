@@ -3,13 +3,7 @@ import requests
 
 BASE_URL = "http://127.0.0.1:8000/api/v1/companies"
 
-companies = [
-    "ABB",
-    "TCS",
-    "INFY",
-    "RELIANCE",
-    "HDFCBANK"
-]
+companies = ["ABB", "TCS", "INFY", "RELIANCE", "HDFCBANK"]
 
 print("=" * 60)
 print("Dashboard Performance Test")
@@ -29,15 +23,11 @@ for company in companies:
 
     times.append(elapsed)
 
-    print(
-        f"{company:12} "
-        f"Status={response.status_code} "
-        f"Time={elapsed:.3f} sec"
-    )
+    print(f"{company:12} " f"Status={response.status_code} " f"Time={elapsed:.3f} sec")
 
 print("=" * 60)
 
-print("Average :", round(sum(times)/len(times), 3), "sec")
+print("Average :", round(sum(times) / len(times), 3), "sec")
 
 print("Maximum :", round(max(times), 3), "sec")
 

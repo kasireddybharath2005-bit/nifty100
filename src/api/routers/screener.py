@@ -16,14 +16,14 @@ def get_connection():
 
 @router.get("/screener")
 def screener(
-        sector: str = Query(None),
-        min_pe: float = Query(None),
-        max_pe: float = Query(None),
-        min_pb: float = Query(None),
-        max_pb: float = Query(None),
-        min_fcf: float = Query(None),
-        max_fcf: float = Query(None),
-        limit: int = 100
+    sector: str = Query(None),
+    min_pe: float = Query(None),
+    max_pe: float = Query(None),
+    min_pb: float = Query(None),
+    max_pb: float = Query(None),
+    min_fcf: float = Query(None),
+    max_fcf: float = Query(None),
+    limit: int = 100,
 ):
 
     conn = get_connection()
@@ -88,7 +88,4 @@ def screener(
     for row in rows:
         result.append(dict(zip(columns, row)))
 
-    return {
-        "count": len(result),
-        "companies": result
-    }
+    return {"count": len(result), "companies": result}

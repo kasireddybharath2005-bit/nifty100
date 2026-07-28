@@ -26,12 +26,7 @@ print("Datasets Loaded Successfully")
 # Merge
 # -------------------------------
 
-merged = pd.merge(
-    profitloss,
-    balancesheet,
-    on=["company_id", "year"],
-    how="inner"
-)
+merged = pd.merge(profitloss, balancesheet, on=["company_id", "year"], how="inner")
 
 print("Merged Rows :", merged.shape[0])
 
@@ -39,35 +34,25 @@ print("Merged Rows :", merged.shape[0])
 # Debt to Equity
 # -------------------------------
 
-merged["debt_to_equity"] = (
-    merged["borrowings"] /
-    (merged["equity_capital"] + merged["reserves"])
+merged["debt_to_equity"] = merged["borrowings"] / (
+    merged["equity_capital"] + merged["reserves"]
 )
 
 # -------------------------------
 # Interest Coverage Ratio
 # -------------------------------
 
-merged["interest_coverage"] = (
-    merged["operating_profit"] /
-    merged["interest"]
-)
+merged["interest_coverage"] = merged["operating_profit"] / merged["interest"]
 
 # Replace divide-by-zero results
 
-merged.loc[
-    merged["interest"] == 0,
-    "interest_coverage"
-] = None
+merged.loc[merged["interest"] == 0, "interest_coverage"] = None
 
 # -------------------------------
 # Asset Turnover
 # -------------------------------
 
-merged["asset_turnover"] = (
-    merged["sales"] /
-    merged["total_assets"]
-)
+merged["asset_turnover"] = merged["sales"] / merged["total_assets"]
 
 # -------------------------------
 # Net Debt
@@ -95,10 +80,7 @@ merged["icr_label"] = merged["borrowings"].apply(
 # Save CSV
 # -------------------------------
 
-merged.to_csv(
-    output_path / "day9_leverage_ratios.csv",
-    index=False
-)
+merged.to_csv(output_path / "day9_leverage_ratios.csv", index=False)
 
 print("\nDay 9 Completed Successfully")
 
@@ -112,7 +94,7 @@ print(
             "asset_turnover",
             "net_debt",
             "high_leverage_flag",
-            "icr_label"
+            "icr_label",
         ]
     ].head()
 )

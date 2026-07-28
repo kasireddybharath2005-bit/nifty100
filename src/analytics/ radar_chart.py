@@ -23,35 +23,19 @@ conn = sqlite3.connect(db_path)
 # -----------------------------
 # Load Financial Ratios
 # -----------------------------
-financial = pd.read_sql(
-    "SELECT * FROM financial_ratios",
-    conn
-)
+financial = pd.read_sql("SELECT * FROM financial_ratios", conn)
 
 # -----------------------------
 # Load Peer Groups
 # -----------------------------
-peer = pd.read_csv(
-    peer_csv,
-    header=None
-)
+peer = pd.read_csv(peer_csv, header=None)
 
-peer.columns = [
-    "id",
-    "peer_group_name",
-    "company_id",
-    "is_active"
-]
+peer.columns = ["id", "peer_group_name", "company_id", "is_active"]
 
 # -----------------------------
 # Merge Tables
 # -----------------------------
-df = pd.merge(
-    financial,
-    peer,
-    on="company_id",
-    how="left"
-)
+df = pd.merge(financial, peer, on="company_id", how="left")
 
 # Remove companies without peer group
 df = df.dropna(subset=["peer_group_name"])
@@ -67,7 +51,7 @@ metrics = [
     "debt_to_equity",
     "free_cash_flow",
     "profit_cagr_5yr",
-    "revenue_cagr_5yr"
+    "revenue_cagr_5yr",
 ]
 
 # Check missing columns
@@ -127,24 +111,12 @@ for company in companies:
     # -----------------------
     # Radar Labels
     # -----------------------
-    labels = [
-        "ROE",
-        "NPM",
-        "D/E",
-        "FCF",
-        "Profit CAGR 5Y",
-        "Revenue CAGR 5Y"
-    ]
+    labels = ["ROE", "NPM", "D/E", "FCF", "Profit CAGR 5Y", "Revenue CAGR 5Y"]
 
     # -----------------------
     # Radar Angles
     # -----------------------
-    angles = np.linspace(
-        0,
-        2 * np.pi,
-        len(labels),
-        endpoint=False
-    ).tolist()
+    angles = np.linspace(0, 2 * np.pi, len(labels), endpoint=False).tolist()
 
     # Close the polygon
     angles.append(angles[0])
@@ -155,28 +127,14 @@ for company in companies:
     # -----------------------
     # Create Figure
     # -----------------------
-    fig, ax = plt.subplots(
-        figsize=(8, 8),
-        subplot_kw=dict(polar=True)
-    )
+    fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
 
     # -----------------------
     # Company Plot
     # -----------------------
-    ax.plot(
-        angles,
-        company_values,
-        linewidth=2,
-        color="blue",
-        label=company
-    )
+    ax.plot(angles, company_values, linewidth=2, color="blue", label=company)
 
-    ax.fill(
-        angles,
-        company_values,
-        alpha=0.30,
-        color="blue"
-    )
+    ax.fill(angles, company_values, alpha=0.30, color="blue")
 
     # -----------------------
     # Peer Average Plot
@@ -187,7 +145,7 @@ for company in companies:
         linestyle="--",
         linewidth=2,
         color="red",
-        label="Peer Average"
+        label="Peer Average",
     )
 
     # -----------------------
@@ -195,33 +153,21 @@ for company in companies:
     # -----------------------
     ax.set_xticks(angles[:-1])
 
-    ax.set_xticklabels(
-        labels,
-        fontsize=10
-    )
+    ax.set_xticklabels(labels, fontsize=10)
 
     # -----------------------
     # Chart Title
     # -----------------------
-    ax.set_title(
-        f"{company}\n({peer_group})",
-        fontsize=14
-    )
+    ax.set_title(f"{company}\n({peer_group})", fontsize=14)
 
-    ax.legend(
-        loc="upper right"
-    )
+    ax.legend(loc="upper right")
 
     plt.tight_layout()
 
     # -----------------------
     # Save PNG
     # -----------------------
-    plt.savefig(
-        report_path / f"{company}_radar.png",
-        dpi=300,
-        bbox_inches="tight"
-    )
+    plt.savefig(report_path / f"{company}_radar.png", dpi=300, bbox_inches="tight")
 
     plt.close()
 

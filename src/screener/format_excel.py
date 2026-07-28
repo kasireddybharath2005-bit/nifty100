@@ -4,27 +4,15 @@ from pathlib import Path
 
 project_root = Path(__file__).resolve().parents[2]
 
-excel = project_root/"output"/"screener_output.xlsx"
+excel = project_root / "output" / "screener_output.xlsx"
 
 wb = load_workbook(excel)
 
 ws = wb["Composite Score"]
 
-green = PatternFill(
+green = PatternFill(fill_type="solid", start_color="90EE90")
 
-    fill_type="solid",
-
-    start_color="90EE90"
-
-)
-
-red = PatternFill(
-
-    fill_type="solid",
-
-    start_color="FFC7CE"
-
-)
+red = PatternFill(fill_type="solid", start_color="FFC7CE")
 
 score_col = None
 

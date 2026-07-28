@@ -18,6 +18,7 @@ def get_connection():
 # GET ALL SECTORS
 # -------------------------------------------------
 
+
 @router.get("/sectors")
 def get_sectors():
 
@@ -48,15 +49,13 @@ def get_sectors():
     for row in rows:
         result.append(dict(zip(columns, row)))
 
-    return {
-        "count": len(result),
-        "sectors": result
-    }
+    return {"count": len(result), "sectors": result}
 
 
 # -------------------------------------------------
 # GET COMPANIES BY SECTOR
 # -------------------------------------------------
+
 
 @router.get("/sectors/{sector}/companies")
 def companies_by_sector(sector: str):
@@ -85,18 +84,11 @@ def companies_by_sector(sector: str):
     conn.close()
 
     if len(rows) == 0:
-        raise HTTPException(
-            status_code=404,
-            detail="Sector not found"
-        )
+        raise HTTPException(status_code=404, detail="Sector not found")
 
     companies = []
 
     for row in rows:
         companies.append(dict(zip(columns, row)))
 
-    return {
-        "sector": sector,
-        "count": len(companies),
-        "companies": companies
-    }
+    return {"sector": sector, "count": len(companies), "companies": companies}

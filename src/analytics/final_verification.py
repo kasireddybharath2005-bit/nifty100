@@ -14,25 +14,12 @@ print("DAY 14 FINAL VERIFICATION")
 print("=" * 60)
 
 queries = {
-
-    "Total Records":
-    "SELECT COUNT(*) FROM financial_ratios",
-
-    "Unique Companies":
-    "SELECT COUNT(DISTINCT company_id) FROM financial_ratios",
-
-    "Average ROE":
-    "SELECT ROUND(AVG(roe_calculated),2) FROM financial_ratios",
-
-    "Average Net Profit Margin":
-    "SELECT ROUND(AVG(net_profit_margin),2) FROM financial_ratios",
-
-    "Average Debt To Equity":
-    "SELECT ROUND(AVG(debt_to_equity),2) FROM financial_ratios",
-
-    "Average Asset Turnover":
-    "SELECT ROUND(AVG(asset_turnover),2) FROM financial_ratios"
-
+    "Total Records": "SELECT COUNT(*) FROM financial_ratios",
+    "Unique Companies": "SELECT COUNT(DISTINCT company_id) FROM financial_ratios",
+    "Average ROE": "SELECT ROUND(AVG(roe_calculated),2) FROM financial_ratios",
+    "Average Net Profit Margin": "SELECT ROUND(AVG(net_profit_margin),2) FROM financial_ratios",
+    "Average Debt To Equity": "SELECT ROUND(AVG(debt_to_equity),2) FROM financial_ratios",
+    "Average Asset Turnover": "SELECT ROUND(AVG(asset_turnover),2) FROM financial_ratios",
 }
 
 for title, sql in queries.items():

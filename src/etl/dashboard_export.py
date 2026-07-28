@@ -22,10 +22,7 @@ df = pd.read_sql(query, conn)
 
 output_path = project_root / "output"
 
-df.to_csv(
-    output_path / "dashboard_data.csv",
-    index=False
-)
+df.to_csv(output_path / "dashboard_data.csv", index=False)
 
 print(df.head())
 print(df.shape)

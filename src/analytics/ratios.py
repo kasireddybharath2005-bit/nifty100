@@ -20,29 +20,17 @@ print(companies.head())
 print("Shape:", companies.shape)
 
 # Merge Profit & Loss with Balance Sheet
-merged_df = pd.merge(
-    profitloss,
-    balancesheet,
-    on=["company_id", "year"],
-    how="inner"
-)
+merged_df = pd.merge(profitloss, balancesheet, on=["company_id", "year"], how="inner")
 
 print("\nMerged Dataset")
 print(merged_df.head())
 print("Shape:", merged_df.shape)
 
 # Net Profit Margin
-merged_df["net_profit_margin"] = (
-    merged_df["net_profit"] /
-    merged_df["sales"]
-) * 100
+merged_df["net_profit_margin"] = (merged_df["net_profit"] / merged_df["sales"]) * 100
 
 print("\nNet Profit Margin")
-print(
-    merged_df[
-        ["company_id", "year", "net_profit_margin"]
-    ].head()
-)
+print(merged_df[["company_id", "year", "net_profit_margin"]].head())
 
 print("=" * 50)
 print("Profit & Loss")
@@ -62,33 +50,18 @@ print("Shape:", cashflow.shape)
 print("\n✅ All datasets loaded successfully!")
 
 merged_df["operating_profit_margin"] = (
-    merged_df["operating_profit"] /
-    merged_df["sales"]
+    merged_df["operating_profit"] / merged_df["sales"]
 ) * 100
 
-print(
-    merged_df[
-        ["company_id", "operating_profit_margin"]
-    ].head()
-)
+print(merged_df[["company_id", "operating_profit_margin"]].head())
 
 merged_df["roe_calculated"] = (
-    merged_df["net_profit"] /
-    (
-        merged_df["equity_capital"] +
-        merged_df["reserves"]
-    )
+    merged_df["net_profit"] / (merged_df["equity_capital"] + merged_df["reserves"])
 ) * 100
 
-merged_df["roa"] = (
-    merged_df["net_profit"] /
-    merged_df["total_assets"]
-) * 100
+merged_df["roa"] = (merged_df["net_profit"] / merged_df["total_assets"]) * 100
 output_path = project_root / "output"
 
-merged_df.to_csv(
-    output_path / "day8_profitability_ratios.csv",
-    index=False
-)
+merged_df.to_csv(output_path / "day8_profitability_ratios.csv", index=False)
 
 print("\nDay 8 completed successfully!")

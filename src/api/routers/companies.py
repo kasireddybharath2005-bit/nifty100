@@ -16,6 +16,7 @@ def get_connection():
 # GET ALL COMPANIES
 # ------------------------------------------
 
+
 @router.get("/companies")
 def get_companies():
 
@@ -40,15 +41,13 @@ def get_companies():
     for row in rows:
         result.append(dict(zip(columns, row)))
 
-    return {
-        "count": len(result),
-        "companies": result
-    }
+    return {"count": len(result), "companies": result}
 
 
 # ------------------------------------------
 # GET SINGLE COMPANY
 # ------------------------------------------
+
 
 @router.get("/companies/{ticker}")
 def get_company(ticker: str):
@@ -61,7 +60,6 @@ def get_company(ticker: str):
     WHERE id = ?
     """
 
-
     cursor = conn.execute(query, (ticker.upper(),))
 
     columns = [col[0] for col in cursor.description]
@@ -71,9 +69,6 @@ def get_company(ticker: str):
     conn.close()
 
     if row is None:
-      raise HTTPException(
-        status_code=404,
-        detail="Company not found"
-    )
+        raise HTTPException(status_code=404, detail="Company not found")
 
     return dict(zip(columns, row))

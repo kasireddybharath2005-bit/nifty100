@@ -41,6 +41,7 @@ def calculate_cfo_quality(cfo, net_profit):
 # ROE Tests
 # ----------------------
 
+
 def test_roe_positive():
     assert calculate_roe(100, 500) == 20.00
 
@@ -52,6 +53,7 @@ def test_roe_negative_equity():
 # ----------------------
 # Debt Equity Tests
 # ----------------------
+
 
 def test_de_ratio():
     assert calculate_debt_equity(200, 100) == 2.00
@@ -65,6 +67,7 @@ def test_de_zero_equity():
 # Interest Coverage Tests
 # ----------------------
 
+
 def test_icr():
     assert calculate_icr(500, 50) == 10.00
 
@@ -77,6 +80,7 @@ def test_icr_zero_interest():
 # OPM Tests
 # ----------------------
 
+
 def test_opm():
     assert calculate_opm(250, 1000) == 25.00
 
@@ -85,6 +89,7 @@ def test_opm():
 # CAGR Tests
 # ----------------------
 
+
 def test_cagr():
     assert calculate_cagr(100, 200, 5) == 14.87
 
@@ -92,6 +97,7 @@ def test_cagr():
 # ----------------------
 # CFO Quality Tests
 # ----------------------
+
 
 def test_cfo_quality():
     assert calculate_cfo_quality(500, 400) == 1.25

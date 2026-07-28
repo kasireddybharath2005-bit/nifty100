@@ -37,7 +37,7 @@ day8 = day8[
         "net_profit_margin",
         "operating_profit_margin",
         "roe_calculated",
-        "roa"
+        "roa",
     ]
 ]
 
@@ -50,7 +50,7 @@ day9 = day9[
         "asset_turnover",
         "net_debt",
         "high_leverage_flag",
-        "icr_label"
+        "icr_label",
     ]
 ]
 
@@ -63,7 +63,7 @@ day11 = day11[
         "capex_intensity",
         "capex_label",
         "fcf_conversion",
-        "capital_pattern"
+        "capital_pattern",
     ]
 ]
 
@@ -71,26 +71,11 @@ day11 = day11[
 # MERGE
 # ==========================================
 
-financial = pd.merge(
-    day8,
-    day9,
-    on=["company_id", "year"],
-    how="outer"
-)
+financial = pd.merge(day8, day9, on=["company_id", "year"], how="outer")
 
-financial = pd.merge(
-    financial,
-    day11,
-    on=["company_id", "year"],
-    how="outer"
-)
+financial = pd.merge(financial, day11, on=["company_id", "year"], how="outer")
 
-financial = pd.merge(
-    financial,
-    day10,
-    on="company_id",
-    how="left"
-)
+financial = pd.merge(financial, day10, on="company_id", how="left")
 
 print("Merged Shape :", financial.shape)
 
@@ -100,12 +85,7 @@ print("Merged Shape :", financial.shape)
 
 conn = sqlite3.connect(db_path)
 
-financial.to_sql(
-    "financial_ratios",
-    conn,
-    if_exists="replace",
-    index=False
-)
+financial.to_sql("financial_ratios", conn, if_exists="replace", index=False)
 
 # ==========================================
 # VERIFY
@@ -113,9 +93,7 @@ financial.to_sql(
 
 cursor = conn.cursor()
 
-cursor.execute(
-    "SELECT COUNT(*) FROM financial_ratios"
-)
+cursor.execute("SELECT COUNT(*) FROM financial_ratios")
 
 rows = cursor.fetchone()[0]
 
@@ -123,8 +101,7 @@ print()
 
 print("Rows Inserted :", rows)
 
-cursor.execute(
-    """
+cursor.execute("""
     SELECT company_id,
            year,
            net_profit_margin,
@@ -132,8 +109,7 @@ cursor.execute(
            revenue_cagr_5yr
     FROM financial_ratios
     LIMIT 5
-    """
-)
+    """)
 
 print()
 

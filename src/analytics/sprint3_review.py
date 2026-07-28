@@ -24,10 +24,7 @@ print("=" * 60)
 # Check financial_ratios Table
 # ------------------------------------------
 
-financial = pd.read_sql(
-    "SELECT * FROM financial_ratios",
-    conn
-)
+financial = pd.read_sql("SELECT * FROM financial_ratios", conn)
 
 print("\nfinancial_ratios Table")
 
@@ -41,10 +38,7 @@ print("Columns :", len(financial.columns))
 
 try:
 
-    peer = pd.read_sql(
-        "SELECT * FROM peer_percentiles",
-        conn
-    )
+    peer = pd.read_sql("SELECT * FROM peer_percentiles", conn)
 
     print("\npeer_percentiles Table")
 
@@ -63,19 +57,12 @@ except Exception:
 print("\nChecking Output Files")
 
 files = [
-
     "day8_profitability_ratios.csv",
-
     "day9_leverage_ratios.csv",
-
     "day10_cagr.csv",
-
     "screener_output.csv",
-
     "screener_output.xlsx",
-
-    "peer_comparison.xlsx"
-
+    "peer_comparison.xlsx",
 ]
 
 for file in files:
@@ -106,17 +93,7 @@ if len(peer) > 0:
 
     print("\nPeer Groups")
 
-    print(
-
-        peer["peer_group_name"]
-
-        .drop_duplicates()
-
-        .sort_values()
-
-        .tolist()
-
-    )
+    print(peer["peer_group_name"].drop_duplicates().sort_values().tolist())
 
 # ------------------------------------------
 # Database Summary

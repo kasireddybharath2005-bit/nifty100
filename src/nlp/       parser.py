@@ -10,7 +10,7 @@ def extract_metric(text):
 
     text = str(text)
 
-    pattern = r'(\d+)\s*Year[s]?:\s*(-?\d+(?:\.\d+)?)%'
+    pattern = r"(\d+)\s*Year[s]?:\s*(-?\d+(?:\.\d+)?)%"
 
     match = re.search(pattern, text)
 
@@ -23,6 +23,7 @@ def extract_metric(text):
 
     return None, None
 
+
 project_root = Path(__file__).resolve().parents[2]
 
 input_path = project_root / "data" / "raw"
@@ -30,18 +31,10 @@ input_path = project_root / "data" / "raw"
 output_path = project_root / "output"
 
 
+preview_df = pd.read_excel(input_path / "analysis.xlsx", header=None)
 
 
-preview_df = pd.read_excel(
-    input_path / "analysis.xlsx",
-    header=None
-)
-
-
-analysis_df = pd.read_excel(
-    input_path / "analysis.xlsx",
-    header=1
-)
+analysis_df = pd.read_excel(input_path / "analysis.xlsx", header=1)
 
 print("=" * 60)
 print("ANALYSIS DATA")
@@ -61,7 +54,7 @@ target_columns = [
     "compounded_sales_growth",
     "compounded_profit_growth",
     "stock_price_cagr",
-    "roe"
+    "roe",
 ]
 
 for _, row in analysis_df.iterrows():
@@ -70,14 +63,14 @@ for _, row in analysis_df.iterrows():
 
         years, value = extract_metric(row[metric])
 
-        parsed_rows.append({
-
-            "company_id": row["company_id"],
-            "metric_type": metric,
-            "period_years": years,
-            "value_pct": value
-
-        })
+        parsed_rows.append(
+            {
+                "company_id": row["company_id"],
+                "metric_type": metric,
+                "period_years": years,
+                "value_pct": value,
+            }
+        )
         parsed_df = pd.DataFrame(parsed_rows)
 
         print("=" * 60)
@@ -86,21 +79,13 @@ for _, row in analysis_df.iterrows():
 
         print(parsed_df.head(20))
 
-        parsed_df.to_csv(
-            output_path / "analysis_parsed.csv",
-            index=False
-        )
+        parsed_df.to_csv(output_path / "analysis_parsed.csv", index=False)
 
         print("analysis_parsed.csv created successfully.")
 
-        failures_df = parsed_df[
-            parsed_df["period_years"].isna()
-        ]
+        failures_df = parsed_df[parsed_df["period_years"].isna()]
 
-        failures_df.to_csv(
-            output_path / "parse_failures.csv",
-            index=False
-        )
+        failures_df.to_csv(output_path / "parse_failures.csv", index=False)
 
         print("parse_failures.csv created successfully.")
 

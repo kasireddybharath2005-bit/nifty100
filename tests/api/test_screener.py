@@ -15,17 +15,13 @@ def test_get_screener():
 
 
 def test_screener_filter():
-    response = client.get(
-        "/api/v1/screener?min_roe=15"
-    )
+    response = client.get("/api/v1/screener?min_roe=15")
 
     assert response.status_code == 200
 
 
 def test_invalid_filter():
-    response = client.get(
-        "/api/v1/screener?min_roe=abc"
-    )
+    response = client.get("/api/v1/screener?min_roe=abc")
 
     print("Status Code:", response.status_code)
     print(response.text)

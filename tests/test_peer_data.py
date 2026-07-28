@@ -16,11 +16,7 @@ FROM peer_percentiles
 WHERE company_id = ?
 """
 
-df = pd.read_sql(
-    query,
-    conn,
-    params=[company]
-)
+df = pd.read_sql(query, conn, params=[company])
 
 print(df)
 

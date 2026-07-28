@@ -22,6 +22,7 @@ def get_connection():
 # GET ALL VALUATION DATA
 # --------------------------------------------------
 
+
 @router.get("/valuation")
 def get_all_valuation():
 
@@ -57,15 +58,13 @@ def get_all_valuation():
     for row in rows:
         data.append(dict(zip(columns, row)))
 
-    return {
-        "count": len(data),
-        "valuation": data
-    }
+    return {"count": len(data), "valuation": data}
 
 
 # --------------------------------------------------
 # GET SINGLE COMPANY VALUATION
 # --------------------------------------------------
+
 
 @router.get("/valuation/{ticker}")
 def get_company_valuation(ticker: str):
@@ -99,10 +98,7 @@ def get_company_valuation(ticker: str):
 
     if row is None:
 
-        raise HTTPException(
-            status_code=404,
-            detail="Company not found"
-        )
+        raise HTTPException(status_code=404, detail="Company not found")
 
     return dict(zip(columns, row))
 
@@ -110,6 +106,7 @@ def get_company_valuation(ticker: str):
 # --------------------------------------------------
 # FILTER BY SECTOR
 # --------------------------------------------------
+
 
 @router.get("/valuation/sector/{sector}")
 def valuation_by_sector(sector: str):
@@ -142,8 +139,4 @@ def valuation_by_sector(sector: str):
     for row in rows:
         result.append(dict(zip(columns, row)))
 
-    return {
-        "sector": sector,
-        "count": len(result),
-        "companies": result
-    }
+    return {"sector": sector, "count": len(result), "companies": result}

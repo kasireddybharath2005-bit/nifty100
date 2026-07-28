@@ -43,18 +43,13 @@ except Exception as e:
 
 try:
 
-    response = requests.get(
-        FASTAPI_URL + "/api/v1/companies"
-    )
+    response = requests.get(FASTAPI_URL + "/api/v1/companies")
 
     if response.status_code == 200:
 
         data = response.json()
 
-        print(
-            "Companies Loaded :",
-            len(data["companies"])
-        )
+        print("Companies Loaded :", len(data["companies"]))
 
 except Exception as e:
 

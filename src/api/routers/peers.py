@@ -18,6 +18,7 @@ def get_connection():
 # GET ALL COMPANIES IN A PEER GROUP
 # -------------------------------------------------
 
+
 @router.get("/peers/{group_name}")
 def get_peer_group(group_name: str):
 
@@ -46,26 +47,20 @@ def get_peer_group(group_name: str):
     conn.close()
 
     if len(rows) == 0:
-        raise HTTPException(
-            status_code=404,
-            detail="Peer group not found"
-        )
+        raise HTTPException(status_code=404, detail="Peer group not found")
 
     result = []
 
     for row in rows:
         result.append(dict(zip(columns, row)))
 
-    return {
-        "peer_group": group_name,
-        "count": len(result),
-        "companies": result
-    }
+    return {"peer_group": group_name, "count": len(result), "companies": result}
 
 
 # -------------------------------------------------
 # COMPARE A COMPANY WITH ITS PEER GROUP
 # -------------------------------------------------
+
 
 @router.get("/companies/{ticker}/peers/compare")
 def compare_company(ticker: str):
@@ -87,9 +82,6 @@ def compare_company(ticker: str):
     conn.close()
 
     if row is None:
-        raise HTTPException(
-            status_code=404,
-            detail="Company not found"
-        )
+        raise HTTPException(status_code=404, detail="Company not found")
 
     return dict(zip(columns, row))

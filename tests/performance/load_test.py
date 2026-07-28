@@ -15,10 +15,7 @@ def call_api():
 
     end = time.time()
 
-    print(
-        f"Status: {response.status_code} | "
-        f"{end-start:.3f} sec"
-    )
+    print(f"Status: {response.status_code} | " f"{end-start:.3f} sec")
 
     times.append(end - start)
 
