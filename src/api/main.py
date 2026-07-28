@@ -12,6 +12,8 @@ from src.api.routers import peers
 from src.api.routers import valuation
 from src.api.routers import screener
 from src.api.routers import market_cap
+from src.api.routers import portfolio
+from src.api.routers import documents
 
 # ----------------------------------------------------
 # APP
@@ -123,4 +125,16 @@ app.include_router(
     market_cap.router,
     prefix="/api/v1",
     tags=["Market Cap"]
+)
+
+app.include_router(
+    portfolio.router,
+    prefix="/api/v1",
+    tags=["Portfolio"]
+)
+
+app.include_router(
+    documents.router,
+    prefix="/api/v1",
+    tags=["Documents"]
 )
